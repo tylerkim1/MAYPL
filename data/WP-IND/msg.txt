@@ -1,0 +1,4847 @@
+523	Member_Membership	22	Role	52
+1234	Person_Sibling	67	Kinship	38
+3746	Deceased_Place	2591	Country	3788
+615	Player_Team	1903	Acquisition	9
+1892	Deceased_Place	1893	Territory	1894	Country	172
+1033	Politician_Position	1034	Term	1035
+878	Nominee_Award	240	Work	90	Event	91
+3799	Member_Membership	22	Role	52
+2615	Politician_Position	606	Object	607
+552	Player_Team	2355	Acquisition	9
+1103	Player_Team	2196	Acquisition	9
+177	Person_Relative	1292	Kinship	336
+797	Deceased_Place	798	Country	799
+610	Person_Relative	1038	Kinship	520
+2568	Employee_Employer	2569	Position	2201
+1877	Person_Sibling	133	Kinship	38
+1182	Player_Team	2877	Acquisition	9
+3075	Player_Team	2362	Acquisition	9
+1870	Deceased_Place	98	Territory	70	Country	99
+909	Person_Sibling	1741	Kinship	38
+437	Person_Sibling	4059	Kinship	38
+3087	Politician_Position	1044	Object	3854
+104	Person_Relative	20	Kinship	368
+2106	Player_Team	2107	Acquisition	9
+3210	Person_Relative	1433	Kinship	520
+2432	Deceased_Place	1482	Country	551
+2876	Person_Birthplace	1833	Territory	70	Country	99
+3508	Nominee_Award	1173	Event	2126
+2515	Player_Team	4169	Acquisition	9
+3338	Person_Relative	1494	Kinship	178
+228	Nominee_Award	183	Event	962
+1857	Player_Team	1069	Acquisition	9
+2283	Deceased_Place	98	Territory	70	Country	99
+2756	Person_Birthplace	667	Country	65
+3262	Nominee_Award	1173	Event	2132
+3801	Politician_Position	4433	Predecessor	4434	Successor	4435
+1270	Player_Team	1480	Acquisition	9
+1207	Player_Team	1208	Acquisition	9
+933	Person_Birthplace	3727	Territory	3986	Country	65
+999	Player_Team	1000	Acquisition	9
+3903	Player_Team	103	Acquisition	9
+3933	Deceased_Place	98	Territory	70	Country	99
+547	Person_Relative	1162	Kinship	18
+1587	Student_University	1588	Major	1009
+2097	Politician_Position	1356	Predecessor	357	Successor	1418
+945	Player_Team	4046	Acquisition	9
+611	Person_Relative	393	Kinship	394
+3946	Member_Membership	3947	Role	646
+2702	Politician_Position	3124	Object	2720
+1154	Awardee_Award	128	Conferrer	3017
+447	Awardee_Award	276	Co-winner	448	Co-winner	449
+3419	Person_Birthplace	98	Territory	70	Country	99
+835	Deceased_Place	98	Territory	70	Country	99
+1055	Person_Sibling	132	Kinship	38
+853	Player_Team	2887	Acquisition	9
+1918	Deceased_Place	3138	Territory	1920	Country	172
+1038	Person_Relative	493	Kinship	336
+1877	Person_Sibling	595	Kinship	38
+515	Deceased_Place	3085	Territory	3086	Country	172
+492	Person_Relative	610	Kinship	143
+455	Deceased_Place	98	Territory	70	Country	99
+2056	Player_Team	1790	Acquisition	9
+3691	Deceased_Place	98	Territory	70	Country	99
+4288	Deceased_Place	98	Country	96
+867	Politician_Position	746	Predecessor	2805	Successor	869
+499	Awardee_Award	500	Event	501
+1028	Nominee_Award	266	Event	1029
+1074	Player_Team	1287	Acquisition	9
+339	Nominee_Award	340	Work	341	Event	342
+1097	Person_Event	489	Role	490
+2129	Person_Birthplace	2130	Country	2131
+1651	Player_Team	373	Acquisition	9
+1597	Politician_Position	1598	Predecessor	311	Successor	1599
+3588	Player_Team	4299	Acquisition	9
+1443	Player_Team	4349	Acquisition	9
+3235	Player_Team	3310	Acquisition	9
+757	Student_University	4191	Degree	423	Major	3323
+1670	Student_University	2906	Major	852
+2090	Deceased_Place	98	Country	96
+1870	Person_Birthplace	371	Territory	899	Country	65
+733	Awardee_Award	276	Co-winner	734
+3218	Player_Team	2001	Acquisition	9
+664	Participant_Event	811	Status	2
+261	Student_University	1878	Major	427
+3448	Student_Degree	540	University	866
+1719	Politician_Position	939	Predecessor	1969	Successor	1970
+243	Player_Team	244	Acquisition	9
+1056	Person_Relative	1161	Kinship	614
+2515	Player_Team	4225	Acquisition	9
+2839	Member_Membership	22	Role	48
+615	Player_Team	1112	Acquisition	9
+2446	Player_Team	140	Specialty	732
+3432	Student_University	3433	Major	526
+2224	Politician_Position	1344	Predecessor	4127	Successor	4244
+779	Politician_Position	309	Predecessor	2813	Successor	778
+2504	Deceased_Place	2505	Territory	250	Country	2024
+4212	Player_Team	4213	Acquisition	9
+1006	Nominee_Award	2914	Event	3033
+283	Awardee_Award	43	Co-winner	284
+3174	Nominee_Award	1616	Work	1163
+2814	Deceased_Place	98	Country	96
+1695	Player_Team	2144	Acquisition	9
+1121	Deceased_Place	2296	Territory	1474	Country	172
+917	Player_Team	3489	Acquisition	9
+2937	Player_Team	4215	Acquisition	9
+2538	Awardee_Award	43	Co-winner	2539
+4450	Awardee_Award	43	Co-winner	4451
+88	Nominee_Award	1381	Work	441
+2671	Person_Birthplace	2672	Country	2673
+144	Person_Sibling	3812	Kinship	38
+88	Awardee_Award	89	Work	90	Event	91
+1363	Awardee_Award	193	Co-winner	1364	Co-winner	1365
+2451	Player_Team	2452	Acquisition	9
+2307	Nominee_Award	381	Work	648	Event	649
+878	Nominee_Award	89	Work	90	Event	91
+499	Awardee_Award	500	Event	1174
+2832	Player_Team	2833	Acquisition	9
+3117	Student_University	3366	Major	852
+1126	Player_Team	2270	Acquisition	9
+1119	Player_Team	2104	Acquisition	9
+2566	Student_University	3545	Major	852
+3402	Player_Team	2527	Acquisition	9
+1103	Player_Team	658	Acquisition	9
+1182	Player_Team	2417	Acquisition	9
+2025	Person_Sibling	1566	Kinship	38
+1082	Participant_Event	54	Part	55
+265	Awardee_Award	266	Event	1229
+2314	Awardee_Award	3815	Conferrer	428
+2647	Nominee_Award	1173	Event	1499
+1017	Player_Team	1171	Acquisition	9
+157	Person_Relative	1584	Kinship	663
+807	Person_Relative	2535	Kinship	394
+303	Player_Team	1669	Acquisition	9
+1889	Person_Sibling	67	Kinship	38
+2043	Student_University	60	Degree	29
+1626	Deceased_Place	98	Territory	70	Country	99
+1570	Player_Team	522	Specialty	1237
+439	Nominee_Award	1291	Work	1624
+1401	Player_Team	1402	Acquisition	9
+653	Player_Team	1493	Acquisition	9
+2186	Person_Sibling	67	Kinship	38
+1076	Player_Team	3101	Acquisition	9
+265	Awardee_Award	266	Event	267
+354	Politician_Position	1344	Predecessor	1666	Successor	1859
+880	Person_Relative	1541	Kinship	178
+1979	Player_Team	373	Acquisition	9
+910	Person_Sibling	1865	Kinship	38
+2368	Person_Relative	16	Kinship	320
+163	Player_Team	384	Acquisition	9
+2466	Player_Team	2467	Acquisition	9
+2234	Person_Birthplace	1122	Country	372
+3259	Student_Degree	1217	University	3260
+1896	Player_Team	3662	Acquisition	9
+146	Player_Team	737	Acquisition	9
+399	Player_Team	384	Acquisition	9
+2150	Player_Team	103	Acquisition	9
+3048	Politician_Position	3152	Object	3153
+1730	Student_University	60	Major	61	Degree	62
+2097	Politician_Position	786	Predecessor	3786	Successor	3787
+20	Person_Relative	1415	Kinship	364
+4003	Person_Birthplace	667	Territory	70	Country	99
+265	Awardee_Award	266	Event	2714
+3867	Student_University	445	Major	61	Degree	29
+832	Nominee_Award	440	Work	834	Event	900
+157	Person_Sibling	2410	Kinship	233
+3239	Person_Birthplace	2148	Country	551
+1979	Player_Team	854	Acquisition	9
+1292	Person_Relative	2635	Kinship	368
+301	Player_Team	2107	Acquisition	9
+3198	Player_Team	2342	Acquisition	9
+3053	Deceased_Place	3054	Country	1264
+4342	Deceased_Place	98	Country	96
+3736	Player_Team	522	Acquisition	9
+795	Deceased_Place	98	Country	99
+1821	Person_Relative	4344	Kinship	38
+2540	Student_University	4249	Degree	423	Major	4250
+1525	Awardee_Award	128	Work	1526
+80	Player_Team	140	Acquisition	9
+3501	Student_University	725	Major	526	Degree	29
+2431	Person_Event	489	Role	490
+1625	Player_Team	1904	Acquisition	9
+2872	Deceased_Place	250	Country	920
+1270	Player_Team	1691	Acquisition	9
+3507	Deceased_Place	1482	Country	551
+417	Participant_Event	14	Part	15
+478	Player_Team	4187	Acquisition	9
+547	Person_Relative	1976	Kinship	322
+19	Person_Relative	547	Kinship	320
+1415	Person_Relative	2384	Kinship	890
+1247	Person_Birthplace	225	Country	65
+785	Politician_Position	786	Predecessor	787	Successor	788
+1160	Person_Relative	1161	Kinship	320
+2635	Person_Sibling	1152	Kinship	233
+1405	Person_Relative	690	Kinship	614
+1157	Deceased_Place	1158	Country	1159
+615	Player_Team	3692	Acquisition	9
+149	Awardee_Award	150	Work	151
+365	Player_Team	366	Acquisition	9
+88	Awardee_Award	1381	Work	441
+1392	Politician_Position	355	Predecessor	1393	Successor	356
+1433	Person_Relative	1824	Kinship	1058
+1003	Student_University	633	Major	281	Degree	423
+197	Member_Membership	200	Role	201
+906	Student_University	498	Major	526	Degree	29
+1326	Politician_Position	75	Predecessor	3705	Successor	1325
+3867	Student_University	4283	Major	61
+4108	Student_University	3153	Degree	1301
+2457	Politician_Position	1621	Predecessor	2458	Successor	2459
+2567	Politician_Position	1598	Predecessor	603	Successor	3006
+4401	Player_Team	728	Acquisition	9
+869	Politician_Position	355	Predecessor	867	Successor	1393
+531	Member_Membership	200	Role	201
+632	Student_University	3750	Degree	619
+154	Player_Team	2352	Acquisition	9
+2348	Awardee_Award	193	Co-winner	2349
+1401	Player_Team	2275	Acquisition	9
+1211	Politician_Position	1621	Predecessor	748	Successor	1664
+512	Student_University	3830	Degree	1681
+3958	Person_Birthplace	769	Country	65
+2122	Member_Membership	2123	Role	52
+836	Student_University	618	Major	837	Degree	545
+804	Person_Relative	424	Kinship	18
+1813	Student_University	1619	Degree	29
+2000	Deceased_Place	98	Country	96
+4189	Player_Team	4190	Acquisition	9
+492	Person_Relative	1037	Kinship	1058
+1799	Member_Membership	1350	Role	646
+2071	Player_Team	2072	Acquisition	9
+353	Politician_Position	351	Predecessor	3384	Successor	352
+2788	Player_Team	2001	Acquisition	9
+265	Nominee_Award	266	Event	1458
+3484	Player_Team	3411	Acquisition	9
+2416	Politician_Position	1344	Predecessor	1662	Successor	2415
+542	Person_Relative	492	Kinship	663
+2502	Deceased_Place	641	Country	642
+3677	Person_Birthplace	126	Territory	70	Country	99
+3184	Player_Team	3444	Acquisition	9
+1999	Deceased_Place	98	Country	96
+2006	Student_Degree	282	University	3809
+723	Player_Team	1868	Acquisition	9
+3554	Awardee_Award	128	Conferrer	3555
+784	Politician_Position	1536	Predecessor	688	Successor	777
+1155	Awardee_Award	276	Co-winner	1154	Co-winner	1156
+978	Person_Birthplace	979	Territory	980	Country	65
+730	Player_Team	4336	Specialty	732
+1973	Student_University	27	Degree	62
+477	Awardee_Award	193	Co-winner	476
+1724	Awardee_Award	128	Work	1407
+4184	Player_Team	4185	Acquisition	9
+1386	Person_Birthplace	1387	Territory	1388
+1980	Person_Relative	1981	Kinship	320
+1885	Person_Birthplace	1315	Country	1886
+527	Player_Team	528	Acquisition	9
+1975	Person_Relative	3595	Kinship	663
+482	Player_Team	3268	Acquisition	9
+4292	Participant_Event	54	Part	55
+1945	Person_Sibling	1566	Kinship	38
+3557	Politician_Position	1417	Predecessor	941	Successor	1393
+210	Person_Sibling	1337	Kinship	38
+826	Student_University	2960	Degree	759
+16	Person_Relative	17	Kinship	18
+1124	Player_Team	1125	Acquisition	9
+312	Awardee_Award	313	Co-winner	314	Co-winner	315
+771	Player_Team	4163	Acquisition	9
+3767	Student_University	514	Degree	62	Major	2706
+563	Person_Relative	19	Kinship	18
+88	Awardee_Award	440	Work	90	Event	91
+1804	Player_Team	696	Acquisition	9
+3065	Deceased_Place	263	Country	327
+1263	Person_Birthplace	263	Country	1264
+1107	Player_Team	1108	Acquisition	9
+1895	Politician_Position	203	Predecessor	3962	Successor	4164
+1166	Student_University	1167	Degree	545
+4072	Deceased_Place	98	Country	96
+185	Deceased_Place	98	Country	96
+363	Person_Relative	362	Kinship	336
+2917	Member_Membership	22	Role	48
+2763	Player_Team	2514	Acquisition	9
+3974	Politician_Position	1278	Term	2703
+4123	Deceased_Place	98	Territory	70	Country	99
+105	Person_Relative	2140	Kinship	2188
+443	Person_Relative	807	Kinship	178
+4347	Student_University	2990	Degree	470
+2441	Player_Team	4211	Acquisition	9
+927	Player_Team	1519	Acquisition	9
+910	Person_Sibling	1983	Kinship	38
+1156	Awardee_Award	276	Co-winner	1155	Co-winner	1154
+163	Player_Team	2546	Acquisition	9
+1556	Politician_Position	3714	Predecessor	3715	Successor	3716
+1539	Student_Degree	423	University	618
+1537	Politician_Position	746	Predecessor	4130	Successor	972
+1017	Player_Team	3409	Acquisition	9
+1079	Participant_Event	54	Part	55
+2276	Awardee_Award	43	Co-winner	1412
+2147	Deceased_Place	2148	Country	551
+451	Person_Relative	16	Kinship	520
+2458	Politician_Position	1621	Predecessor	1393	Successor	3364
+625	Politician_Position	626	Predecessor	627	Successor	628
+555	Politician_Position	556	Electorate	557
+1004	Player_Team	1005	Acquisition	9
+3156	Deceased_Place	3870	Country	799
+2653	Person_Birthplace	98	Country	65
+567	Student_University	27	Degree	29
+4243	Student_Degree	540	University	541
+4069	Awardee_Award	43	Co-winner	2502
+1842	Player_Team	1084	Acquisition	9
+1017	Player_Team	3415	Acquisition	9
+3721	Participant_Event	307	Status	2
+1205	Deceased_Place	98	Country	96
+339	Awardee_Award	340	Work	341	Event	342
+2266	Deceased_Place	769	Territory	2267	Country	99
+762	Player_Team	1803	Acquisition	9
+1560	Politician_Position	1243	Predecessor	1558	Successor	3142
+2974	Awardee_Award	276	Co-winner	4286
+2747	Person_Birthplace	225	Territory	1591	Country	96
+1038	Person_Relative	530	Kinship	379
+1609	Player_Team	2791	Acquisition	9
+3674	Person_Event	489	Role	490
+1443	Player_Team	3197	Acquisition	9
+1327	Student_University	60	Degree	62
+185	Person_Birthplace	98	Country	99
+1580	Player_Team	535	Acquisition	9
+3596	Person_Relative	690	Kinship	320
+3263	Student_University	3264	Major	3265	Degree	62
+3005	Politician_Position	1598	Predecessor	3006	Successor	311
+4162	Deceased_Place	434	Territory	2020	Country	172
+1716	Player_Team	2355	Acquisition	9
+159	Player_Team	4343	Acquisition	9
+2561	Person_Birthplace	3732	Territory	2237
+2489	Nominee_Award	240	Work	1090	Event	3223
+1126	Player_Team	1127	Acquisition	9
+1490	Player_Team	3107	Acquisition	9
+2980	Member_Membership	2981	Role	646
+2721	Politician_Position	746	Predecessor	2722	Successor	748
+1052	Member_Membership	22	Role	201
+154	Player_Team	3107	Acquisition	9
+690	Person_Relative	1405	Kinship	1769
+3519	Participant_Event	54	Part	55
+125	Deceased_Place	98	Country	96
+2037	Player_Team	3880	Acquisition	9
+3289	Student_University	3361	Degree	121
+1565	Person_Sibling	1946	Kinship	38
+677	Awardee_Award	193	Co-winner	1890
+3042	Employee_Employer	3043	Position	3044
+1724	Awardee_Award	128	Work	4125
+3796	Deceased_Place	2991	Country	799
+2492	Deceased_Place	1315	Country	601
+3245	Student_University	809	Major	810
+1006	Nominee_Award	1285	Event	2354
+574	Player_Team	3843	Acquisition	9
+1037	Person_Relative	134	Kinship	520
+3751	Player_Team	4053	Acquisition	9
+1821	Person_Birthplace	263	Country	1822
+1845	Person_Birthplace	98	Country	99
+3462	Deceased_Place	250	Country	920
+1983	Person_Sibling	2083	Kinship	38
+2367	Person_Relative	2368	Kinship	18
+4371	Student_University	27	Major	281	Degree	29
+4065	Deceased_Place	98	Country	96
+1869	Person_Sibling	691	Kinship	233
+1386	Deceased_Place	170	Country	172
+1813	Student_University	1619	Degree	62
+682	Person_Birthplace	641	Country	642
+2243	Member_Membership	22	Role	201
+1707	Person_Relative	1708	Kinship	368
+26	Student_University	3825	Degree	62
+2892	Person_Sibling	2893	Kinship	38
+177	Person_Relative	1541	Kinship	336
+1172	Nominee_Award	1173	Event	1333
+1929	Person_Birthplace	98	Country	65
+3550	Politician_Position	606	Object	3551
+668	Player_Team	669	Acquisition	9
+473	Person_Relative	2920	Kinship	475
+1442	Player_Team	2001	Acquisition	9
+477	Deceased_Place	2573	Country	920
+301	Player_Team	876	Acquisition	9
+1743	Politician_Position	252	Term	2271
+672	Nominee_Award	89	Work	673	Event	674
+1212	Person_Sibling	850	Kinship	38
+1212	Person_Sibling	37	Kinship	38
+3882	Student_University	742	Degree	1301
+1103	Player_Team	731	Acquisition	9
+3708	Awardee_Award	276	Co-winner	3709	Co-winner	3710
+431	Deceased_Place	98	Territory	70	Country	99
+1197	Participant_Event	4133	Status	2
+3934	Deceased_Place	2754	Country	923
+1890	Awardee_Award	193	Co-winner	677
+568	Player_Team	388	Acquisition	9
+105	Person_Relative	1840	Kinship	320
+1578	Person_Sibling	1579	Kinship	38
+4318	Member_Membership	1350	Role	646
+3081	Politician_Position	40	Term	41
+51	Member_Membership	22	Role	48
+4348	Deceased_Place	98	Country	96
+644	Member_Membership	645	Role	646
+3953	Student_University	544	Degree	29	Major	4155
+3968	Person_Birthplace	3969	Country	2605
+187	Awardee_Award	188	Work	648	Event	649
+88	Nominee_Award	89	Work	441	Event	442
+751	Deceased_Place	1387	Territory	1388	Country	172
+182	Nominee_Award	708	Event	1228
+826	Awardee_Award	128	Conferrer	514
+3110	Player_Team	2444	Specialty	3111
+762	Player_Team	1715	Acquisition	9
+1628	Player_Team	970	Acquisition	9
+3228	Person_Relative	4445	Kinship	3230
+2344	Player_Team	2345	Acquisition	9
+707	Nominee_Award	183	Event	2065
+2273	Player_Team	2394	Acquisition	9
+450	Person_Relative	362	Kinship	336
+2143	Player_Team	2362	Acquisition	9
+444	Student_Degree	1217	University	742
+1117	Person_Relative	396	Kinship	18
+2128	Participant_Event	54	Part	55
+4210	Person_Relative	2873	Kinship	520
+3168	Deceased_Place	1563	Territory	1474	Country	172
+290	Player_Team	291	Acquisition	9
+1971	Awardee_Award	83	Co-winner	1972
+3024	Nominee_Award	266	Event	1931
+1965	Person_Relative	1898	Kinship	2188
+1202	Player_Team	2497	Acquisition	9
+3615	Member_Membership	22	Role	52
+554	Deceased_Place	98	Country	96
+3128	Awardee_Award	193	Co-winner	3127	Co-winner	1070
+1094	Player_Team	1790	Acquisition	9
+1855	Person_Sibling	1856	Kinship	38
+1184	Nominee_Award	833	Work	334
+2849	Person_Relative	1326	Kinship	18
+4289	Member_Membership	1350	Role	646
+2792	Player_Team	803	Acquisition	9
+867	Politician_Position	355	Predecessor	868	Successor	868
+507	Player_Team	508	Acquisition	9
+104	Person_Relative	974	Kinship	178
+2635	Person_Relative	1292	Kinship	368
+581	Politician_Position	582	Predecessor	583	Successor	584
+2483	Deceased_Place	2601	Country	264
+4405	Member_Membership	1350	Role	646
+79	Person_Sibling	4424	Kinship	38
+2899	Player_Team	3970	Acquisition	9
+1393	Person_Relative	1393	Kinship	106
+437	Person_Sibling	4160	Kinship	38
+4028	Person_Birthplace	4029	Country	1647
+154	Player_Team	2977	Acquisition	9
+2607	Player_Team	4257	Acquisition	9
+3140	Student_University	618	Major	1142	Degree	545
+2908	Awardee_Award	2909	Co-winner	2910
+308	Politician_Position	309	Predecessor	310	Successor	311
+1091	Player_Team	2675	Acquisition	9
+1412	Awardee_Award	43	Co-winner	2276
+2150	Player_Team	3145	Acquisition	9
+139	Player_Team	3358	Acquisition	9
+2011	Player_Team	4041	Acquisition	9
+2803	Member_Membership	22	Role	52
+4242	Player_Team	3589	Acquisition	9
+4108	Student_University	1313	Major	61
+3514	Person_Birthplace	3515	Territory	2267	Country	99
+1401	Player_Team	1127	Acquisition	9
+4266	Deceased_Place	4267	Territory	4268	Country	551
+3834	Participant_Event	54	Part	55
+723	Player_Team	724	Acquisition	9
+1113	Player_Team	1114	Specialty	1115
+450	Person_Relative	393	Kinship	394
+159	Player_Team	2856	Acquisition	9
+393	Person_Relative	1038	Kinship	394
+1996	Nominee_Award	1173	Event	1222
+4083	Person_Birthplace	4221	Country	4222
+156	Person_Relative	886	Kinship	18
+4350	Student_University	1619	Major	281	Degree	29
+743	Player_Team	744	Acquisition	9
+841	Deceased_Place	1315	Country	601
+3272	Awardee_Award	3273	Co-winner	3274
+3526	Player_Team	3101	Acquisition	9
+1106	Awardee_Award	193	Co-winner	922
+2510	Person_Birthplace	2511	Territory	2512
+1401	Player_Team	2444	Acquisition	9
+2506	Player_Team	4223	Specialty	1115
+2837	Nominee_Award	266	Event	2838
+2996	Person_Birthplace	2055	Country	2997
+328	Player_Team	103	Acquisition	9
+804	Person_Relative	1627	Kinship	18
+3006	Politician_Position	1598	Predecessor	2567	Successor	3005
+92	Player_Team	1063	Acquisition	9
+3586	Deceased_Place	250	Country	920
+675	Player_Team	676	Acquisition	9
+187	Nominee_Award	188	Work	189	Event	190
+711	Awardee_Award	128	Conferrer	3023
+2185	Member_Membership	22	Role	52
+3385	Deceased_Place	98	Country	96
+2037	Player_Team	2038	Acquisition	9
+1419	Player_Team	2744	Acquisition	9
+197	Person_Relative	321	Kinship	322
+2732	Deceased_Place	2733	Country	802
+734	Awardee_Award	2145	Conferrer	4454
+1197	Participant_Event	3115	Status	2
+473	Politician_Position	3895	Predecessor	4110	Successor	4111
+3710	Awardee_Award	276	Co-winner	3709	Co-winner	3708
+3558	Deceased_Place	98	Country	96
+59	Nominee_Award	1343	Work	673	Event	674
+1724	Awardee_Award	128	Work	2907
+922	Awardee_Award	193	Co-winner	1106
+149	Nominee_Award	1426	Work	151
+4224	Politician_Position	108	Predecessor	109	Successor	107
+1042	Member_Membership	1043	Role	1044
+1433	Person_Relative	2589	Kinship	614
+1270	Player_Team	1271	Acquisition	9
+2445	Deceased_Place	98	Country	96
+146	Player_Team	3383	Acquisition	9
+3025	Person_Sibling	3908	Kinship	38
+735	Awardee_Award	128	Work	2169
+4159	Person_Event	489	Role	490
+2579	Person_Sibling	889	Kinship	38
+849	Member_Membership	200	Role	201
+3680	Student_University	1619	Major	1142	Degree	29
+1202	Player_Team	3824	Acquisition	9
+130	Player_Team	2468	Acquisition	9
+339	Nominee_Award	340	Work	648	Event	649
+3699	Person_Sibling	3847	Kinship	233
+448	Awardee_Award	276	Co-winner	449	Co-winner	447
+197	Member_Membership	198	Role	646
+2059	Person_Relative	789	Kinship	178
+4248	Person_Sibling	3847	Kinship	233
+3693	Person_Relative	3694	Kinship	3695
+2446	Player_Team	2258	Specialty	732
+4286	Awardee_Award	276	Co-winner	2974
+125	Person_Birthplace	126	Country	65
+1166	Student_University	3264	Degree	62
+1070	Awardee_Award	193	Co-winner	3128	Co-winner	3127
+499	Awardee_Award	500	Event	1333
+2979	Politician_Position	40	Term	41
+318	Person_Relative	319	Kinship	320
+285	Politician_Position	286	Predecessor	287	Successor	287
+1473	Player_Team	155	Acquisition	9
+1405	Person_Sibling	2474	Kinship	233
+17	Person_Relative	1037	Kinship	1058
+2857	Deceased_Place	98	Country	96
+1124	Player_Team	1096	Acquisition	9
+1317	Player_Team	1318	Acquisition	9
+1139	Student_Degree	540	University	1453
+653	Player_Team	3201	Acquisition	9
+2798	Nominee_Award	2053	Event	2799
+3765	Person_Birthplace	2055	Country	601
+56	Person_Relative	3889	Kinship	394
+1017	Player_Team	2400	Acquisition	9
+1990	Player_Team	2822	Acquisition	9
+2564	Student_University	2565	Degree	62
+3903	Player_Team	569	Acquisition	9
+4018	Person_Relative	2187	Kinship	336
+3416	Nominee_Award	708	Event	1105
+231	Person_Sibling	722	Kinship	38
+1976	Person_Relative	3095	Kinship	178
+2086	Student_University	2087	Degree	62
+36	Person_Sibling	850	Kinship	38
+36	Person_Sibling	37	Kinship	38
+1055	Person_Sibling	595	Kinship	38
+1804	Player_Team	893	Acquisition	9
+214	Nominee_Award	1049	Work	586	Event	957
+698	Player_Team	699	Acquisition	9
+1749	Person_Relative	639	Kinship	116
+1609	Player_Team	2529	Acquisition	9
+1660	Player_Team	1661	Acquisition	9
+650	Politician_Position	651	Electorate	652
+152	Person_Sibling	1059	Kinship	38
+1502	Member_Membership	22	Role	48
+49	Player_Team	50	Acquisition	9
+1581	Player_Team	407	Specialty	1353
+3644	Deceased_Place	3645	Country	3646
+3935	Deceased_Place	98	Country	96
+330	Person_Relative	331	Kinship	320
+2409	Player_Team	3434	Acquisition	9
+1592	Person_Relative	705	Kinship	394
+2076	Deceased_Place	817	Country	96
+3276	Student_Degree	540	University	487
+2079	Participant_Event	54	Part	55
+102	Player_Team	716	Acquisition	9
+707	Awardee_Award	183	Event	2393
+224	Person_Birthplace	225	Country	65
+2031	Player_Team	2032	Acquisition	9
+1015	Player_Team	1296	Acquisition	9
+2133	Person_Birthplace	1511	Country	1512
+3068	Player_Team	3873	Acquisition	9
+393	Person_Relative	450	Kinship	394
+1139	Awardee_Award	128	Work	2939
+1334	Politician_Position	227	Predecessor	832	Successor	1335
+1743	Politician_Position	252	Term	2840
+1567	Player_Team	928	Acquisition	9
+311	Politician_Position	846	Object	250
+2285	Person_Birthplace	1374	Territory	2015	Country	65
+912	Awardee_Award	43	Co-winner	911	Co-winner	913
+615	Player_Team	1135	Acquisition	9
+3402	Player_Team	4096	Acquisition	9
+387	Player_Team	1497	Acquisition	9
+4077	Deceased_Place	1149	Country	1150
+425	Student_University	426	Major	427
+634	Person_Sibling	2669	Kinship	38
+80	Player_Team	81	Acquisition	9
+3166	Deceased_Place	98	Country	99
+1416	Politician_Position	1417	Predecessor	1418	Successor	1255
+1567	Player_Team	1997	Acquisition	9
+310	Politician_Position	309	Predecessor	603	Successor	308
+3343	Person_Relative	3344	Kinship	106
+454	Person_Sibling	67	Kinship	38
+424	Person_Relative	2862	Kinship	178
+1752	Nominee_Award	2040	Work	1617	Event	1753
+566	Member_Membership	22	Role	52
+3581	Awardee_Award	43	Co-winner	2295
+163	Player_Team	3207	Acquisition	9
+2324	Person_Birthplace	1833	Country	65
+2295	Awardee_Award	43	Co-winner	3581
+301	Player_Team	3921	Acquisition	9
+20	Person_Relative	3848	Kinship	394
+2984	Politician_Position	2985	Predecessor	3496	Successor	3497
+2854	Student_University	2855	Major	281	Degree	3092
+1995	Member_Membership	22	Role	52
+1411	Person_Relative	963	Kinship	1058
+356	Politician_Position	1344	Predecessor	1392	Successor	202
+2031	Player_Team	3468	Acquisition	9
+1857	Player_Team	2786	Acquisition	9
+249	Person_Birthplace	250	Territory	250
+2506	Player_Team	1114	Specialty	1115
+720	Player_Team	2135	Acquisition	9
+377	Person_Relative	547	Kinship	106
+132	Person_Sibling	509	Kinship	38
+2628	Person_Birthplace	98	Territory	70	Country	99
+1804	Player_Team	2675	Acquisition	9
+1842	Player_Team	1843	Acquisition	9
+3007	Person_Event	489	Role	490
+2832	Player_Team	2921	Acquisition	9
+910	Person_Sibling	1741	Kinship	38
+996	Student_University	2206	Major	526	Degree	423
+59	Nominee_Award	3593	Work	703
+612	Person_Relative	613	Kinship	614
+2125	Awardee_Award	2053	Event	1029
+3456	Deceased_Place	98	Country	96
+2633	Student_University	4085	Major	2634	Degree	423
+3045	Person_Relative	3072	Kinship	364
+76	Politician_Position	75	Predecessor	2181	Successor	74
+1209	Player_Team	1210	Acquisition	9
+2218	Person_Relative	2219	Kinship	1215
+331	Person_Relative	2197	Kinship	364
+1827	Player_Team	761	Acquisition	9
+2659	Awardee_Award	340	Work	2660	Event	2661
+360	Politician_Position	359	Predecessor	4234	Successor	358
+187	Awardee_Award	647	Work	189	Event	190
+1355	Politician_Position	1484	Predecessor	1859	Successor	3388
+1637	Deceased_Place	1638	Country	1639
+715	Player_Team	716	Acquisition	9
+2241	Player_Team	2242	Acquisition	9
+1175	Awardee_Award	43	Co-winner	1176	Co-winner	1177
+1072	Member_Membership	505	Role	506
+892	Player_Team	2256	Acquisition	9
+3140	Student_University	4341	Major	1142	Degree	470
+3224	Person_Sibling	559	Kinship	560
+1286	Player_Team	2162	Acquisition	9
+3149	Player_Team	2921	Acquisition	9
+821	Person_Relative	1038	Kinship	520
+2750	Deceased_Place	170	Country	172
+3453	Person_Relative	638	Kinship	394
+762	Player_Team	2196	Acquisition	9
+3386	Politician_Position	846	Object	3387
+2369	Person_Birthplace	98	Territory	70	Country	99
+1139	Awardee_Award	128	Work	2575
+179	Player_Team	3600	Acquisition	9
+830	Person_Sibling	1429	Kinship	233
+2218	Person_Relative	3353	Kinship	106
+1339	Person_Birthplace	1340	Territory	1341
+1382	Person_Birthplace	1046	Country	65
+156	Person_Relative	1547	Kinship	1215
+139	Player_Team	1395	Acquisition	9
+3979	Student_University	27	Major	1142	Degree	470
+988	Nominee_Award	183	Event	35
+972	Politician_Position	1344	Predecessor	868	Successor	2317
+4355	Deceased_Place	2933	Territory	1474	Country	172
+85	Nominee_Award	167	Event	501
+1627	Person_Relative	105	Kinship	320
+3890	Student_University	3891	Major	392	Degree	545
+478	Player_Team	2663	Acquisition	9
+1083	Player_Team	3907	Acquisition	9
+3351	Player_Team	3352	Acquisition	9
+3540	Person_Birthplace	170	Country	172
+2011	Player_Team	291	Acquisition	9
+911	Student_University	1619	Degree	29
+878	Nominee_Award	440	Work	90	Event	91
+3261	Player_Team	1102	Acquisition	9
+362	Person_Relative	1038	Kinship	364
+1490	Player_Team	1332	Acquisition	9
+4236	Awardee_Award	276	Co-winner	3001	Co-winner	4235
+1461	Player_Team	553	Acquisition	9
+1227	Awardee_Award	708	Event	2126
+1478	Person_Sibling	3757	Kinship	38
+1541	Person_Relative	156	Kinship	1769
+945	Player_Team	4312	Acquisition	9
+632	Student_University	633	Degree	423	Major	579
+1877	Person_Sibling	2325	Kinship	38
+1628	Player_Team	4163	Acquisition	9
+132	Person_Sibling	2742	Kinship	38
+2628	Deceased_Place	98	Country	96
+549	Deceased_Place	550	Country	551
+2026	Employee_Employer	3200	Position	12
+4251	Person_Birthplace	589	Territory	70	Country	99
+102	Player_Team	103	Acquisition	9
+332	Nominee_Award	333	Work	334
+1481	Deceased_Place	1482	Country	551
+3050	Politician_Position	3051	Term	3052
+1336	Player_Team	3207	Acquisition	9
+3510	Member_Membership	22	Role	48
+1468	Person_Birthplace	1469	Territory	1470	Country	65
+765	Student_University	27	Degree	545
+672	Awardee_Award	1408	Work	703
+2645	Person_Sibling	3431	Kinship	38
+354	Politician_Position	1621	Predecessor	357	Successor	1622
+596	Student_University	1372	Major	598	Degree	423
+3382	Person_Birthplace	1149	Country	1150
+1789	Player_Team	1974	Specialty	732
+478	Player_Team	3217	Acquisition	9
+685	Player_Team	960	Acquisition	9
+1006	Nominee_Award	1285	Event	1168
+615	Player_Team	616	Acquisition	9
+621	Awardee_Award	276	Co-winner	3076	Co-winner	2649
+1419	Player_Team	3363	Acquisition	9
+337	Player_Team	338	Acquisition	9
+132	Person_Sibling	1055	Kinship	38
+296	Player_Team	4197	Acquisition	9
+3028	Student_University	1619	Major	281	Degree	29
+85	Nominee_Award	167	Event	1174
+3844	Politician_Position	239	Object	3845
+3235	Player_Team	3236	Acquisition	9
+1116	Person_Relative	1117	Kinship	106
+4058	Person_Birthplace	2591	Territory	1470	Country	65
+478	Player_Team	479	Acquisition	9
+439	Nominee_Award	1291	Work	90
+2548	Student_Degree	540	University	3650
+1632	Person_Sibling	1633	Kinship	38
+292	Player_Team	324	Acquisition	9
+3385	Member_Membership	22	Role	52
+1857	Player_Team	1858	Acquisition	9
+331	Person_Relative	330	Kinship	364
+161	Player_Team	2228	Acquisition	9
+2809	Person_Birthplace	98	Territory	70	Country	99
+0	Participant_Event	948	Status	2
+2654	Politician_Position	2655	Predecessor	2656	Successor	2657
+2506	Player_Team	3440	Specialty	1353
+1827	Player_Team	4456	Acquisition	9
+149	Nominee_Award	433	Work	151	Event	957
+904	Player_Team	2791	Acquisition	9
+832	Awardee_Award	440	Work	834	Event	900
+465	Student_University	466	Degree	29
+1074	Player_Team	1075	Acquisition	9
+1139	Awardee_Award	128	Work	1642
+1270	Player_Team	1138	Acquisition	9
+4042	Student_University	536	Degree	29
+554	Person_Birthplace	840	Country	65
+2141	Player_Team	4041	Acquisition	9
+4044	Deceased_Place	98	Country	96
+2540	Student_University	468	Degree	29	Major	598
+2360	Player_Team	2361	Acquisition	9
+3718	Politician_Position	359	Predecessor	3719	Successor	3720
+2338	Deceased_Place	1158	Country	551
+2647	Nominee_Award	1173	Event	709
+3791	Nominee_Award	1381	Work	3792
+1268	Nominee_Award	183	Event	1105
+2127	Player_Team	3782	Acquisition	9
+961	Nominee_Award	183	Event	268
+163	Player_Team	164	Acquisition	9
+1743	Politician_Position	939	Predecessor	1744	Successor	1745
+13	Politician_Position	40	Term	41
+1932	Player_Team	4075	Acquisition	9
+2425	Person_Relative	2426	Kinship	2427
+1627	Person_Relative	1840	Kinship	614
+3652	Nominee_Award	500	Event	2972
+1255	Politician_Position	1344	Predecessor	1345	Successor	1346
+3613	Politician_Position	4126	Predecessor	4127	Successor	4128
+349	Politician_Position	40	Term	41
+154	Player_Team	155	Acquisition	9
+1704	Deceased_Place	98	Country	96
+638	Person_Relative	804	Kinship	520
+883	Player_Team	4049	Acquisition	9
+88	Nominee_Award	89	Work	90	Event	91
+675	Player_Team	528	Acquisition	9
+3106	Deceased_Place	1700	Country	172
+927	Player_Team	2091	Acquisition	9
+3394	Person_Relative	3395	Kinship	364
+2615	Student_University	27	Degree	29
+4321	Deceased_Place	98	Territory	70	Country	99
+454	Person_Sibling	398	Kinship	38
+296	Player_Team	1130	Acquisition	9
+2367	Person_Relative	1342	Kinship	18
+3203	Player_Team	3204	Acquisition	9
+159	Player_Team	884	Acquisition	9
+2929	Student_University	2930	Degree	1301
+1443	Player_Team	1585	Acquisition	9
+4428	Deceased_Place	98	Country	96
+1504	Person_Sibling	2519	Kinship	38
+1910	Person_Birthplace	3670	Territory	3671	Country	65
+1319	Player_Team	1320	Acquisition	9
+2813	Politician_Position	1536	Predecessor	353	Successor	779
+362	Person_Relative	450	Kinship	364
+352	Politician_Position	351	Predecessor	2766	Successor	350
+563	Person_Relative	117	Kinship	18
+2036	Person_Sibling	231	Kinship	38
+2096	Politician_Position	1356	Predecessor	2563	Successor	357
+1314	Deceased_Place	174	Territory	3086	Country	172
+1461	Player_Team	1462	Acquisition	9
+1286	Player_Team	1287	Acquisition	9
+208	Member_Membership	198	Role	52
+3210	Person_Relative	177	Kinship	379
+3008	Player_Team	2447	Acquisition	9
+3855	Deceased_Place	98	Country	96
+3861	Player_Team	2335	Acquisition	9
+787	Politician_Position	1484	Predecessor	2578	Successor	1447
+146	Player_Team	147	Acquisition	9
+288	Awardee_Award	128	Work	289
+832	Awardee_Award	1258	Work	834
+1789	Player_Team	2256	Specialty	732
+3838	Member_Membership	22	Role	52
+3016	Player_Team	905	Acquisition	9
+492	Person_Relative	542	Kinship	116
+2416	Politician_Position	4	Predecessor	3701	Successor	3702
+2281	Member_Membership	1350	Role	646
+1091	Player_Team	3303	Acquisition	9
+1915	Person_Event	489	Role	490
+132	Person_Sibling	2325	Kinship	38
+4089	Deceased_Place	2434	Country	926
+917	Player_Team	3327	Acquisition	9
+144	Person_Sibling	145	Kinship	38
+2865	Awardee_Award	83	Co-winner	908
+1289	Person_Sibling	398	Kinship	38
+543	Student_University	2282	Major	392
+2367	Person_Relative	451	Kinship	158
+3588	Person_Birthplace	769	Territory	2267	Country	99
+450	Person_Relative	821	Kinship	890
+177	Person_Relative	232	Kinship	614
+1182	Player_Team	1595	Acquisition	9
+3279	Awardee_Award	276	Co-winner	3278
+2854	Student_University	2855	Major	281
+1393	Politician_Position	1417	Predecessor	3557	Successor	4214
+2375	Awardee_Award	240	Work	410	Event	411
+839	Deceased_Place	840	Country	96
+713	Member_Membership	3216	Role	52
+1429	Person_Relative	519	Kinship	18
+532	Student_University	4168	Degree	62
+1916	Deceased_Place	434	Country	172
+20	Person_Relative	2535	Kinship	364
+1178	Participant_Event	54	Part	55
+482	Player_Team	1102	Acquisition	9
+387	Player_Team	388	Acquisition	9
+917	Player_Team	3600	Acquisition	9
+2157	Deceased_Place	98	Country	96
+1952	Awardee_Award	193	Co-winner	1953
+3087	Politician_Position	1044	Object	3088
+638	Person_Relative	3453	Kinship	394
+88	Nominee_Award	440	Work	441	Event	442
+156	Person_Relative	177	Kinship	336
+2401	Deceased_Place	98	Country	96
+1421	Politician_Position	1484	Predecessor	3388	Successor	3389
+664	Participant_Event	307	Status	2
+3335	Member_Membership	3336	Role	52
+2592	Student_University	27	Major	1009	Degree	1301
+2198	Student_University	27	Degree	29	Major	281
+2490	Player_Team	2527	Acquisition	9
+2993	Member_Membership	3947	Role	646
+1451	Politician_Position	2884	Object	4227
+476	Awardee_Award	193	Co-winner	477
+3076	Awardee_Award	3418	Co-winner	621
+161	Player_Team	4254	Acquisition	9
+2356	Person_Birthplace	3449	Territory	3450	Country	99
+2186	Person_Sibling	1234	Kinship	38
+491	Deceased_Place	98	Territory	70	Country	99
+1076	Player_Team	3059	Acquisition	9
+3678	Student_University	3679	Major	427
+2263	Politician_Position	1044	Object	2964
+296	Player_Team	861	Acquisition	9
+3347	Deceased_Place	98	Territory	70	Country	99
+3150	Deceased_Place	98	Country	96
+2616	Student_University	2617	Major	2618	Degree	62
+3339	Participant_Event	14	Part	15
+1065	Nominee_Award	266	Event	709
+2210	Player_Team	1832	Acquisition	9
+82	Deceased_Place	4043	Country	172
+3304	Player_Team	3516	Acquisition	9
+1983	Person_Sibling	1741	Kinship	38
+323	Player_Team	4183	Acquisition	9
+595	Person_Sibling	1877	Kinship	38
+356	Politician_Position	355	Predecessor	1392	Successor	354
+3011	Player_Team	3012	Acquisition	9
+1053	Deceased_Place	98	Country	96
+878	Awardee_Award	89	Work	90	Event	91
+4460	Player_Team	3697	Acquisition	9
+3292	Politician_Position	3291	Predecessor	4017	Successor	3290
+2008	Player_Team	2009	Acquisition	9
+451	Person_Relative	611	Kinship	520
+2515	Player_Team	508	Acquisition	9
+3751	Player_Team	1483	Acquisition	9
+1405	Person_Relative	1547	Kinship	178
+2580	Deceased_Place	98	Country	96
+892	Player_Team	4040	Acquisition	9
+715	Person_Birthplace	3449	Territory	3450	Country	99
+3617	Awardee_Award	128	Conferrer	3754
+20	Person_Relative	807	Kinship	18
+1202	Player_Team	4056	Acquisition	9
+251	Politician_Position	252	Predecessor	253	Successor	2998
+486	Awardee_Award	128	Work	1449
+1503	Person_Sibling	910	Kinship	38
+1746	Student_University	1747	Degree	29	Major	281
+3402	Player_Team	3713	Acquisition	9
+16	Person_Relative	245	Kinship	18
+1184	Awardee_Award	833	Work	1163
+1622	Politician_Position	355	Predecessor	357	Successor	357
+3010	Person_Event	489	Role	490
+832	Awardee_Award	833	Work	834
+59	Nominee_Award	240	Work	1574	Event	1575
+4202	Player_Team	4203	Acquisition	9
+1246	Student_University	27	Degree	62
+1020	Student_University	1021	Degree	1022
+1538	Deceased_Place	170	Territory	171	Country	172
+871	Player_Team	2450	Acquisition	9
+3619	Awardee_Award	740	Work	834	Event	900
+1567	Player_Team	2546	Acquisition	9
+243	Player_Team	1806	Acquisition	9
+2698	Deceased_Place	98	Territory	70	Country	99
+1435	Player_Team	1436	Acquisition	9
+59	Nominee_Award	89	Work	1574	Event	1575
+963	Person_Relative	1411	Kinship	520
+604	Politician_Position	309	Predecessor	776	Successor	603
+1670	Student_University	1739	Degree	470	Major	852
+804	Person_Sibling	118	Kinship	233
+3926	Student_University	3927	Major	3928
+1124	Player_Team	1648	Acquisition	9
+4090	Person_Relative	690	Kinship	394
+3709	Awardee_Award	276	Co-winner	3710	Co-winner	3708
+3349	Deceased_Place	3350	Country	96
+945	Player_Team	946	Acquisition	9
+1006	Nominee_Award	2914	Event	2812
+301	Player_Team	324	Acquisition	9
+4359	Deceased_Place	4146	Country	96
+1364	Awardee_Award	193	Co-winner	1363	Co-winner	1365
+1513	Player_Team	3396	Acquisition	9
+380	Nominee_Award	381	Work	1163	Event	3724
+3405	Participant_Event	54	Part	55
+2086	Student_University	2530	Degree	1681
+1103	Player_Team	848	Acquisition	9
+1977	Person_Event	489	Role	490
+3686	Person_Relative	3687	Kinship	379
+883	Player_Team	884	Acquisition	9
+3881	Player_Team	960	Acquisition	9
+1694	Awardee_Award	128	Work	4363
+1382	Deceased_Place	98	Country	99
+1235	Player_Team	1236	Specialty	1237
+865	Awardee_Award	128	Work	1407
+393	Person_Relative	16	Kinship	394
+3149	Player_Team	1138	Acquisition	9
+1615	Nominee_Award	1616	Work	1617
+277	Awardee_Award	276	Co-winner	278	Co-winner	275
+1292	Person_Relative	2029	Kinship	394
+363	Person_Sibling	611	Kinship	233
+3953	Student_University	3954	Degree	470
+1490	Player_Team	1903	Acquisition	9
+2633	Student_University	633	Major	2634	Degree	282
+502	Deceased_Place	98	Country	96
+3367	Politician_Position	846	Object	3368
+547	Person_Relative	822	Kinship	18
+1424	Player_Team	1425	Acquisition	9
+2610	Person_Sibling	1566	Kinship	38
+1037	Person_Relative	492	Kinship	178
+214	Nominee_Award	333	Work	586
+2929	Student_University	2930	Degree	470
+3874	Person_Event	489	Role	490
+378	Person_Relative	789	Kinship	379
+3393	Person_Birthplace	170	Territory	171
+1556	Politician_Position	746	Predecessor	1416	Successor	1557
+1240	Student_University	903	Degree	62	Major	852
+274	Awardee_Award	193	Co-winner	273
+3503	Deceased_Place	326	Country	3504
+1038	Person_Relative	858	Kinship	116
+789	Person_Relative	378	Kinship	379
+303	Player_Team	2503	Acquisition	9
+1976	Person_Relative	1627	Kinship	2188
+789	Person_Relative	547	Kinship	143
+3936	Student_University	1619	Major	2419	Degree	545
+2566	Person_Event	489	Role	490
+534	Player_Team	535	Acquisition	9
+2487	Person_Sibling	1856	Kinship	38
+3151	Person_Relative	3151	Kinship	520
+1101	Player_Team	731	Acquisition	9
+971	Politician_Position	746	Predecessor	972	Successor	973
+1143	Politician_Position	1144	Predecessor	1145	Successor	1146
+2030	Student_University	511	Degree	121
+1850	Student_University	633	Major	1009	Degree	29
+3058	Person_Event	489	Role	490
+1957	Politician_Position	1958	Predecessor	1959	Successor	1960
+969	Player_Team	3243	Acquisition	9
+3119	Member_Membership	1350	Role	646
+3828	Player_Team	1696	Acquisition	9
+3025	Person_Sibling	3026	Kinship	38
+2248	Player_Team	616	Acquisition	9
+1800	Awardee_Award	128	Work	1801
+3429	Employee_Employer	1450	Position	2884
+1494	Person_Relative	104	Kinship	116
+3426	Player_Team	1138	Acquisition	9
+195	Awardee_Award	193	Co-winner	194	Co-winner	192
+2360	Player_Team	575	Acquisition	9
+1514	Deceased_Place	1515	Country	96
+702	Deceased_Place	98	Territory	70	Country	99
+617	Student_University	618	Major	281	Degree	423
+2244	Deceased_Place	98	Country	96
+1606	Nominee_Award	4000	Work	1607
+3542	Awardee_Award	193	Co-winner	3543
+3578	Politician_Position	1278	Term	2697
+350	Politician_Position	846	Object	2184
+3326	Player_Team	895	Specialty	1237
+2988	Player_Team	1084	Acquisition	9
+3982	Person_Sibling	3983	Kinship	38
+1362	Person_Birthplace	225	Country	65
+821	Person_Relative	17	Kinship	520
+3623	Player_Team	2447	Acquisition	9
+2273	Player_Team	2274	Acquisition	9
+2291	Participant_Event	54	Part	55
+2621	Deceased_Place	2622	Country	2623
+1757	Player_Team	3070	Acquisition	9
+2832	Player_Team	3192	Acquisition	9
+2233	Person_Sibling	3171	Kinship	38
+2031	Player_Team	3332	Acquisition	9
+49	Player_Team	1665	Acquisition	9
+303	Player_Team	304	Acquisition	9
+1925	Student_University	1926	Major	526	Degree	29
+1451	Member_Membership	1452	Role	52
+2613	Member_Membership	505	Role	52
+2125	Nominee_Award	1173	Event	1931
+1209	Player_Team	2010	Acquisition	9
+1308	Player_Team	1964	Acquisition	9
+1235	Player_Team	2704	Specialty	1237
+1461	Player_Team	103	Acquisition	9
+1973	Awardee_Award	402	Co-winner	2668
+323	Player_Team	324	Acquisition	9
+4036	Person_Birthplace	4037	Country	65
+2847	Student_University	2499	Major	4102
+2464	Participant_Event	14	Part	15
+771	Player_Team	4447	Acquisition	9
+668	Player_Team	2602	Acquisition	9
+1106	Member_Membership	22	Role	52
+362	Person_Relative	17	Kinship	364
+288	Awardee_Award	128	Work	2794
+1525	Student_Degree	540	University	487
+2209	Player_Team	2786	Acquisition	9
+1494	Person_Relative	1702	Kinship	320
+199	Member_Membership	198	Role	52
+4398	Deceased_Place	250	Country	920
+1339	Awardee_Award	240	Work	648	Event	649
+245	Person_Relative	821	Kinship	890
+251	Politician_Position	1484	Predecessor	1485	Successor	1486
+2446	Player_Team	2447	Specialty	732
+1119	Player_Team	3236	Acquisition	9
+2124	Nominee_Award	183	Event	952
+3078	Person_Birthplace	1046	Territory	372	Country	99
+711	Awardee_Award	2292	Conferrer	920
+1930	Student_University	1739	Major	852
+3125	Person_Birthplace	995	Territory	3126
+2218	Person_Relative	2922	Kinship	1215
+973	Politician_Position	355	Predecessor	971	Successor	1537
+362	Person_Relative	877	Kinship	364
+1545	Person_Relative	1546	Kinship	18
+1676	Player_Team	3077	Acquisition	9
+1280	Person_Birthplace	2543	Country	601
+1172	Nominee_Award	1173	Event	2714
+1630	Player_Team	291	Acquisition	9
+3397	Player_Team	565	Acquisition	9
+4279	Person_Birthplace	3464	Country	4305
+2409	Player_Team	3346	Acquisition	9
+3035	Person_Sibling	3036	Kinship	233
+2832	Player_Team	3880	Acquisition	9
+1404	Person_Relative	3518	Kinship	890
+451	Person_Relative	492	Kinship	178
+212	Nominee_Award	183	Event	501
+3156	Awardee_Award	276	Co-winner	3155	Co-winner	3154
+118	Person_Sibling	804	Kinship	233
+953	Politician_Position	954	Predecessor	955	Successor	956
+599	Awardee_Award	128	Conferrer	4383
+187	Awardee_Award	1518	Work	648
+1644	Person_Birthplace	4153	Country	4154
+2039	Person_Birthplace	98	Territory	70	Country	99
+707	Nominee_Award	2174	Work	1460
+2210	Player_Team	3059	Acquisition	9
+2984	Politician_Position	3535	Predecessor	3496	Successor	3497
+1419	Player_Team	3626	Acquisition	9
+4258	Member_Membership	22	Role	48
+292	Player_Team	293	Acquisition	9
+2859	Person_Relative	4412	Kinship	520
+1028	Awardee_Award	500	Event	1756
+1828	Student_Degree	540	University	1453
+3831	Awardee_Award	276	Co-winner	1481
+1796	Deceased_Place	98	Country	96
+2149	Politician_Position	351	Predecessor	688	Successor	688
+16	Person_Relative	821	Kinship	890
+1587	Participant_Event	54	Part	55
+3426	Player_Team	2879	Acquisition	9
+157	Person_Relative	705	Kinship	520
+45	Deceased_Place	98	Country	96
+1405	Person_Relative	4438	Kinship	1215
+2334	Player_Team	2335	Acquisition	9
+2245	Person_Sibling	2246	Kinship	38
+4144	Player_Team	1805	Acquisition	9
+1722	Student_University	1723	Degree	62
+365	Player_Team	103	Acquisition	9
+1810	Person_Birthplace	2559	Territory	372	Country	99
+1091	Player_Team	1077	Acquisition	9
+1303	Politician_Position	556	Electorate	1304
+3728	Player_Team	1968	Acquisition	9
+672	Nominee_Award	440	Work	1574	Event	1575
+1184	Nominee_Award	1381	Work	1163
+1644	Player_Team	3813	Acquisition	9
+1504	Person_Sibling	1503	Kinship	38
+3560	Member_Membership	22	Role	48
+375	Person_Relative	376	Kinship	143
+853	Player_Team	2196	Acquisition	9
+1882	Person_Birthplace	98	Country	65
+1625	Player_Team	3599	Acquisition	9
+1337	Person_Sibling	211	Kinship	38
+3169	Player_Team	3170	Acquisition	9
+4256	Player_Team	4257	Acquisition	9
+530	Person_Relative	492	Kinship	379
+224	Deceased_Place	170	Country	172
+245	Person_Relative	16	Kinship	18
+173	Person_Birthplace	174	Territory	175	Country	176
+1317	Player_Team	2262	Acquisition	9
+363	Person_Relative	542	Kinship	116
+4062	Deceased_Place	4063	Country	1909
+472	Awardee_Award	276	Co-winner	471
+1331	Player_Team	1271	Acquisition	9
+1212	Person_Sibling	1027	Kinship	38
+3801	Politician_Position	3019	Predecessor	3018	Successor	3018
+1308	Player_Team	1631	Acquisition	9
+1630	Player_Team	1631	Acquisition	9
+494	Awardee_Award	193	Co-winner	495
+2619	Person_Sibling	1856	Kinship	38
+3793	Person_Birthplace	98	Country	65
+3491	Person_Birthplace	3492	Territory	372	Country	99
+279	Student_University	280	Major	281	Degree	282
+2607	Player_Team	2608	Acquisition	9
+3948	Deceased_Place	2991	Country	799
+362	Person_Relative	16	Kinship	364
+2962	Politician_Position	2963	Object	2964
+841	Person_Birthplace	98	Country	65
+1644	Player_Team	1645	Acquisition	9
+2012	Person_Birthplace	2013	Country	2014
+464	Participant_Event	54	Part	55
+2286	Awardee_Award	276	Co-winner	2287
+59	Nominee_Award	440	Work	1574	Event	1575
+1846	Participant_Event	2968	Status	2
+2101	Person_Sibling	2102	Kinship	38
+1979	Player_Team	1104	Acquisition	9
+2689	Person_Birthplace	562	Territory	1474	Country	172
+3570	Student_University	3571	Major	281	Degree	29
+49	Player_Team	870	Acquisition	9
+2942	Person_Birthplace	2943	Country	485
+177	Person_Relative	157	Kinship	1215
+3478	Deceased_Place	798	Country	799
+2042	Deceased_Place	98	Territory	70	Country	99
+2152	Student_Degree	540	University	882
+1503	Person_Sibling	909	Kinship	38
+1759	Player_Team	1760	Acquisition	9
+152	Person_Sibling	3398	Kinship	38
+530	Person_Relative	450	Kinship	394
+4218	Person_Sibling	830	Kinship	233
+1740	Deceased_Place	98	Country	96
+1433	Person_Relative	830	Kinship	320
+2368	Person_Relative	1411	Kinship	890
+2861	Person_Relative	2862	Kinship	663
+214	Nominee_Award	585	Work	586
+3271	Member_Membership	1350	Role	646
+3168	Student_University	3221	Major	281	Degree	1301
+868	Politician_Position	385	Predecessor	867	Successor	867
+292	Player_Team	1462	Acquisition	9
+1404	Person_Relative	1405	Kinship	158
+688	Politician_Position	309	Predecessor	783	Successor	784
+78	Person_Sibling	79	Kinship	38
+1317	Player_Team	1210	Acquisition	9
+4387	Player_Team	4388	Acquisition	9
+1492	Nominee_Award	500	Event	216
+2498	Student_University	3776	Major	526	Degree	470
+2619	Person_Sibling	2620	Kinship	38
+662	Person_Relative	519	Kinship	18
+1854	Participant_Event	665	Status	2
+2726	Nominee_Award	433	Work	2761	Event	649
+2969	Deceased_Place	2970	Country	799
+4345	Deceased_Place	98	Territory	70	Country	99
+611	Person_Sibling	363	Kinship	233
+2165	Person_Relative	2187	Kinship	2188
+2209	Player_Team	796	Acquisition	9
+975	Person_Relative	424	Kinship	2188
+917	Player_Team	2887	Acquisition	9
+134	Person_Relative	362	Kinship	336
+3603	Student_Degree	62	University	3604
+1103	Player_Team	2352	Acquisition	9
+655	Player_Team	656	Acquisition	9
+157	Person_Relative	156	Kinship	663
+243	Player_Team	2242	Acquisition	9
+1432	Person_Relative	1433	Kinship	18
+2763	Player_Team	3107	Acquisition	9
+2494	Politician_Position	351	Predecessor	352	Successor	2149
+409	Deceased_Place	2933	Country	172
+875	Player_Team	876	Acquisition	9
+871	Player_Team	3411	Acquisition	9
+2351	Player_Team	3600	Acquisition	9
+1692	Deceased_Place	1158	Country	551
+2625	Person_Sibling	4396	Kinship	38
+84	Student_University	389	Degree	29
+715	Player_Team	3599	Acquisition	9
+3283	Person_Birthplace	2591	Territory	3284	Country	99
+902	Awardee_Award	193	Co-winner	596	Co-winner	2508
+2803	Awardee_Award	128	Work	2906
+1698	Deceased_Place	1699	Territory	1700	Country	172
+450	Person_Relative	610	Kinship	143
+1567	Player_Team	2468	Acquisition	9
+2171	Player_Team	4385	Acquisition	9
+862	Person_Relative	863	Kinship	106
+312	Person_Relative	1771	Kinship	18
+1817	Participant_Event	54	Part	55
+2590	Deceased_Place	2591	Territory	1470	Country	65
+1990	Player_Team	1991	Acquisition	9
+3581	Deceased_Place	2119	Country	2120
+3665	Deceased_Place	3481	Territory	3666	Country	99
+1074	Player_Team	2810	Acquisition	9
+2974	Deceased_Place	2975	Territory	2976	Country	485
+2048	Person_Birthplace	1413	Country	1414
+3995	Student_University	4394	Major	837	Degree	62
+3894	Politician_Position	3895	Predecessor	3896	Successor	3897
+3333	Player_Team	3334	Acquisition	9
+1572	Person_Sibling	1027	Kinship	38
+105	Person_Relative	1162	Kinship	394
+2315	Awardee_Award	128	Work	2939
+16	Person_Relative	134	Kinship	18
+1006	Nominee_Award	167	Event	2065
+499	Awardee_Award	500	Event	2193
+37	Person_Sibling	850	Kinship	38
+2535	Person_Relative	20	Kinship	320
+603	Politician_Position	309	Predecessor	604	Successor	604
+767	Member_Membership	22	Role	48
+1463	Person_Sibling	1464	Kinship	38
+1248	Awardee_Award	128	Work	712
+822	Person_Relative	57	Kinship	58
+380	Nominee_Award	456	Work	1090
+2680	Member_Membership	2728	Role	52
+377	Person_Relative	815	Kinship	394
+154	Player_Team	1491	Acquisition	9
+2611	Deceased_Place	2612	Country	172
+1401	Player_Team	400	Acquisition	9
+707	Nominee_Award	183	Event	2886
+2978	Person_Relative	584	Kinship	364
+1360	Person_Birthplace	1257	Territory	1361
+2263	Awardee_Award	646	Conferrer	2264
+2525	Student_University	1851	Degree	423
+2668	Awardee_Award	402	Co-winner	1973
+4198	Student_Degree	540	University	1453
+4235	Awardee_Award	276	Co-winner	3001	Co-winner	4236
+894	Player_Team	1911	Acquisition	9
+3190	Person_Relative	3286	Kinship	394
+2368	Person_Relative	2367	Kinship	18
+4360	Student_University	4361	Major	3476	Degree	62
+2598	Employee_Employer	2599	Position	2600
+325	Deceased_Place	326	Country	327
+3865	Player_Team	4290	Acquisition	9
+4186	Deceased_Place	1511	Country	1512
+2134	Deceased_Place	98	Country	96
+949	Politician_Position	40	Term	41
+380	Student_University	1727	Major	2706	Degree	470
+1259	Player_Team	1498	Acquisition	9
+187	Awardee_Award	647	Work	648	Event	649
+4139	Person_Event	489	Role	490
+1972	Awardee_Award	83	Co-winner	1971
+1314	Person_Birthplace	1315	Country	601
+1520	Politician_Position	1521	Electorate	1522
+1720	Deceased_Place	98	Country	96
+1615	Awardee_Award	1173	Event	1931
+3770	Deceased_Place	3771	Country	2024
+3911	Deceased_Place	263	Country	3912
+59	Nominee_Award	1949	Work	673
+3262	Nominee_Award	1173	Event	1168
+524	Awardee_Award	43	Co-winner	523
+902	Awardee_Award	2469	Conferrer	1762
+202	Politician_Position	203	Predecessor	204	Successor	205
+187	Nominee_Award	647	Work	189	Event	190
+766	Person_Relative	767	Kinship	520
+1435	Player_Team	2501	Acquisition	9
+1779	Person_Birthplace	1780	Territory	372	Country	99
+460	Awardee_Award	402	Co-winner	4307
+413	Student_University	2027	Major	852
+1983	Person_Sibling	910	Kinship	38
+700	Person_Relative	701	Kinship	364
+832	Nominee_Award	240	Work	834	Event	900
+2646	Person_Sibling	2645	Kinship	38
+36	Person_Sibling	1027	Kinship	38
+1539	Politician_Position	1044	Object	2103
+3309	Person_Sibling	152	Kinship	38
+705	Person_Relative	706	Kinship	106
+1038	Person_Relative	1037	Kinship	1058
+2813	Politician_Position	309	Predecessor	353	Successor	779
+102	Player_Team	1684	Acquisition	9
+755	Awardee_Award	193	Co-winner	754
+343	Player_Team	3851	Acquisition	9
+1235	Player_Team	2256	Specialty	1237
+3568	Person_Birthplace	3464	Territory	3465	Country	1159
+2312	Politician_Position	2230	Predecessor	2310	Successor	2835
+2171	Player_Team	2208	Acquisition	9
+1810	Player_Team	4105	Acquisition	9
+2738	Person_Birthplace	2739	Country	2740
+1389	Student_University	1450	Major	1142	Degree	545
+4011	Person_Birthplace	4012	Country	2755
+20	Person_Relative	547	Kinship	320
+3859	Person_Sibling	1866	Kinship	38
+85	Nominee_Award	167	Event	148
+2098	Student_University	1739	Major	852	Degree	1301
+1103	Player_Team	3307	Acquisition	9
+1504	Person_Sibling	909	Kinship	38
+2803	Awardee_Award	128	Work	712
+3174	Nominee_Award	333	Work	334
+886	Person_Relative	156	Kinship	18
+1732	Player_Team	1733	Acquisition	9
+194	Awardee_Award	193	Co-winner	192	Co-winner	195
+1037	Person_Relative	245	Kinship	178
+3765	Deceased_Place	1315	Country	601
+105	Person_Relative	2395	Kinship	18
+1757	Player_Team	4285	Acquisition	9
+1606	Nominee_Award	150	Work	1607
+1284	Politician_Position	40	Term	41
+1846	Participant_Event	1687	Status	2
+3329	Politician_Position	3330	Object	3331
+2017	Player_Team	329	Acquisition	9
+1709	Student_University	1710	Degree	29
+357	Politician_Position	355	Predecessor	1622	Successor	1859
+1015	Player_Team	4120	Acquisition	9
+1233	Person_Sibling	1600	Kinship	38
+1126	Player_Team	1832	Acquisition	9
+745	Politician_Position	746	Predecessor	747	Successor	748
+1232	Awardee_Award	276	Co-winner	1231
+726	Deceased_Place	1731	Country	551
+464	Politician_Position	40	Term	41
+3392	Politician_Position	355	Predecessor	1799	Successor	1799
+1148	Person_Birthplace	1149	Country	1150
+197	Member_Membership	1350	Role	646
+1319	Player_Team	2252	Acquisition	9
+3406	Nominee_Award	340	Work	3407	Event	3408
+2295	Deceased_Place	2296	Territory	1474	Country	172
+247	Player_Team	248	Acquisition	9
+2796	Person_Birthplace	2797	Country	70
+3412	Awardee_Award	313	Co-winner	3413
+1126	Player_Team	2547	Acquisition	9
+3565	Awardee_Award	3566	Conferrer	3009
+3004	Player_Team	2107	Acquisition	9
+2643	Politician_Position	227	Predecessor	4413	Successor	4414
+711	Awardee_Award	128	Conferrer	712
+493	Person_Relative	450	Kinship	364
+533	Student_University	1099	Degree	759
+478	Player_Team	2823	Acquisition	9
+760	Player_Team	3358	Acquisition	9
+1111	Member_Membership	22	Role	48
+3399	Deceased_Place	3400	Territory	3401	Country	172
+444	Employee_Employer	445	Position	446
+1202	Player_Team	3808	Acquisition	9
+2079	Politician_Position	40	Term	41
+1928	Deceased_Place	170	Country	172
+1651	Player_Team	1652	Acquisition	9
+2548	Student_Degree	540	University	3221
+2568	Employee_Employer	3200	Position	12
+2080	Awardee_Award	43	Co-winner	2081	Co-winner	2082
+762	Player_Team	763	Acquisition	9
+1461	Player_Team	297	Acquisition	9
+1137	Player_Team	848	Acquisition	9
+1757	Player_Team	1924	Acquisition	9
+2644	Deceased_Place	98	Country	96
+1383	Student_University	1384	Degree	1385
+2351	Player_Team	3697	Acquisition	9
+2118	Deceased_Place	174	Country	175
+2483	Person_Birthplace	263	Country	1264
+496	Student_Degree	282	University	3795
+1849	Player_Team	1903	Acquisition	9
+1628	Player_Team	1063	Acquisition	9
+94	Deceased_Place	95	Country	96
+4252	Student_University	4085	Major	1658	Degree	29
+24	Player_Team	2741	Acquisition	9
+3105	Deceased_Place	2970	Country	799
+908	Student_University	1261	Major	1262	Degree	470
+1477	Politician_Position	40	Term	41
+1152	Person_Relative	1292	Kinship	368
+154	Player_Team	2196	Acquisition	9
+1533	Person_Relative	104	Kinship	18
+1676	Player_Team	1677	Acquisition	9
+1896	Player_Team	1041	Acquisition	9
+1424	Player_Team	3183	Acquisition	9
+4033	Deceased_Place	98	Territory	70	Country	99
+173	Student_University	809	Major	810
+3819	Player_Team	2135	Acquisition	9
+542	Person_Relative	1411	Kinship	520
+2614	Person_Birthplace	98	Country	65
+3181	Deceased_Place	170	Territory	171	Country	172
+1735	Player_Team	2999	Acquisition	9
+621	Awardee_Award	3418	Co-winner	3076
+2658	Person_Sibling	2620	Kinship	38
+1898	Person_Relative	4446	Kinship	336
+496	Student_University	498	Major	1262
+3224	Person_Sibling	944	Kinship	560
+2607	Player_Team	3918	Acquisition	9
+1492	Awardee_Award	266	Event	216
+3696	Player_Team	1668	Acquisition	9
+1788	Person_Event	489	Role	490
+393	Person_Relative	1411	Kinship	58
+653	Player_Team	3589	Acquisition	9
+668	Player_Team	1982	Acquisition	9
+1212	Person_Sibling	660	Kinship	38
+1976	Politician_Position	3316	Object	3317
+3530	Student_University	3531	Major	3532
+711	Politician_Position	1044	Object	3997
+3357	Deceased_Place	769	Country	770
+1401	Player_Team	1108	Acquisition	9
+1337	Person_Sibling	1338	Kinship	38
+3365	Student_Degree	2731	University	3366
+1601	Person_Relative	1602	Kinship	18
+88	Nominee_Award	1291	Work	1624
+1861	Person_Birthplace	2073	Territory	2858	Country	65
+3277	Person_Birthplace	985	Territory	986	Country	99
+2576	Awardee_Award	128	Conferrer	27
+2167	Student_Degree	1301	University	3153
+2327	Student_University	2328	Major	2329
+1877	Person_Sibling	132	Kinship	38
+596	Student_University	597	Major	598	Degree	29
+595	Person_Sibling	2742	Kinship	38
+169	Deceased_Place	170	Territory	171	Country	172
+2803	Awardee_Award	128	Work	426
+913	Awardee_Award	43	Co-winner	912	Co-winner	911
+1986	Awardee_Award	128	Work	1642
+1347	Person_Relative	1348	Kinship	394
+4390	Member_Membership	22	Role	48
+365	Player_Team	1483	Acquisition	9
+3374	Deceased_Place	98	Territory	70	Country	99
+403	Awardee_Award	402	Co-winner	401
+2766	Politician_Position	351	Predecessor	3422	Successor	3423
+727	Player_Team	728	Acquisition	9
+1233	Person_Sibling	1728	Kinship	38
+2873	Person_Relative	3755	Kinship	890
+492	Person_Relative	858	Kinship	116
+2548	Awardee_Award	128	Work	487
+539	Student_Degree	540	University	541
+992	Deceased_Place	993	Country	799
+118	Person_Relative	20	Kinship	18
+1277	Politician_Position	1278	Electorate	1279
+525	Student_University	468	Major	526	Degree	29
+2216	Politician_Position	227	Predecessor	1335	Successor	1434
+16	Person_Relative	610	Kinship	143
+380	Nominee_Award	740	Work	334	Event	442
+1031	Student_University	1032	Major	526
+450	Person_Relative	963	Kinship	158
+1103	Player_Team	1815	Acquisition	9
+3224	Person_Sibling	558	Kinship	560
+2901	Player_Team	3486	Acquisition	9
+1438	Player_Team	1439	Acquisition	9
+4327	Nominee_Award	708	Event	2972
+680	Player_Team	2815	Acquisition	9
+2233	Person_Sibling	2406	Kinship	38
+2052	Nominee_Award	2053	Event	1269
+2358	Player_Team	2359	Acquisition	9
+510	Student_University	511	Degree	121
+1808	Player_Team	4386	Acquisition	9
+784	Politician_Position	309	Predecessor	3056	Successor	777
+853	Player_Team	2228	Acquisition	9
+1465	Player_Team	699	Acquisition	9
+1037	Person_Relative	363	Kinship	520
+1219	Student_Degree	1301	University	1313
+657	Player_Team	2352	Acquisition	9
+3094	Politician_Position	40	Term	41
+247	Player_Team	2546	Acquisition	9
+1119	Player_Team	1147	Acquisition	9
+1896	Player_Team	686	Acquisition	9
+308	Politician_Position	1536	Predecessor	310	Successor	311
+1443	Player_Team	658	Acquisition	9
+1896	Player_Team	2160	Acquisition	9
+323	Player_Team	696	Acquisition	9
+245	Person_Relative	1037	Kinship	1058
+1719	Politician_Position	746	Predecessor	204	Successor	1416
+2171	Player_Team	3761	Acquisition	9
+878	Nominee_Award	89	Work	1624	Event	435
+912	Student_University	60	Degree	1301
+44	Deceased_Place	98	Country	96
+1184	Nominee_Award	240	Work	334	Event	442
+2031	Player_Team	3206	Acquisition	9
+3328	Student_Degree	29	University	3221
+105	Person_Relative	2793	Kinship	58
+1702	Person_Relative	1533	Kinship	2188
+603	Politician_Position	309	Predecessor	776	Successor	310
+1427	Student_University	27	Major	1009	Degree	29
+723	Player_Team	3077	Acquisition	9
+504	Person_Birthplace	1978	Territory	70	Country	99
+212	Nominee_Award	183	Event	1333
+269	Deceased_Place	98	Country	96
+2125	Nominee_Award	1173	Event	2126
+2653	Deceased_Place	98	Territory	70	Country	99
+1461	Player_Team	569	Acquisition	9
+2458	Politician_Position	355	Predecessor	1393	Successor	1393
+698	Player_Team	1138	Acquisition	9
+4030	Participant_Event	3839	Status	2
+2993	Nominee_Award	708	Event	1458
+3244	Awardee_Award	1173	Event	2972
+3339	Politician_Position	40	Term	41
+3416	Nominee_Award	136	Work	3991	Event	3992
+2936	Nominee_Award	183	Event	268
+1604	Deceased_Place	1605	Country	642
+1552	Person_Birthplace	1553	Territory	1554
+1284	Participant_Event	54	Part	55
+88	Awardee_Award	1291	Work	1624
+78	Person_Sibling	2041	Kinship	38
+1286	Player_Team	3268	Acquisition	9
+352	Awardee_Award	313	Co-winner	729
+599	Awardee_Award	600	Conferrer	601
+1193	Deceased_Place	1194	Country	1195
+20	Person_Relative	118	Kinship	18
+1031	Deceased_Place	174	Country	820
+2522	Person_Birthplace	2523	Territory	2524	Country	172
+2776	Deceased_Place	98	Country	96
+719	Deceased_Place	98	Territory	70	Country	99
+1550	Nominee_Award	1173	Event	1153
+2180	Deceased_Place	98	Country	96
+632	Student_University	27	Major	2419
+805	Person_Sibling	806	Kinship	38
+424	Person_Relative	3123	Kinship	178
+1406	Awardee_Award	128	Work	1407
+2438	Politician_Position	3877	Predecessor	3878	Successor	3879
+1941	Deceased_Place	1942	Country	1943
+1525	Awardee_Award	128	Work	305
+1305	Awardee_Award	1761	Conferrer	1762
+196	Deceased_Place	98	Country	96
+2112	Awardee_Award	43	Co-winner	2113
+4013	Member_Membership	2517	Role	52
+345	Student_University	27	Major	346
+159	Player_Team	1096	Acquisition	9
+1270	Player_Team	2546	Acquisition	9
+265	Awardee_Award	266	Event	1499
+0	Participant_Event	307	Status	2
+2347	Person_Sibling	211	Kinship	38
+1659	Person_Birthplace	170	Territory	171
+163	Player_Team	3205	Acquisition	9
+523	Awardee_Award	43	Co-winner	524
+67	Person_Sibling	1234	Kinship	38
+1308	Player_Team	3486	Acquisition	9
+1411	Person_Relative	542	Kinship	890
+3657	Player_Team	4194	Acquisition	9
+139	Player_Team	1439	Acquisition	9
+1755	Player_Team	3080	Acquisition	9
+1533	Person_Relative	20	Kinship	320
+2213	Person_Relative	2214	Kinship	2215
+2018	Deceased_Place	562	Territory	1474	Country	172
+2384	Person_Relative	1415	Kinship	520
+527	Player_Team	3246	Acquisition	9
+222	Player_Team	895	Specialty	896
+3014	Deceased_Place	2119	Territory	2120	Country	820
+3951	Student_University	1747	Major	2305
+2307	Nominee_Award	740	Work	1617	Event	1753
+461	Person_Sibling	806	Kinship	38
+1187	Deceased_Place	98	Country	96
+3011	Player_Team	2704	Acquisition	9
+437	Person_Sibling	1936	Kinship	38
+199	Member_Membership	2517	Role	52
+2171	Player_Team	2172	Acquisition	9
+2095	Awardee_Award	128	Work	712
+1689	Member_Membership	1690	Role	646
+347	Player_Team	348	Acquisition	9
+1825	Person_Relative	1824	Kinship	2188
+2579	Person_Sibling	1866	Kinship	38
+1079	Politician_Position	40	Term	41
+705	Person_Relative	1292	Kinship	336
+3000	Politician_Position	3152	Object	1453
+623	Person_Birthplace	98	Territory	70	Country	99
+892	Person_Birthplace	263	Country	485
+3657	Player_Team	4006	Acquisition	9
+1216	Member_Membership	22	Role	48
+2316	Politician_Position	1344	Predecessor	2317	Successor	787
+212	Awardee_Award	708	Event	1029
+2868	Student_University	2499	Degree	983
+1421	Politician_Position	252	Predecessor	1422	Successor	1423
+451	Person_Relative	1038	Kinship	520
+2056	Player_Team	3513	Acquisition	9
+2868	Student_University	2499	Major	1009	Degree	62
+2545	Member_Membership	22	Role	48
+1139	Awardee_Award	128	Work	289
+1406	Awardee_Award	128	Work	487
+1606	Nominee_Award	1426	Work	1607
+927	Player_Team	4174	Acquisition	9
+1037	Person_Relative	450	Kinship	520
+36	Person_Sibling	660	Kinship	38
+1427	Awardee_Award	646	Conferrer	2728
+1686	Participant_Event	1687	Status	2
+56	Person_Relative	57	Kinship	58
+1366	Member_Membership	2383	Role	48
+2218	Person_Relative	3700	Kinship	106
+177	Person_Relative	706	Kinship	106
+2801	Member_Membership	1350	Role	646
+2863	Player_Team	4281	Acquisition	9
+1807	Student_University	544	Major	1142	Degree	62
+222	Player_Team	223	Acquisition	9
+3752	Person_Sibling	3753	Kinship	233
+2155	Person_Birthplace	2156	Country	65
+3238	Awardee_Award	276	Co-winner	3237	Co-winner	3239
+353	Politician_Position	1536	Predecessor	3003	Successor	2813
+187	Awardee_Award	1518	Work	189
+2923	Politician_Position	2924	Term	2925
+3320	Player_Team	3321	Specialty	3322
+4122	Deceased_Place	98	Country	96
+1947	Player_Team	1948	Acquisition	9
+1773	Politician_Position	606	Object	1950
+4408	Deceased_Place	985	Country	1283
+2502	Awardee_Award	43	Co-winner	4069
+4368	Student_University	4369	Major	4370
+974	Person_Relative	2278	Kinship	614
+1274	Politician_Position	693	Electorate	1275
+2832	Player_Team	2843	Acquisition	9
+2718	Person_Birthplace	2719	Territory	2720
+1148	Member_Membership	22	Role	201
+2829	Person_Relative	690	Kinship	394
+2239	Person_Birthplace	272	Territory	2240	Country	65
+902	Member_Membership	903	Role	646
+3226	Player_Team	3227	Acquisition	9
+415	Person_Relative	563	Kinship	18
+2413	Student_University	27	Degree	62
+161	Player_Team	162	Acquisition	9
+824	Awardee_Award	43	Co-winner	823	Co-winner	825
+2379	Student_University	2380	Degree	121
+1804	Player_Team	1501	Acquisition	9
+611	Person_Sibling	16	Kinship	233
+3827	Member_Membership	1350	Role	646
+1006	Nominee_Award	167	Event	1820
+2150	Player_Team	366	Acquisition	9
+1447	Politician_Position	1344	Predecessor	787	Successor	1392
+1083	Player_Team	1501	Acquisition	9
+2631	Student_Degree	121	University	511
+1055	Person_Sibling	509	Kinship	38
+214	Nominee_Award	1049	Work	586
+672	Nominee_Award	833	Work	703
+1010	Person_Relative	1011	Kinship	379
+757	Student_University	758	Degree	759
+2150	Player_Team	3469	Acquisition	9
+1036	Deceased_Place	98	Country	96
+777	Politician_Position	309	Predecessor	784	Successor	776
+1999	Person_Birthplace	98	Territory	70	Country	99
+3228	Person_Relative	3229	Kinship	3230
+45	Awardee_Award	43	Co-winner	44	Co-winner	42
+3176	Person_Birthplace	98	Territory	70	Country	99
+845	Politician_Position	1278	Term	2697
+387	Player_Team	546	Acquisition	9
+4371	Student_University	27	Degree	423	Major	281
+202	Politician_Position	1344	Predecessor	356	Successor	354
+3294	Player_Team	3195	Acquisition	9
+690	Person_Relative	2829	Kinship	394
+2656	Politician_Position	2655	Predecessor	3232	Successor	2654
+159	Player_Team	3240	Acquisition	9
+1137	Player_Team	3902	Acquisition	9
+2231	Politician_Position	2230	Predecessor	2834	Successor	2229
+1321	Member_Membership	1322	Role	646
+2574	Awardee_Award	128	Work	1506
+1418	Politician_Position	746	Predecessor	356	Successor	1944
+3441	Player_Team	1095	Acquisition	9
+2181	Politician_Position	75	Predecessor	3552	Successor	76
+596	Awardee_Award	193	Co-winner	2508	Co-winner	902
+690	Person_Relative	1935	Kinship	394
+2551	Member_Membership	1350	Role	646
+2568	Person_Event	489	Role	490
+1015	Player_Team	1016	Acquisition	9
+722	Person_Sibling	231	Kinship	38
+2374	Member_Membership	22	Role	52
+2465	Politician_Position	1278	Object	1279
+3259	Student_Degree	282	University	4231
+4124	Deceased_Place	98	Territory	70	Country	99
+1389	Student_University	27	Major	1142
+2128	Politician_Position	40	Term	41
+1615	Nominee_Award	1049	Work	1617	Event	1753
+352	Member_Membership	1350	Role	646
+1859	Politician_Position	746	Predecessor	1355	Successor	1421
+179	Player_Team	1903	Acquisition	9
+85	Nominee_Award	167	Event	1756
+1365	Student_University	618	Major	526	Degree	29
+1336	Player_Team	891	Acquisition	9
+378	Person_Relative	377	Kinship	394
+3108	Student_University	3109	Degree	470
+3142	Member_Membership	1690	Role	646
+1430	Person_Relative	1431	Kinship	320
+2301	Awardee_Award	402	Co-winner	2302
+165	Student_Degree	540	University	1453
+1015	Player_Team	1170	Acquisition	9
+2944	Student_University	391	Degree	470
+3168	Student_University	2499	Major	1262	Degree	423
+2585	Politician_Position	939	Predecessor	2586	Successor	605
+1692	Person_Birthplace	3390	Country	3391
+1139	Awardee_Award	128	Work	2346
+390	Student_University	391	Major	392	Degree	62
+826	Politician_Position	827	Predecessor	828	Successor	829
+3371	Student_Degree	540	University	541
+1091	Player_Team	3194	Acquisition	9
+149	Nominee_Award	1500	Work	151
+2535	Person_Relative	807	Kinship	379
+1789	Player_Team	3672	Specialty	732
+4134	Deceased_Place	2991	Country	799
+365	Player_Team	2355	Acquisition	9
+492	Person_Relative	362	Kinship	336
+1155	Deceased_Place	1482	Country	551
+486	Awardee_Award	128	Work	487
+1336	Player_Team	4402	Acquisition	9
+936	Student_Degree	540	University	882
+1065	Nominee_Award	2053	Event	1931
+16	Person_Relative	963	Kinship	158
+471	Awardee_Award	276	Co-winner	472
+853	Player_Team	1491	Acquisition	9
+301	Player_Team	3860	Acquisition	9
+1461	Player_Team	960	Acquisition	9
+4439	Deceased_Place	98	Territory	70	Country	99
+439	Nominee_Award	440	Work	441	Event	442
+2220	Player_Team	3541	Acquisition	9
+2176	Politician_Position	75	Predecessor	2177	Successor	2178
+4322	Awardee_Award	128	Conferrer	123
+568	Player_Team	569	Acquisition	9
+697	Participant_Event	54	Part	55
+3250	Deceased_Place	98	Territory	70	Country	99
+220	Student_Degree	12	University	221
+1139	Awardee_Award	128	Work	1140
+214	Awardee_Award	1049	Work	586
+1549	Member_Membership	22	Role	48
+4314	Member_Membership	1350	Role	646
+3379	Member_Membership	22	Role	201
+3157	Deceased_Place	250	Country	920
+2150	Player_Team	388	Acquisition	9
+4092	Deceased_Place	98	Territory	70	Country	99
+1682	Deceased_Place	2991	Country	799
+2106	Player_Team	1760	Acquisition	9
+1366	Person_Birthplace	1329	Country	2481
+1583	Person_Relative	1584	Kinship	336
+1196	Deceased_Place	98	Country	96
+3100	Student_University	1619	Major	526	Degree	62
+1600	Person_Sibling	67	Kinship	38
+4307	Awardee_Award	402	Co-winner	460
+2863	Player_Team	3359	Acquisition	9
+4357	Deceased_Place	250	Country	920
+3304	Player_Team	1236	Acquisition	9
+3932	Awardee_Award	128	Conferrer	4170
+2878	Player_Team	2879	Acquisition	9
+1272	Deceased_Place	98	Country	96
+159	Player_Team	3452	Acquisition	9
+492	Person_Relative	393	Kinship	394
+111	Person_Birthplace	112	Territory	113	Country	99
+2594	Person_Birthplace	1329	Country	2595
+1775	Politician_Position	1776	Predecessor	1777	Successor	1778
+653	Player_Team	654	Acquisition	9
+105	Person_Relative	104	Kinship	520
+2680	Member_Membership	2681	Role	646
+547	Person_Relative	377	Kinship	520
+1821	Person_Relative	2541	Kinship	38
+1596	Deceased_Place	98	Country	96
+2026	Employee_Employer	1747	Position	12
+212	Nominee_Award	183	Event	213
+1219	Student_University	1313	Degree	1301
+2836	Awardee_Award	43	Co-winner	2376
+4274	Player_Team	1679	Acquisition	9
+1609	Player_Team	1905	Acquisition	9
+74	Politician_Position	75	Predecessor	76	Successor	77
+350	Politician_Position	351	Predecessor	352	Successor	353
+771	Player_Team	2695	Acquisition	9
+994	Deceased_Place	995	Country	96
+157	Person_Sibling	232	Kinship	233
+3836	Employee_Employer	280	Position	3837
+232	Person_Relative	830	Kinship	520
+1966	Deceased_Place	98	Country	96
+894	Player_Team	2342	Specialty	896
+989	Person_Sibling	4397	Kinship	38
+2863	Player_Team	2864	Acquisition	9
+80	Player_Team	2786	Acquisition	9
+42	Awardee_Award	43	Co-winner	44	Co-winner	45
+2039	Deceased_Place	98	Country	96
+2574	Awardee_Award	128	Work	2575
+3920	Person_Birthplace	1122	Country	65
+1443	Player_Team	1444	Acquisition	9
+1584	Person_Relative	157	Kinship	158
+1128	Player_Team	4217	Acquisition	9
+85	Nominee_Award	167	Event	2193
+3642	Person_Birthplace	98	Country	65
+2202	Politician_Position	351	Predecessor	352	Successor	778
+3619	Nominee_Award	740	Work	834	Event	900
+404	Awardee_Award	128	Conferrer	405
+4260	Deceased_Place	170	Territory	171	Country	172
+3729	Deceased_Place	4116	Territory	4117	Country	172
+212	Nominee_Award	183	Event	3414
+2453	Person_Sibling	1856	Kinship	38
+4246	Deceased_Place	98	Country	96
+2869	Politician_Position	606	Object	607
+1735	Player_Team	1937	Acquisition	9
+2917	Member_Membership	22	Role	201
+1202	Player_Team	1718	Acquisition	9
+1162	Person_Relative	2891	Kinship	178
+59	Nominee_Award	833	Work	673
+493	Person_Relative	363	Kinship	364
+3225	Player_Team	2447	Acquisition	9
+339	Awardee_Award	3182	Work	341
+2841	Student_University	60	Degree	29	Major	2842
+720	Player_Team	3495	Acquisition	9
+2011	Player_Team	2475	Acquisition	9
+2375	Nominee_Award	240	Work	410	Event	411
+484	Person_Birthplace	263	Country	485
+2874	Person_Relative	2875	Kinship	320
+2782	Participant_Event	54	Part	55
+1609	Player_Team	2810	Acquisition	9
+144	Person_Sibling	2648	Kinship	38
+3906	Person_Birthplace	98	Territory	70	Country	99
+1567	Player_Team	1641	Acquisition	9
+251	Politician_Position	252	Predecessor	253	Successor	253
+3736	Player_Team	1491	Acquisition	9
+807	Person_Relative	563	Kinship	18
+3196	Person_Sibling	67	Kinship	38
+194	Student_University	1093	Major	281	Degree	29
+1552	Deceased_Place	1553	Territory	1554	Country	1555
+1455	Member_Membership	1456	Role	52
+1037	Person_Relative	877	Kinship	520
+1015	Player_Team	3064	Acquisition	9
+943	Person_Sibling	558	Kinship	560
+2796	Deceased_Place	98	Country	96
+365	Player_Team	1516	Acquisition	9
+1377	Politician_Position	1378	Predecessor	1379	Successor	1379
+1038	Person_Relative	542	Kinship	116
+1831	Player_Team	1832	Acquisition	9
+2453	Person_Sibling	2620	Kinship	38
+3135	Student_Degree	540	University	487
+1625	Player_Team	1108	Acquisition	9
+2347	Person_Sibling	1338	Kinship	38
+4372	Person_Event	489	Role	490
+3864	Participant_Event	2064	Status	2
+1938	Person_Birthplace	2941	Country	923
+363	Person_Relative	858	Kinship	116
+2883	Player_Team	2077	Acquisition	9
+2183	Politician_Position	1598	Predecessor	311	Successor	2684
+2531	Student_University	2532	Degree	29
+2705	Student_University	419	Major	2706
+1611	Politician_Position	203	Predecessor	1612	Successor	1192
+574	Player_Team	2977	Acquisition	9
+3529	Deceased_Place	98	Country	96
+2560	Deceased_Place	1315	Country	1886
+1993	Awardee_Award	128	Work	712
+634	Person_Sibling	3112	Kinship	38
+672	Awardee_Award	2824	Work	703
+2446	Player_Team	2447	Acquisition	9
+1917	Awardee_Award	43	Co-winner	1916
+3429	Employee_Employer	123	Position	239
+2340	Person_Birthplace	562	Territory	1474
+4406	Player_Team	1491	Acquisition	9
+3526	Player_Team	2468	Acquisition	9
+134	Person_Relative	821	Kinship	890
+1012	Deceased_Place	170	Territory	171	Country	172
+363	Person_Relative	393	Kinship	394
+1993	Awardee_Award	128	Work	1526
+450	Person_Relative	493	Kinship	336
+989	Person_Sibling	3373	Kinship	38
+4329	Person_Birthplace	4330	Territory	4331
+1838	Member_Membership	22	Role	52
+988	Person_Birthplace	2137	Territory	170
+1503	Person_Sibling	1504	Kinship	38
+1286	Player_Team	2475	Acquisition	9
+454	Person_Sibling	1600	Kinship	38
+2902	Deceased_Place	985	Country	1283
+1740	Person_Birthplace	98	Country	65
+3505	Person_Birthplace	3506	Country	65
+118	Person_Relative	2793	Kinship	890
+217	Politician_Position	40	Term	41
+1119	Player_Team	388	Acquisition	9
+357	Politician_Position	1356	Predecessor	2096	Successor	2097
+3175	Student_University	1739	Degree	470	Major	61
+1852	Participant_Event	307	Status	2
+2803	Awardee_Award	128	Work	3231
+59	Awardee_Award	89	Work	673	Event	674
+2954	Deceased_Place	2955	Country	551
+4323	Politician_Position	4324	Predecessor	4325	Successor	4326
+3369	Student_University	633	Degree	1301	Major	2634
+3251	Politician_Position	359	Predecessor	3252	Successor	3253
+3876	Person_Birthplace	98	Country	65
+353	Politician_Position	1598	Predecessor	350	Successor	352
+1507	Politician_Position	1508	Term	3420
+486	Awardee_Award	128	Work	129
+2767	Awardee_Award	128	Work	2768
+4277	Deceased_Place	98	Country	96
+3220	Student_University	27	Degree	29
+53	Politician_Position	40	Term	41
+3658	Deceased_Place	769	Country	770
+2016	Person_Relative	2676	Kinship	394
+437	Person_Sibling	4373	Kinship	38
+480	Person_Relative	481	Kinship	364
+316	Politician_Position	75	Predecessor	430	Successor	421
+1116	Person_Relative	4353	Kinship	106
+1987	Deceased_Place	1988	Country	172
+1209	Player_Team	3749	Acquisition	9
+3807	Deceased_Place	98	Territory	70	Country	99
+657	Player_Team	4382	Acquisition	9
+1152	Person_Relative	1541	Kinship	368
+3617	Awardee_Award	128	Conferrer	27
+2163	Player_Team	2164	Acquisition	9
+2440	Person_Sibling	1946	Kinship	38
+1103	Player_Team	2261	Acquisition	9
+1567	Player_Team	3955	Acquisition	9
+3796	Person_Event	489	Role	490
+1478	Person_Sibling	1479	Kinship	38
+3074	Deceased_Place	801	Country	1159
+2300	Person_Relative	639	Kinship	394
+1613	Politician_Position	128	Object	1614
+680	Player_Team	3164	Acquisition	9
+672	Nominee_Award	3593	Work	703
+1037	Person_Relative	16	Kinship	520
+1550	Nominee_Award	1173	Event	3731
+595	Person_Sibling	2470	Kinship	38
+4033	Person_Birthplace	4034	Territory	4035	Country	65
+969	Player_Team	2971	Acquisition	9
+409	Nominee_Award	340	Work	410	Event	411
+1771	Person_Relative	312	Kinship	18
+1849	Player_Team	1135	Acquisition	9
+2571	Student_University	2572	Degree	470	Major	526
+3518	Person_Relative	1404	Kinship	520
+973	Politician_Position	1356	Predecessor	1192	Successor	1393
+2478	Student_University	1619	Degree	1301
+1154	Awardee_Award	276	Co-winner	1155	Co-winner	1156
+711	Awardee_Award	128	Conferrer	4171
+3881	Player_Team	2390	Acquisition	9
+450	Person_Relative	530	Kinship	379
+909	Person_Sibling	2519	Kinship	38
+1424	Player_Team	4364	Acquisition	9
+3294	Player_Team	1320	Acquisition	9
+4038	Person_Sibling	4039	Kinship	233
+67	Person_Sibling	1600	Kinship	38
+4297	Person_Sibling	4298	Kinship	38
+2374	Deceased_Place	562	Country	172
+104	Person_Relative	335	Kinship	18
+2726	Person_Birthplace	2727	Country	820
+821	Person_Relative	134	Kinship	520
+1454	Participant_Event	14	Part	1250
+1039	Person_Birthplace	3939	Country	65
+412	Member_Membership	22	Role	48
+1139	Awardee_Award	128	Work	2907
+20	Politician_Position	1646	Object	1647
+2533	Deceased_Place	1329	Country	2534
+3001	Deceased_Place	3002	Territory	1474	Country	172
+149	Nominee_Award	150	Work	151
+4262	Person_Sibling	4263	Kinship	4264
+1492	Awardee_Award	266	Event	1228
+380	Person_Birthplace	562	Territory	1474
+2880	Deceased_Place	98	Country	96
+2365	Person_Relative	2366	Kinship	475
+3533	Student_University	3534	Major	281
+1172	Nominee_Award	1173	Event	1931
+1593	Awardee_Award	276	Co-winner	1594
+512	Awardee_Award	128	Conferrer	4389
+1137	Player_Team	2407	Acquisition	9
+883	Player_Team	3183	Acquisition	9
+1622	Politician_Position	1621	Predecessor	357	Successor	996
+1101	Player_Team	3575	Acquisition	9
+135	Awardee_Award	136	Work	137	Event	138
+416	Member_Membership	22	Role	48
+437	Person_Sibling	3454	Kinship	38
+1879	Deceased_Place	1880	Country	920
+1490	Player_Team	3840	Acquisition	9
+1119	Player_Team	2255	Acquisition	9
+362	Person_Relative	134	Kinship	364
+2141	Player_Team	3527	Acquisition	9
+1107	Player_Team	4046	Acquisition	9
+1251	Player_Team	1395	Acquisition	9
+821	Person_Relative	16	Kinship	520
+943	Person_Sibling	944	Kinship	560
+230	Person_Sibling	231	Kinship	38
+437	Person_Sibling	438	Kinship	38
+1128	Player_Team	2935	Acquisition	9
+2251	Deceased_Place	550	Country	802
+610	Person_Relative	450	Kinship	520
+88	Nominee_Award	1291	Work	90
+932	Deceased_Place	98	Country	96
+3247	Politician_Position	1190	Predecessor	3248	Successor	3249
+1871	Employee_Employer	1872	Position	1873
+1603	Student_University	466	Degree	62
+938	Politician_Position	939	Predecessor	940	Successor	941
+2684	Politician_Position	1598	Predecessor	2183	Successor	2683
+1979	Player_Team	2212	Acquisition	9
+1589	Deceased_Place	98	Territory	70	Country	99
+941	Politician_Position	1417	Predecessor	2458	Successor	3557
+1065	Nominee_Award	266	Event	1105
+1736	Politician_Position	309	Predecessor	1737	Successor	1738
+285	Politician_Position	2985	Predecessor	287	Successor	287
+1836	Member_Membership	645	Role	646
+17	Person_Relative	362	Kinship	336
+3097	Person_Relative	1602	Kinship	364
+3846	Deceased_Place	170	Territory	171	Country	172
+3859	Person_Sibling	1874	Kinship	38
+2953	Player_Team	4104	Acquisition	9
+132	Person_Sibling	133	Kinship	38
+2807	Deceased_Place	2808	Country	172
+1164	Deceased_Place	174	Territory	3086	Country	172
+3212	Student_University	3213	Major	392
+2351	Player_Team	2352	Acquisition	9
+3561	Awardee_Award	313	Co-winner	3562
+2115	Person_Birthplace	2116	Country	793
+3119	Deceased_Place	2754	Country	3120
+1993	Awardee_Award	128	Work	426
+301	Player_Team	302	Acquisition	9
+3254	Player_Team	3255	Acquisition	9
+1777	Politician_Position	1776	Predecessor	2787	Successor	1775
+1626	Person_Birthplace	98	Country	65
+2396	Person_Sibling	722	Kinship	38
+3971	Deceased_Place	2148	Country	551
+2376	Member_Membership	22	Role	48
+2247	Member_Membership	22	Role	646
+1235	Player_Team	1887	Specialty	1237
+989	Person_Sibling	3817	Kinship	38
+3144	Deceased_Place	98	Country	96
+1594	Awardee_Award	276	Co-winner	1593
+1572	Person_Sibling	850	Kinship	38
+1152	Person_Sibling	2635	Kinship	38
+2203	Member_Membership	2383	Role	201
+2281	Member_Membership	200	Role	201
+1121	Person_Birthplace	1122	Territory	1123	Country	65
+504	Member_Membership	505	Role	52
+1975	Person_Relative	2861	Kinship	58
+672	Nominee_Award	89	Work	1574	Event	1575
+1179	Nominee_Award	1173	Event	1050
+84	Student_University	2499	Degree	423	Major	281
+643	Student_Degree	540	University	541
+1755	Player_Team	1112	Acquisition	9
+4317	Deceased_Place	769	Country	770
+301	Player_Team	3121	Acquisition	9
+1054	Student_University	4060	Major	61	Degree	4061
+3958	Deceased_Place	98	Country	96
+608	Awardee_Award	128	Work	609
+1953	Awardee_Award	193	Co-winner	1952
+2561	Deceased_Place	1700	Country	172
+1139	Awardee_Award	128	Work	1380
+165	Awardee_Award	128	Work	1140
+2268	Player_Team	2256	Specialty	1237
+1916	Awardee_Award	43	Co-winner	1917
+331	Person_Relative	4093	Kinship	364
+3458	Student_University	3459	Degree	62	Major	3460
+3631	Player_Team	3632	Acquisition	9
+1103	Player_Team	1585	Acquisition	9
+3818	Deceased_Place	98	Territory	70	Country	99
+1216	Student_Degree	1217	University	1218
+1445	Person_Birthplace	1446	Country	65
+2149	Politician_Position	846	Object	3318
+80	Player_Team	970	Acquisition	9
+358	Politician_Position	359	Predecessor	360	Successor	361
+2560	Politician_Position	4351	Predecessor	4352	Successor	4352
+436	Deceased_Place	98	Country	96
+37	Person_Sibling	1027	Kinship	38
+3587	Employee_Employer	3852	Position	3853
+2488	Person_Relative	612	Kinship	364
+1017	Player_Team	1018	Acquisition	9
+917	Player_Team	306	Acquisition	9
+743	Player_Team	2265	Acquisition	9
+104	Person_Relative	105	Kinship	106
+1176	Awardee_Award	43	Co-winner	1175	Co-winner	1177
+3598	Deceased_Place	1046	Territory	372	Country	99
+1013	Player_Team	2309	Acquisition	9
+3222	Person_Event	489	Role	490
+1128	Player_Team	1129	Acquisition	9
+1078	Deceased_Place	98	Territory	70	Country	99
+1107	Player_Team	3013	Acquisition	9
+534	Player_Team	859	Acquisition	9
+1054	Person_Birthplace	993	Country	799
+1412	Person_Birthplace	1413	Country	1414
+2420	Student_University	2421	Degree	423
+1003	Student_University	633	Major	281
+3699	Person_Sibling	4079	Kinship	233
+3865	Player_Team	2297	Acquisition	9
+3202	Deceased_Place	550	Country	551
+2356	Player_Team	2357	Acquisition	9
+3267	Deceased_Place	98	Country	96
+1685	Person_Relative	1162	Kinship	394
+3676	Deceased_Place	562	Country	172
+1475	Person_Relative	1476	Kinship	143
+2883	Player_Team	81	Acquisition	9
+393	Person_Relative	611	Kinship	394
+2734	Player_Team	4073	Acquisition	9
+370	Person_Birthplace	371	Territory	372	Country	99
+2209	Player_Team	872	Acquisition	9
+1625	Player_Team	772	Acquisition	9
+413	Participant_Event	14	Part	15
+917	Player_Team	3742	Acquisition	9
+996	Politician_Position	997	Predecessor	813	Successor	998
+1628	Player_Team	1629	Acquisition	9
+1433	Person_Relative	1706	Kinship	336
+1823	Deceased_Place	250	Country	920
+1003	Student_University	633	Major	281	Degree	29
+1698	Student_University	3868	Major	2634
+317	Member_Membership	22	Role	48
+3177	Participant_Event	54	Part	55
+439	Nominee_Award	440	Work	90	Event	91
+3376	Player_Team	3377	Acquisition	9
+3876	Deceased_Place	98	Territory	70	Country	99
+352	Politician_Position	351	Predecessor	353	Successor	2494
+303	Player_Team	4254	Acquisition	9
+3816	Student_University	27	Major	392	Degree	545
+4354	Deceased_Place	98	Country	96
+615	Player_Team	1069	Acquisition	9
+2367	Person_Relative	610	Kinship	116
+1006	Nominee_Award	2914	Event	1437
+2988	Player_Team	1024	Acquisition	9
+1589	Person_Birthplace	1122	Country	65
+298	Student_Degree	4166	University	4167
+59	Nominee_Award	440	Work	673	Event	674
+1212	Person_Sibling	1213	Kinship	38
+4009	Person_Birthplace	4010	Country	327
+4417	Person_Relative	4418	Kinship	178
+3055	Deceased_Place	1511	Country	1512
+20	Person_Relative	415	Kinship	18
+1788	Person_Birthplace	98	Country	65
+492	Person_Relative	821	Kinship	890
+2096	Politician_Position	746	Predecessor	938	Successor	2457
+4124	Person_Birthplace	98	Country	65
+832	Awardee_Award	240	Work	834	Event	900
+114	Person_Relative	1430	Kinship	18
+117	Person_Relative	20	Kinship	18
+2892	Person_Sibling	3622	Kinship	38
+717	Player_Team	569	Acquisition	9
+2508	Awardee_Award	193	Co-winner	596	Co-winner	902
+965	Person_Sibling	943	Kinship	560
+1572	Person_Sibling	37	Kinship	38
+610	Person_Relative	492	Kinship	178
+3089	Deceased_Place	98	Country	96
+3517	Student_University	1739	Degree	1301	Major	852
+1545	Person_Relative	3913	Kinship	18
+499	Awardee_Award	500	Event	1931
+1537	Politician_Position	385	Predecessor	972	Successor	867
+219	Deceased_Place	98	Country	96
+328	Player_Team	2255	Acquisition	9
+3698	Person_Sibling	3699	Kinship	233
+1854	Participant_Event	3839	Status	2
+812	Politician_Position	1621	Predecessor	1859	Successor	4200
+713	Member_Membership	714	Role	52
+377	Person_Relative	378	Kinship	379
+2789	Student_University	27	Major	2500	Degree	29
+3037	Student_University	3038	Degree	1301
+3783	Deceased_Place	3784	Country	3785
+4304	Deceased_Place	98	Country	96
+2581	Student_University	742	Major	852
+2636	Politician_Position	1598	Predecessor	2637	Successor	2333
+16	Person_Relative	493	Kinship	336
+894	Player_Team	1668	Specialty	896
+685	Player_Team	1684	Acquisition	9
+832	Nominee_Award	833	Work	834
+4410	Politician_Position	4411	Electorate	3404
+4057	Student_University	468	Major	1142	Degree	545
+3082	Deceased_Place	98	Country	96
+1693	Player_Team	1631	Acquisition	9
+3892	Deceased_Place	98	Country	96
+826	Student_University	2418	Major	2419	Degree	470
+615	Player_Team	291	Acquisition	9
+1197	Participant_Event	1847	Status	2
+3875	Person_Relative	1011	Kinship	336
+2074	Deceased_Place	434	Country	172
+1280	Player_Team	1281	Acquisition	9
+2792	Player_Team	160	Acquisition	9
+675	Player_Team	1903	Acquisition	9
+1151	Person_Relative	232	Kinship	364
+2018	Person_Birthplace	2019	Territory	2020
+1119	Player_Team	1790	Acquisition	9
+1433	Person_Relative	3286	Kinship	614
+1128	Player_Team	3577	Acquisition	9
+1165	Awardee_Award	43	Co-winner	1164
+1918	Person_Birthplace	1919	Territory	1920
+800	Person_Birthplace	801	Country	802
+156	Person_Relative	157	Kinship	158
+629	Participant_Event	630	Status	2
+228	Nominee_Award	183	Event	213
+2318	Politician_Position	40	Term	41
+2659	Nominee_Award	1173	Event	2308
+672	Nominee_Award	2824	Work	703
+2368	Person_Relative	451	Kinship	158
+3526	Player_Team	1887	Acquisition	9
+2351	Player_Team	3346	Acquisition	9
+3576	Person_Relative	612	Kinship	18
+1103	Player_Team	3963	Acquisition	9
+2696	Person_Birthplace	98	Territory	70	Country	99
+894	Player_Team	2227	Specialty	896
+2896	Student_University	498	Degree	423
+3174	Nominee_Award	1049	Work	1163	Event	3724
+735	Awardee_Award	128	Work	3178
+1590	Deceased_Place	641	Country	642
+572	Player_Team	573	Acquisition	9
+605	Politician_Position	606	Object	607
+1368	Person_Relative	331	Kinship	394
+2649	Awardee_Award	2650	Event	2618
+1251	Player_Team	3921	Acquisition	9
+830	Person_Relative	232	Kinship	890
+776	Politician_Position	309	Predecessor	777	Successor	603
+892	Player_Team	2704	Acquisition	9
+909	Person_Sibling	910	Kinship	38
+2191	Participant_Event	1847	Status	2
+2340	Awardee_Award	2145	Conferrer	2507
+3143	Deceased_Place	98	Country	96
+274	Member_Membership	22	Role	48
+638	Person_Relative	639	Kinship	394
+1251	Player_Team	1077	Acquisition	9
+3647	Deceased_Place	98	Country	96
+2026	Employee_Employer	2897	Position	12
+2100	Politician_Position	1034	Term	3909
+2748	Member_Membership	1350	Role	646
+1670	Student_University	3153	Major	852
+328	Player_Team	2390	Acquisition	9
+865	Awardee_Award	128	Work	3904
+1465	Player_Team	2077	Acquisition	9
+1849	Player_Team	3756	Acquisition	9
+3299	Awardee_Award	43	Co-winner	3300
+660	Person_Sibling	850	Kinship	38
+3717	Person_Event	489	Role	490
+660	Person_Sibling	37	Kinship	38
+1813	Politician_Position	606	Object	1950
+1152	Person_Relative	880	Kinship	614
+938	Politician_Position	746	Predecessor	1535	Successor	2096
+3949	Deceased_Place	1194	Country	1195
+909	Person_Sibling	1548	Kinship	38
+3068	Player_Team	3069	Acquisition	9
+496	Student_Degree	1301	University	498
+3477	Member_Membership	22	Role	48
+812	Politician_Position	385	Predecessor	813	Successor	814
+316	Politician_Position	1243	Predecessor	1244	Successor	1245
+1945	Person_Sibling	1946	Kinship	38
+961	Awardee_Award	708	Event	87
+220	Deceased_Place	98	Territory	70	Country	99
+711	Awardee_Award	128	Conferrer	1739
+4378	Politician_Position	4379	Predecessor	4380	Successor	4381
+1751	Politician_Position	1598	Predecessor	776	Successor	603
+1869	Person_Sibling	4098	Kinship	233
+1178	Student_University	1701	Major	852
+3110	Player_Team	1974	Specialty	3111
+2678	Person_Birthplace	1482	Territory	2679	Country	1159
+1651	Player_Team	761	Acquisition	9
+638	Person_Relative	1627	Kinship	178
+1070	Student_University	3362	Major	526	Degree	29
+2936	Nominee_Award	183	Event	3189
+2423	Member_Membership	22	Role	48
+711	Awardee_Award	128	Conferrer	1302
+1767	Person_Relative	3146	Kinship	364
+1487	Player_Team	1501	Acquisition	9
+816	Deceased_Place	817	Country	96
+638	Person_Relative	4425	Kinship	394
+756	Person_Birthplace	98	Country	99
+323	Player_Team	1927	Acquisition	9
+2127	Player_Team	1471	Acquisition	9
+1094	Player_Team	1095	Acquisition	9
+1993	Student_Degree	540	University	541
+2726	Awardee_Award	183	Event	2065
+2460	Member_Membership	1350	Role	646
+807	Person_Relative	443	Kinship	890
+399	Player_Team	4099	Acquisition	9
+909	Person_Sibling	1503	Kinship	38
+534	Player_Team	2050	Acquisition	9
+3498	Deceased_Place	250	Country	920
+1688	Student_University	633	Major	1009	Degree	29
+1325	Politician_Position	75	Predecessor	1326	Successor	1327
+1570	Player_Team	1571	Specialty	1237
+3610	Person_Relative	1975	Kinship	143
+2300	Person_Relative	2197	Kinship	18
+878	Nominee_Award	240	Work	441	Event	442
+36	Person_Sibling	1213	Kinship	38
+2825	Player_Team	2277	Acquisition	9
+3416	Student_University	2289	Degree	62
+2185	Awardee_Award	128	Conferrer	1739
+177	Person_Relative	1583	Kinship	520
+3034	Deceased_Place	1046	Country	99
+2533	Student_University	4181	Major	61	Degree	29
+3151	Person_Relative	3151	Kinship	106
+672	Awardee_Award	240	Work	673	Event	674
+2763	Player_Team	2764	Acquisition	9
+2127	Player_Team	306	Acquisition	9
+1983	Person_Sibling	1504	Kinship	38
+2021	Deceased_Place	250	Country	920
+2150	Player_Team	2151	Acquisition	9
+707	Person_Birthplace	170	Territory	171
+672	Nominee_Award	240	Work	1574	Event	1575
+2096	Politician_Position	385	Predecessor	1393	Successor	1392
+1047	Member_Membership	22	Role	52
+832	Politician_Position	227	Predecessor	3485	Successor	1334
+395	Person_Relative	396	Kinship	394
+4448	Politician_Position	693	Electorate	4449
+2233	Person_Sibling	3084	Kinship	38
+705	Person_Relative	3608	Kinship	379
+804	Person_Relative	638	Kinship	143
+3463	Deceased_Place	3464	Country	3465
+2451	Player_Team	2934	Acquisition	9
+3915	Member_Membership	1350	Role	646
+3587	Student_University	2499	Degree	29	Major	281
+105	Person_Relative	602	Kinship	520
+2307	Player_Team	1629	Acquisition	9
+24	Player_Team	960	Acquisition	9
+765	Person_Birthplace	170	Territory	171
+707	Nominee_Award	1459	Work	1460
+921	Deceased_Place	98	Country	96
+1317	Player_Team	4145	Acquisition	9
+3018	Politician_Position	3019	Predecessor	3020	Successor	3021
+179	Player_Team	147	Acquisition	9
+563	Person_Relative	104	Kinship	368
+2901	Player_Team	3546	Acquisition	9
+1854	Participant_Event	2785	Status	2
+2031	Player_Team	2172	Acquisition	9
+2802	Student_University	3638	Major	61	Degree	29
+1152	Person_Relative	1151	Kinship	143
+1542	Member_Membership	1350	Role	52
+212	Awardee_Award	183	Event	2714
+390	Student_University	391	Major	392	Degree	545
+3780	Student_University	742	Major	852
+3748	Deceased_Place	98	Territory	70	Country	99
+179	Player_Team	2450	Acquisition	9
+2834	Politician_Position	2230	Predecessor	2835	Successor	2231
+812	Politician_Position	1086	Predecessor	813	Successor	2553
+1213	Person_Sibling	850	Kinship	38
+912	Student_University	633	Degree	470
+762	Player_Team	1678	Acquisition	9
+1072	Member_Membership	1073	Role	506
+1708	Person_Relative	1707	Kinship	368
+865	Student_Degree	540	University	866
+1693	Player_Team	2297	Acquisition	9
+4282	Player_Team	508	Acquisition	9
+3133	Student_University	3134	Degree	29	Major	281
+1800	Awardee_Award	128	Work	2575
+134	Person_Relative	1037	Kinship	1058
+1280	Player_Team	1924	Acquisition	9
+705	Person_Relative	1592	Kinship	394
+1319	Player_Team	3039	Acquisition	9
+2803	Member_Membership	22	Role	48
+2026	Employee_Employer	3597	Position	12
+3528	Deceased_Place	1880	Country	920
+1959	Politician_Position	1958	Predecessor	2582	Successor	1957
+707	Nominee_Award	183	Event	148
+1627	Person_Relative	104	Kinship	364
+3608	Person_Relative	705	Kinship	394
+265	Awardee_Award	266	Event	2745
+2158	Person_Birthplace	1329	Country	2820
+878	Awardee_Award	440	Work	90	Event	91
+1606	Awardee_Award	4000	Work	1607
+3110	Player_Team	2256	Specialty	3111
+343	Player_Team	1790	Acquisition	9
+37	Person_Sibling	660	Kinship	38
+3689	Person_Relative	3688	Kinship	3726
+173	Nominee_Award	89	Work	241	Event	242
+428	Student_University	3512	Major	281
+4026	Player_Team	4027	Acquisition	9
+2847	Politician_Position	75	Predecessor	2848	Successor	2849
+2456	Person_Birthplace	1833	Territory	1834	Country	99
+611	Person_Relative	858	Kinship	116
+1716	Player_Team	1717	Acquisition	9
+1653	Student_University	1654	Degree	62
+1742	Member_Membership	22	Role	48
+3340	Player_Team	3826	Acquisition	9
+2664	Deceased_Place	2665	Country	172
+897	Person_Birthplace	898	Territory	899	Country	65
+2862	Person_Relative	3395	Kinship	18
+1231	Awardee_Award	276	Co-winner	1232
+4151	Person_Birthplace	4152	Territory	70	Country	99
+2268	Player_Team	2791	Specialty	1237
+393	Person_Relative	492	Kinship	379
+3790	Person_Birthplace	98	Territory	70	Country	99
+262	Deceased_Place	263	Country	264
+2861	Person_Relative	1840	Kinship	320
+878	Nominee_Award	89	Work	441	Event	442
+1427	Awardee_Award	646	Conferrer	3898
+1861	Deceased_Place	98	Territory	70	Country	99
+1503	Person_Sibling	2083	Kinship	38
+124	Member_Membership	2123	Role	52
+214	Nominee_Award	500	Event	1458
+1728	Person_Sibling	67	Kinship	38
+2528	Player_Team	535	Acquisition	9
+1396	Person_Birthplace	1397	Territory	1398	Country	99
+3657	Player_Team	1069	Acquisition	9
+1694	Awardee_Award	128	Work	3047
+2837	Awardee_Award	266	Event	1820
+4461	Student_University	60	Major	579
+1791	Member_Membership	22	Role	52
+1401	Player_Team	3121	Acquisition	9
+707	Awardee_Award	1459	Work	1460
+1172	Nominee_Award	1173	Event	1174
+1782	Person_Birthplace	98	Territory	70	Country	99
+1126	Player_Team	4052	Acquisition	9
+496	Student_Degree	282	University	1727
+2854	Student_University	4138	Degree	1301
+17	Person_Relative	821	Kinship	890
+1789	Person_Birthplace	1522	Country	485
+278	Awardee_Award	276	Co-winner	277	Co-winner	275
+908	Student_University	60	Degree	1301
+85	Nominee_Award	167	Event	1222
+2780	Player_Team	3080	Acquisition	9
+2892	Person_Sibling	79	Kinship	38
+3141	Member_Membership	22	Role	52
+3984	Student_University	3985	Degree	1301
+39	Politician_Position	40	Term	41
+3049	Person_Birthplace	3324	Country	551
+78	Person_Sibling	3622	Kinship	38
+1473	Player_Team	3358	Acquisition	9
+3160	Deceased_Place	3161	Country	172
+2556	Student_University	2067	Degree	2557
+1172	Awardee_Award	1173	Event	2449
+603	Politician_Position	1598	Predecessor	1751	Successor	2567
+2860	Person_Relative	2859	Kinship	58
+173	Awardee_Award	240	Work	241	Event	242
+437	Person_Sibling	3345	Kinship	38
+39	Student_University	851	Major	852
+1670	Student_University	742	Major	852
+3660	Person_Birthplace	2293	Country	2294
+2396	Person_Sibling	2036	Kinship	38
+132	Person_Sibling	1877	Kinship	38
+865	Awardee_Award	128	Work	851
+2647	Deceased_Place	562	Country	172
+683	Member_Membership	22	Role	48
+1447	Politician_Position	1484	Predecessor	787	Successor	1535
+492	Person_Sibling	611	Kinship	233
+154	Player_Team	147	Acquisition	9
+482	Player_Team	1764	Acquisition	9
+4019	Politician_Position	1086	Predecessor	4020	Successor	4021
+59	Awardee_Award	440	Work	673	Event	674
+2233	Person_Sibling	3569	Kinship	38
+4156	Person_Birthplace	2337	Country	485
+1565	Person_Sibling	1566	Kinship	38
+1697	Member_Membership	22	Role	48
+4255	Person_Event	489	Role	490
+1272	Person_Birthplace	98	Country	70
+519	Person_Relative	662	Kinship	18
+807	Person_Relative	20	Kinship	18
+1013	Player_Team	2447	Acquisition	9
+2488	Person_Relative	613	Kinship	320
+3256	Politician_Position	3186	Predecessor	3257	Successor	3258
+934	Person_Birthplace	935	Country	65
+653	Player_Team	947	Acquisition	9
+1503	Person_Sibling	1983	Kinship	38
+2652	Person_Birthplace	562	Territory	1474
+1627	Person_Relative	1786	Kinship	320
+2821	Deceased_Place	98	Territory	70	Country	99
+399	Player_Team	3207	Acquisition	9
+1442	Player_Team	1112	Acquisition	9
+2676	Person_Relative	2016	Kinship	379
+764	Person_Birthplace	98	Territory	70	Country	99
+4426	Deceased_Place	126	Territory	70	Country	99
+499	Person_Birthplace	550	Country	551
+1636	Deceased_Place	98	Country	96
+1233	Person_Sibling	1234	Kinship	38
+883	Player_Team	854	Acquisition	9
+1746	Student_University	1899	Degree	470	Major	1900
+2550	Employee_Employer	536	Position	12
+610	Person_Relative	363	Kinship	520
+1625	Player_Team	3473	Acquisition	9
+680	Player_Team	4421	Acquisition	9
+830	Person_Relative	1584	Kinship	368
+635	Person_Sibling	2669	Kinship	38
+2167	Student_Degree	3559	University	3153
+2249	Deceased_Place	550	Country	551
+499	Awardee_Award	500	Event	2308
+1189	Politician_Position	1086	Predecessor	2439	Successor	1664
+1601	Person_Relative	1627	Kinship	178
+161	Player_Team	3308	Acquisition	9
+1795	Student_University	618	Degree	29
+4195	Student_University	1302	Degree	1301
+4340	Member_Membership	22	Role	48
+444	Member_Membership	22	Role	52
+460	Member_Membership	22	Role	52
+1317	Player_Team	4441	Acquisition	9
+762	Player_Team	1585	Acquisition	9
+1259	Player_Team	1260	Acquisition	9
+1808	Player_Team	2257	Acquisition	9
+3269	Person_Sibling	989	Kinship	38
+17	Person_Relative	16	Kinship	18
+1906	Player_Team	918	Acquisition	9
+1567	Player_Team	1568	Acquisition	9
+3729	Person_Birthplace	225	Country	65
+3747	Deceased_Place	562	Country	172
+2332	Politician_Position	1598	Predecessor	2333	Successor	1377
+2837	Awardee_Award	167	Event	1820
+1416	Politician_Position	746	Predecessor	1719	Successor	1556
+499	Nominee_Award	500	Event	213
+2026	Employee_Employer	2027	Position	2028
+2882	Person_Event	489	Role	490
+3175	Student_University	27	Degree	1301
+507	Player_Team	1112	Acquisition	9
+2592	Student_University	633	Degree	423
+1688	Student_University	2577	Degree	62
+836	Student_University	1851	Degree	29
+461	Person_Sibling	462	Kinship	38
+795	Person_Birthplace	225	Territory	1591	Country	65
+2066	Student_University	2067	Major	1081
+265	Awardee_Award	266	Event	1756
+1765	Person_Relative	1766	Kinship	520
+226	Politician_Position	227	Predecessor	228	Successor	229
+1562	Deceased_Place	1563	Territory	1474	Country	172
+85	Nominee_Award	167	Event	1050
+620	Person_Event	489	Role	490
+2645	Person_Sibling	2646	Kinship	38
+118	Person_Relative	117	Kinship	18
+1011	Person_Relative	3952	Kinship	520
+2692	Politician_Position	351	Predecessor	689	Successor	3040
+363	Person_Relative	821	Kinship	890
+179	Player_Team	2297	Acquisition	9
+1424	Player_Team	2926	Acquisition	9
+2804	Deceased_Place	174	Country	172
+2248	Player_Team	3268	Acquisition	9
+2127	Player_Team	1208	Acquisition	9
+3594	Deceased_Place	250	Country	920
+179	Player_Team	3451	Acquisition	9
+910	Person_Sibling	2519	Kinship	38
+3941	Player_Team	4165	Acquisition	9
+853	Player_Team	1815	Acquisition	9
+944	Person_Sibling	558	Kinship	560
+2984	Politician_Position	2985	Predecessor	2986	Successor	2987
+1726	Student_University	1727	Major	346	Degree	619
+159	Player_Team	3411	Acquisition	9
+1859	Politician_Position	355	Predecessor	357	Successor	996
+1547	Person_Relative	156	Kinship	178
+182	Nominee_Award	183	Event	87
+1622	Politician_Position	3186	Predecessor	1358	Successor	3187
+1791	Member_Membership	22	Role	48
+3174	Nominee_Award	1173	Event	709
+1859	Politician_Position	1621	Predecessor	996	Successor	812
+3616	Person_Relative	4018	Kinship	520
+3354	Member_Membership	22	Role	48
+2113	Awardee_Award	43	Co-winner	2112
+1206	Student_Degree	540	University	541
+1992	Person_Event	489	Role	490
+3736	Player_Team	1645	Acquisition	9
+3744	Person_Birthplace	3085	Territory	3086
+1109	Member_Membership	22	Role	48
+3312	Deceased_Place	98	Country	96
+2287	Awardee_Award	3132	Co-winner	2286
+561	Deceased_Place	562	Country	172
+1962	Deceased_Place	1963	Country	172
+3931	Politician_Position	2655	Predecessor	2657	Successor	3932
+1060	Deceased_Place	98	Country	96
+3455	Awardee_Award	128	Work	1449
+1541	Person_Relative	880	Kinship	890
+644	Politician_Position	108	Predecessor	1495	Successor	1496
+1504	Person_Sibling	1865	Kinship	38
+886	Person_Relative	157	Kinship	158
+1377	Politician_Position	1598	Predecessor	2332	Successor	2651
+1983	Person_Sibling	2519	Kinship	38
+450	Person_Relative	858	Kinship	116
+3355	Employee_Employer	3356	Position	446
+337	Player_Team	3563	Acquisition	9
+2127	Player_Team	1678	Acquisition	9
+2638	Person_Birthplace	2639	Territory	1554
+2090	Person_Birthplace	98	Country	65
+672	Nominee_Award	1949	Work	673
+2303	Student_University	2304	Degree	1301	Major	2305
+2708	Member_Membership	22	Role	52
+2031	Player_Team	4176	Acquisition	9
+527	Player_Team	2677	Acquisition	9
+4094	Person_Birthplace	3449	Country	65
+118	Person_Relative	415	Kinship	18
+424	Person_Relative	804	Kinship	18
+1227	Awardee_Award	183	Event	1228
+3049	Deceased_Place	434	Country	172
+710	Politician_Position	40	Term	41
+421	Student_University	422	Degree	423
+2037	Player_Team	2345	Acquisition	9
+2127	Player_Team	155	Acquisition	9
+296	Player_Team	297	Acquisition	9
+1530	Player_Team	1841	Acquisition	9
+2490	Player_Team	2491	Acquisition	9
+1711	Member_Membership	22	Role	52
+3480	Deceased_Place	3481	Country	3482
+3484	Player_Team	3692	Acquisition	9
+1824	Person_Relative	1433	Kinship	520
+640	Deceased_Place	641	Country	642
+482	Player_Team	1582	Acquisition	9
+179	Player_Team	2514	Acquisition	9
+2494	Politician_Position	351	Predecessor	3040	Successor	350
+735	Awardee_Award	128	Work	2190
+290	Player_Team	528	Acquisition	9
+122	Student_Degree	29	University	123
+3300	Awardee_Award	43	Co-winner	3299
+2412	Participant_Event	54	Part	55
+2869	Student_University	2870	Degree	62
+700	Person_Relative	2326	Kinship	520
+734	Awardee_Award	276	Co-winner	733
+894	Player_Team	4400	Specialty	896
+3920	Deceased_Place	98	Country	96
+2268	Player_Team	2269	Specialty	1237
+2801	Deceased_Place	98	Territory	70	Country	99
+1179	Nominee_Award	4008	Work	1180
+1213	Person_Sibling	37	Kinship	38
+2034	Awardee_Award	276	Co-winner	2035	Co-winner	2033
+1017	Player_Team	3468	Acquisition	9
+1184	Awardee_Award	240	Work	334
+1251	Player_Team	1679	Acquisition	9
+2389	Player_Team	2390	Acquisition	9
+2118	Person_Birthplace	2119	Country	2120
+1256	Deceased_Place	1257	Country	172
+707	Nominee_Award	708	Event	709
+453	Deceased_Place	98	Country	96
+2031	Player_Team	2501	Acquisition	9
+964	Person_Sibling	965	Kinship	38
+978	Deceased_Place	98	Territory	70	Country	99
+2093	Student_University	2094	Degree	62
+748	Politician_Position	746	Predecessor	2721	Successor	745
+2776	Person_Birthplace	98	Country	65
+2082	Awardee_Award	43	Co-winner	2080	Co-winner	2081
+16	Person_Relative	3639	Kinship	379
+1706	Person_Relative	1433	Kinship	364
+2816	Deceased_Place	2817	Territory	2818	Country	1555
+2984	Politician_Position	2985	Predecessor	3493	Successor	3494
+1685	Person_Relative	105	Kinship	58
+768	Deceased_Place	769	Country	770
+4044	Person_Birthplace	98	Territory	70	Country	99
+146	Player_Team	2370	Acquisition	9
+2989	Member_Membership	1350	Role	646
+4293	Politician_Position	4	Predecessor	4294	Successor	4214
+4261	Politician_Position	1484	Predecessor	1611	Successor	2578
+1541	Person_Relative	232	Kinship	320
+1364	Person_Birthplace	641	Country	642
+1481	Awardee_Award	276	Co-winner	3831
+154	Player_Team	2297	Acquisition	9
+210	Person_Sibling	211	Kinship	38
+1419	Player_Team	1420	Acquisition	9
+1603	Deceased_Place	562	Territory	1474	Country	172
+1577	Person_Relative	1011	Kinship	158
+161	Player_Team	2695	Acquisition	9
+1510	Person_Birthplace	1511	Country	1512
+530	Person_Relative	611	Kinship	394
+2743	Member_Membership	22	Role	48
+197	Member_Membership	198	Role	48
+1249	Participant_Event	14	Part	1250
+117	Person_Relative	118	Kinship	18
+1246	Student_University	60	Degree	29
+104	Person_Relative	424	Kinship	336
+2902	Person_Birthplace	2591	Territory	1470	Country	65
+234	Deceased_Place	235	Country	236
+1810	Player_Team	1811	Acquisition	9
+2516	Deceased_Place	1046	Territory	372	Country	99
+574	Player_Team	987	Acquisition	9
+3502	Student_Degree	540	University	1453
+1849	Player_Team	1862	Acquisition	9
+2324	Deceased_Place	98	Territory	70	Country	99
+3961	Politician_Position	1086	Predecessor	205	Successor	3962
+3344	Person_Relative	3343	Kinship	520
+16	Awardee_Award	2145	Conferrer	2701
+2571	Student_University	27	Major	598
+2046	Student_University	2047	Degree	62
+51	Member_Membership	22	Role	52
+3443	Student_University	2004	Major	281
+989	Person_Sibling	990	Kinship	38
+1606	Awardee_Award	150	Work	1607
+1189	Politician_Position	1344	Predecessor	1664	Successor	868
+563	Person_Relative	118	Kinship	18
+1967	Player_Team	1968	Acquisition	9
+3029	Deceased_Place	98	Territory	70	Country	99
+1759	Player_Team	1790	Acquisition	9
+1055	Person_Sibling	1877	Kinship	38
+2209	Player_Team	1858	Acquisition	9
+504	Member_Membership	505	Role	506
+105	Person_Relative	822	Kinship	394
+1065	Awardee_Award	266	Event	1458
+1348	Person_Relative	1347	Kinship	394
+1767	Person_Relative	1768	Kinship	1769
+2035	Awardee_Award	276	Co-winner	2034	Co-winner	2033
+2757	Deceased_Place	98	Country	96
+2476	Person_Relative	3998	Kinship	58
+2438	Politician_Position	1190	Predecessor	2416	Successor	2439
+3430	Person_Sibling	2300	Kinship	233
+1857	Player_Team	2196	Acquisition	9
+2049	Player_Team	2050	Acquisition	9
+1107	Person_Birthplace	2293	Country	2294
+3817	Person_Sibling	989	Kinship	38
+365	Player_Team	4444	Acquisition	9
+478	Player_Team	3219	Acquisition	9
+1504	Person_Sibling	1983	Kinship	38
+476	Deceased_Place	250	Country	920
+3922	Deceased_Place	3923	Territory	1474	Country	172
+2191	Participant_Event	2192	Status	2
+1308	Player_Team	1309	Acquisition	9
+496	Student_Degree	1848	University	123
+16	Person_Relative	877	Kinship	18
+2150	Player_Team	2806	Acquisition	9
+1849	Player_Team	1102	Acquisition	9
+3129	Deceased_Place	2991	Country	799
+4228	Person_Birthplace	1482	Country	551
+735	Awardee_Award	128	Work	2075
+3244	Nominee_Award	1173	Event	2308
+3829	Deceased_Place	2991	Country	799
+1513	Player_Team	2227	Acquisition	9
+927	Player_Team	2965	Acquisition	9
+1017	Player_Team	3306	Acquisition	9
+92	Player_Team	3592	Acquisition	9
+1846	Participant_Event	1295	Status	2
+380	Nominee_Award	740	Work	1090	Event	3223
+499	Nominee_Award	266	Event	2745
+4375	Person_Sibling	231	Kinship	38
+3398	Person_Sibling	152	Kinship	38
+243	Player_Team	2173	Acquisition	9
+697	Deceased_Place	2693	Territory	2694	Country	551
+295	Deceased_Place	98	Territory	70	Country	99
+821	Person_Relative	492	Kinship	178
+2849	Politician_Position	75	Predecessor	2847	Successor	2177
+4118	Deceased_Place	250	Country	920
+1137	Player_Team	522	Acquisition	9
+3274	Awardee_Award	3273	Co-winner	3272
+296	Player_Team	569	Acquisition	9
+1162	Person_Relative	105	Kinship	394
+88	Nominee_Award	440	Work	90	Event	91
+2318	Participant_Event	54	Part	55
+767	Person_Relative	4339	Kinship	890
+1373	Deceased_Place	1374	Territory	70	Country	99
+936	Awardee_Award	128	Work	2346
+2387	Student_University	2632	Degree	29
+1986	Awardee_Award	128	Work	1380
+3797	Person_Birthplace	3798	Territory	2512
+1503	Person_Sibling	1548	Kinship	38
+807	Person_Relative	547	Kinship	320
+2150	Player_Team	1026	Acquisition	9
+3859	Person_Sibling	889	Kinship	38
+135	Nominee_Award	136	Work	137	Event	138
+288	Awardee_Award	128	Work	305
+715	Player_Team	1480	Acquisition	9
+888	Person_Sibling	1866	Kinship	38
+1038	Person_Relative	362	Kinship	336
+2550	Student_University	2027	Major	852
+331	Person_Relative	1368	Kinship	394
+1406	Awardee_Award	128	Work	1506
+1859	Politician_Position	1484	Predecessor	1421	Successor	1355
+492	Person_Relative	963	Kinship	158
+257	Player_Team	258	Acquisition	9
+547	Person_Relative	789	Kinship	178
+3649	Deceased_Place	98	Country	96
+1649	Nominee_Award	1173	Event	1650
+1067	Player_Team	1068	Acquisition	9
+1912	Politician_Position	40	Term	41
+2892	Person_Sibling	2041	Kinship	38
+615	Player_Team	1858	Acquisition	9
+1541	Person_Relative	1152	Kinship	368
+2816	Person_Birthplace	1553	Territory	1554
+4309	Deceased_Place	3159	Country	4310
+496	Student_Degree	282	University	3980
+2489	Nominee_Award	89	Work	1090	Event	3223
+2141	Player_Team	2142	Acquisition	9
+842	Person_Birthplace	843	Country	844
+247	Player_Team	1462	Acquisition	9
+1376	Politician_Position	40	Term	41
+3863	Person_Birthplace	170	Territory	171
+530	Person_Relative	2676	Kinship	394
+2489	Nominee_Award	1343	Work	1090	Event	3223
+16	Person_Relative	367	Kinship	368
+1047	Person_Birthplace	1048	Country	551
+85	Nominee_Award	167	Event	1153
+2358	Player_Team	3739	Acquisition	9
+2454	Player_Team	2455	Acquisition	9
+2625	Person_Sibling	3118	Kinship	38
+202	Politician_Position	1417	Predecessor	356	Successor	2105
+1438	Player_Team	1108	Acquisition	9
+682	Player_Team	4046	Specialty	977
+2979	Participant_Event	14	Part	15
+710	Participant_Event	54	Part	55
+588	Person_Birthplace	589	Territory	590	Country	65
+2150	Player_Team	3275	Acquisition	9
+2241	Player_Team	3425	Acquisition	9
+698	Player_Team	3960	Acquisition	9
+2890	Person_Relative	2891	Kinship	18
+1292	Person_Relative	705	Kinship	364
+331	Person_Relative	3616	Kinship	58
+1133	Member_Membership	1134	Role	646
+455	Person_Birthplace	1374	Territory	2015	Country	65
+1383	Student_University	4085	Degree	62
+1428	Person_Birthplace	98	Country	65
+777	Politician_Position	1536	Predecessor	784	Successor	776
+2945	Person_Birthplace	2073	Territory	70	Country	99
+4196	Deceased_Place	98	Country	96
+2233	Person_Sibling	2187	Kinship	38
+1670	Politician_Position	693	Electorate	1671
+2209	Player_Team	3840	Acquisition	9
+363	Person_Relative	610	Kinship	143
+2844	Deceased_Place	2845	Country	2846
+2268	Player_Team	895	Specialty	1237
+1877	Person_Sibling	509	Kinship	38
+1038	Person_Relative	393	Kinship	394
+1455	Member_Membership	2123	Role	52
+271	Deceased_Place	959	Country	96
+518	Deceased_Place	170	Territory	171	Country	172
+1875	Politician_Position	1508	Term	3420
+401	Student_University	123	Major	526	Degree	29
+486	Awardee_Award	128	Work	712
+1759	Player_Team	1811	Acquisition	9
+92	Player_Team	987	Acquisition	9
+864	Person_Birthplace	1544	Country	65
+2726	Awardee_Award	433	Work	2761	Event	649
+1609	Player_Team	3062	Acquisition	9
+2011	Player_Team	637	Acquisition	9
+2166	Person_Event	489	Role	490
+1694	Student_Degree	540	University	541
+3659	Politician_Position	40	Term	41
+2314	Person_Birthplace	3403	Territory	3404
+296	Player_Team	3145	Acquisition	9
+3470	Student_University	3471	Major	3472	Degree	29
+1757	Player_Team	1758	Acquisition	9
+2659	Nominee_Award	340	Work	2660	Event	2661
+2564	Student_University	4315	Major	4316	Degree	545
+621	Student_University	622	Degree	29
+1695	Player_Team	3577	Acquisition	9
+16	Person_Relative	858	Kinship	116
+332	Awardee_Award	150	Work	334
+1543	Person_Birthplace	1544	Country	65
+192	Awardee_Award	193	Co-winner	194	Co-winner	195
+883	Player_Team	1068	Acquisition	9
+265	Nominee_Award	266	Event	2065
+2707	Deceased_Place	98	Territory	70	Country	99
+186	Deceased_Place	98	Territory	70	Country	99
+2063	Participant_Event	2064	Status	2
+265	Nominee_Award	266	Event	2972
+1182	Player_Team	4237	Acquisition	9
+332	Nominee_Award	150	Work	334
+365	Player_Team	3630	Acquisition	9
+1507	Politician_Position	1508	Term	1509
+68	Person_Birthplace	3727	Country	65
+547	Person_Relative	2140	Kinship	336
+521	Player_Team	522	Acquisition	9
+1017	Player_Team	859	Acquisition	9
+1693	Player_Team	1063	Acquisition	9
+2774	Student_Degree	540	University	2775
+1415	Person_Relative	20	Kinship	320
+892	Player_Team	893	Acquisition	9
+657	Player_Team	658	Acquisition	9
+3103	Player_Team	3104	Acquisition	9
+1725	Awardee_Award	128	Work	1506
+187	Nominee_Award	1518	Work	189
+910	Person_Sibling	1503	Kinship	38
+577	Student_University	725	Major	579	Degree	470
+1743	Politician_Position	252	Term	2940
+4182	Deceased_Place	98	Country	96
+1983	Person_Sibling	1548	Kinship	38
+1107	Player_Team	731	Acquisition	9
+1270	Player_Team	3101	Acquisition	9
+2953	Person_Birthplace	112	Territory	113	Country	99
+1435	Player_Team	1018	Acquisition	9
+2136	Student_University	1619	Major	1009	Degree	1301
+210	Person_Sibling	1338	Kinship	38
+1223	Deceased_Place	1224	Country	1225
+387	Player_Team	3841	Acquisition	9
+315	Awardee_Award	313	Co-winner	314	Co-winner	312
+1577	Person_Relative	1702	Kinship	18
+206	Player_Team	207	Acquisition	9
+943	Person_Sibling	559	Kinship	560
+3351	Player_Team	3380	Acquisition	9
+1003	Student_University	633	Major	281	Degree	619
+760	Player_Team	761	Acquisition	9
+1877	Person_Sibling	2742	Kinship	38
+1249	Member_Membership	22	Role	52
+650	Politician_Position	3030	Predecessor	3031	Successor	3032
+2149	Politician_Position	351	Predecessor	2494	Successor	2494
+1139	Awardee_Award	128	Work	712
+2158	Deceased_Place	1329	Country	2159
+2773	Student_University	1619	Degree	545
+2780	Player_Team	3358	Acquisition	9
+1254	Awardee_Award	43	Co-winner	2284
+3725	Deceased_Place	2687	Territory	1474	Country	172
+3355	Employee_Employer	2304	Position	446
+3445	Student_University	3446	Major	3447	Degree	1022
+1297	Politician_Position	1298	Predecessor	1299	Successor	1300
+1319	Player_Team	3012	Acquisition	9
+3437	Member_Membership	22	Role	52
+688	Politician_Position	351	Predecessor	2725	Successor	2149
+3304	Player_Team	4100	Acquisition	9
+4057	Student_University	2565	Degree	62
+486	Awardee_Award	128	Work	1506
+1076	Player_Team	1077	Acquisition	9
+0	Participant_Event	1	Status	2
+499	Nominee_Award	500	Event	2714
+49	Player_Team	1516	Acquisition	9
+393	Person_Relative	363	Kinship	394
+1877	Person_Sibling	1055	Kinship	38
+104	Person_Relative	1627	Kinship	336
+1172	Nominee_Award	1173	Event	1228
+2903	Deceased_Place	98	Territory	70	Country	99
+2446	Player_Team	4091	Specialty	732
+821	Person_Relative	245	Kinship	178
+1504	Person_Sibling	1548	Kinship	38
+534	Player_Team	522	Acquisition	9
+2825	Player_Team	3823	Acquisition	9
+2241	Player_Team	3539	Acquisition	9
+2988	Player_Team	761	Acquisition	9
+749	Person_Birthplace	750	Country	65
+1056	Person_Relative	2178	Kinship	614
+1403	Person_Relative	705	Kinship	320
+2658	Person_Sibling	1856	Kinship	38
+404	Awardee_Award	128	Conferrer	929
+199	Member_Membership	200	Role	201
+1064	Person_Birthplace	4146	Territory	70	Country	99
+2734	Player_Team	1024	Acquisition	9
+611	Person_Sibling	1038	Kinship	233
+682	Deceased_Place	4063	Country	1909
+332	Awardee_Award	1426	Work	334
+149	Awardee_Award	1426	Work	151
+3244	Awardee_Award	1173	Event	3731
+878	Nominee_Award	440	Work	441	Event	442
+2095	Awardee_Award	128	Work	2794
+910	Person_Sibling	1548	Kinship	38
+2610	Person_Sibling	1946	Kinship	38
+2405	Deceased_Place	98	Country	96
+4328	Deceased_Place	174	Country	820
+2495	Deceased_Place	2496	Country	551
+2766	Politician_Position	351	Predecessor	350	Successor	352
+672	Awardee_Award	440	Work	673	Event	674
+296	Player_Team	2552	Acquisition	9
+2307	Player_Team	1112	Acquisition	9
+1007	Student_University	1008	Major	1009	Degree	62
+467	Student_University	2408	Major	1262	Degree	470
+2436	Player_Team	728	Acquisition	9
+2092	Person_Birthplace	1482	Country	551
+1935	Person_Relative	690	Kinship	394
+2880	Person_Birthplace	1046	Country	65
+1630	Player_Team	147	Acquisition	9
+345	Deceased_Place	170	Territory	171	Country	172
+3341	Player_Team	3342	Acquisition	9
+1944	Politician_Position	746	Predecessor	1418	Successor	202
+958	Deceased_Place	959	Country	70
+634	Person_Sibling	635	Kinship	38
+1628	Player_Team	872	Acquisition	9
+3587	Student_University	2499	Degree	619	Major	281
+4004	Deceased_Place	98	Territory	70	Country	99
+2422	Deceased_Place	98	Country	96
+210	Person_Sibling	2347	Kinship	38
+904	Player_Team	905	Acquisition	9
+16	Person_Relative	2367	Kinship	364
+3222	Person_Relative	4088	Kinship	18
+2387	Student_University	2388	Degree	62
+245	Person_Relative	362	Kinship	336
+2478	Student_University	4101	Major	4102	Degree	62
+102	Player_Team	553	Acquisition	9
+2276	Student_University	618	Degree	29
+1179	Nominee_Award	3182	Work	1180
+499	Awardee_Award	266	Event	1437
+911	Awardee_Award	43	Co-winner	912	Co-winner	913
+3103	Player_Team	4001	Acquisition	9
+1411	Person_Relative	821	Kinship	58
+660	Person_Sibling	1027	Kinship	38
+927	Player_Team	1927	Acquisition	9
+1282	Person_Birthplace	985	Country	1283
+3744	Deceased_Place	174	Territory	3086	Country	172
+1020	Person_Birthplace	2772	Country	601
+2732	Person_Event	489	Role	490
+1895	Politician_Position	1417	Predecessor	1255	Successor	3188
+2367	Person_Relative	16	Kinship	320
+399	Player_Team	3121	Acquisition	9
+2241	Player_Team	4245	Acquisition	9
+296	Player_Team	671	Acquisition	9
+149	Nominee_Award	2536	Work	151
+4042	Member_Membership	22	Role	52
+146	Player_Team	3131	Acquisition	9
+4087	Deceased_Place	98	Territory	70	Country	99
+202	Politician_Position	746	Predecessor	1944	Successor	1355
+1393	Politician_Position	355	Predecessor	2458	Successor	1392
+482	Player_Team	535	Acquisition	9
+3117	Participant_Event	14	Part	15
+363	Person_Relative	1037	Kinship	1058
+2780	Player_Team	2781	Acquisition	9
+296	Player_Team	3435	Acquisition	9
+503	Deceased_Place	98	Country	96
+271	Person_Birthplace	272	Country	70
+1609	Player_Team	1610	Acquisition	9
+3499	Deceased_Place	3500	Territory	175	Country	820
+354	Politician_Position	355	Predecessor	356	Successor	357
+3154	Awardee_Award	276	Co-winner	3155	Co-winner	3156
+2229	Politician_Position	2230	Predecessor	2231	Successor	2232
+1376	Participant_Event	54	Part	55
+3862	Deceased_Place	1046	Territory	372	Country	99
+3340	Player_Team	2173	Acquisition	9
+284	Awardee_Award	43	Co-winner	283
+2334	Player_Team	1904	Acquisition	9
+2150	Player_Team	2497	Acquisition	9
+494	Deceased_Place	98	Territory	70	Country	99
+1211	Politician_Position	355	Predecessor	1664	Successor	971
+2646	Person_Sibling	3431	Kinship	38
+1033	Participant_Event	54	Part	55
+1703	Member_Membership	22	Role	48
+1006	Awardee_Award	167	Event	1650
+2686	Deceased_Place	2687	Country	172
+1644	Player_Team	1102	Acquisition	9
+2243	Member_Membership	22	Role	48
+4232	Student_University	391	Major	4233	Degree	62
+3832	Awardee_Award	2650	Event	2618
+1339	Awardee_Award	240	Work	1180
+2765	Deceased_Place	2434	Country	926
+288	Awardee_Award	128	Work	2768
+1812	Person_Event	489	Role	490
+332	Nominee_Award	433	Work	334	Event	442
+894	Player_Team	2749	Specialty	896
+830	Person_Relative	1576	Kinship	18
+2136	Student_University	618	Major	1009	Degree	545
+3174	Nominee_Award	333	Work	1163
+13	Participant_Event	14	Part	15
+243	Player_Team	4440	Acquisition	9
+1492	Nominee_Award	266	Event	501
+2531	Student_University	1851	Degree	593
+2017	Player_Team	324	Acquisition	9
+439	Nominee_Award	1381	Work	441
+1490	Player_Team	1069	Acquisition	9
+3438	Deceased_Place	250	Country	920
+1160	Person_Relative	2178	Kinship	320
+3968	Person_Event	489	Role	490
+2399	Person_Relative	1869	Kinship	1058
+3127	Awardee_Award	193	Co-winner	3128	Co-winner	1070
+44	Awardee_Award	43	Co-winner	45	Co-winner	42
+141	Person_Relative	142	Kinship	143
+4199	Politician_Position	1621	Predecessor	4200	Successor	4201
+1442	Player_Team	1108	Acquisition	9
+1323	Person_Birthplace	98	Territory	70	Country	99
+611	Person_Sibling	450	Kinship	233
+1214	Deceased_Place	985	Territory	986	Country	99
+3548	Awardee_Award	282	Conferrer	3549
+1693	Player_Team	658	Acquisition	9
+380	Nominee_Award	456	Work	334
+1055	Person_Sibling	133	Kinship	38
+339	Awardee_Award	333	Work	1163
+1504	Person_Sibling	1741	Kinship	38
+2899	Player_Team	4240	Acquisition	9
+2916	Deceased_Place	255	Country	236
+454	Person_Sibling	1234	Kinship	38
+2098	Politician_Position	693	Object	2099
+3099	Deceased_Place	98	Country	99
+1427	Student_University	618	Major	1009	Degree	62
+555	Politician_Position	556	Electorate	1304
+3640	Nominee_Award	1173	Event	1228
+325	Person_Birthplace	326	Country	3317
+974	Person_Relative	104	Kinship	143
+292	Player_Team	1077	Acquisition	9
+2946	Deceased_Place	2991	Country	799
+273	Awardee_Award	193	Co-winner	274
+826	Politician_Position	1958	Predecessor	2069	Successor	2070
+3158	Person_Birthplace	3159	Country	642
+527	Player_Team	2823	Acquisition	9
+2136	Person_Birthplace	2137	Territory	171
+37	Person_Sibling	1213	Kinship	38
+4112	Politician_Position	309	Predecessor	4113	Successor	3003
+2069	Politician_Position	1958	Predecessor	2642	Successor	826
+595	Person_Sibling	133	Kinship	38
+2209	Player_Team	1582	Acquisition	9
+730	Player_Team	2277	Specialty	732
+1197	Participant_Event	2888	Status	2
+910	Person_Sibling	909	Kinship	38
+149	Awardee_Award	2536	Work	151
+3027	Participant_Event	54	Part	55
+883	Player_Team	3358	Acquisition	9
+1686	Participant_Event	2182	Status	2
+1584	Person_Relative	1583	Kinship	364
+1409	Player_Team	1005	Acquisition	9
+3285	Deceased_Place	985	Territory	986	Country	99
+1056	Person_Relative	4064	Kinship	614
+672	Nominee_Award	240	Work	673	Event	674
+1280	Player_Team	3162	Acquisition	9
+1702	Person_Relative	1577	Kinship	18
+2415	Politician_Position	1344	Predecessor	2416	Successor	1664
+1184	Nominee_Award	89	Work	334	Event	442
+1606	Nominee_Award	183	Event	1620
+1800	Student_Degree	540	University	1453
+2330	Deceased_Place	98	Territory	70	Country	99
+2143	Player_Team	1876	Acquisition	9
+1618	Student_Degree	29	University	1619
+868	Politician_Position	1344	Predecessor	1189	Successor	972
+1411	Person_Relative	1940	Kinship	336
+1550	Student_University	809	Major	810
+363	Person_Relative	963	Kinship	158
+3333	Player_Team	1760	Acquisition	9
+821	Person_Relative	363	Kinship	520
+79	Person_Sibling	2570	Kinship	38
+1877	Person_Sibling	2470	Kinship	38
+2045	Student_University	1619	Degree	29
+705	Person_Relative	177	Kinship	18
+2100	Participant_Event	54	Part	55
+2127	Player_Team	2856	Acquisition	9
+2993	Person_Birthplace	2994	Territory	2995
+1983	Person_Sibling	1503	Kinship	38
+1103	Player_Team	1104	Acquisition	9
+1855	Person_Sibling	2620	Kinship	38
+1530	Player_Team	658	Acquisition	9
+1083	Player_Team	3994	Acquisition	9
+2385	Deceased_Place	98	Country	65
+16	Person_Relative	362	Kinship	336
+771	Player_Team	772	Acquisition	9
+3572	Politician_Position	693	Electorate	3573
+2114	Deceased_Place	98	Territory	70	Country	99
+4107	Person_Birthplace	98	Country	65
+717	Player_Team	718	Acquisition	9
+2937	Player_Team	4172	Acquisition	9
+2199	Employee_Employer	2200	Position	2201
+675	Player_Team	4365	Acquisition	9
+362	Person_Relative	363	Kinship	364
+212	Nominee_Award	183	Event	1931
+2485	Player_Team	2486	Acquisition	9
+507	Player_Team	4459	Acquisition	9
+450	Person_Relative	1037	Kinship	1058
+122	Student_University	123	Degree	62
+1017	Player_Team	2255	Acquisition	9
+2711	Awardee_Award	276	Co-winner	2712	Co-winner	2713
+3244	Nominee_Award	1173	Event	1437
+3945	Member_Membership	1456	Role	52
+1913	Person_Relative	1914	Kinship	58
+3711	Person_Birthplace	170	Territory	171
+1028	Nominee_Award	4409	Event	2449
+2110	Deceased_Place	2111	Country	99
+1821	Person_Relative	2584	Kinship	38
+610	Person_Relative	16	Kinship	520
+3981	Deceased_Place	993	Country	799
+332	Nominee_Award	1426	Work	334
+2213	Person_Birthplace	2319	Territory	2320	Country	172
+1612	Politician_Position	203	Predecessor	972	Successor	1611
+2905	Student_University	2906	Major	526
+2322	Person_Relative	2323	Kinship	520
+672	Nominee_Award	833	Work	673
+343	Player_Team	344	Acquisition	9
+881	Student_Degree	540	University	882
+1523	Member_Membership	1524	Role	52
+897	Deceased_Place	2895	Country	1159
+2385	Person_Birthplace	98	Country	65
+1070	Student_University	1071	Major	526	Degree	423
+24	Player_Team	25	Acquisition	9
+695	Player_Team	1832	Acquisition	9
+1627	Person_Relative	804	Kinship	18
+830	Person_Sibling	3093	Kinship	233
+791	Person_Birthplace	792	Country	793
+219	Person_Birthplace	98	Country	65
+80	Player_Team	4207	Acquisition	9
+1433	Person_Relative	1432	Kinship	18
+1477	Participant_Event	54	Part	55
+1101	Player_Team	1102	Acquisition	9
+2220	Player_Team	2221	Acquisition	9
+1182	Player_Team	1171	Acquisition	9
+16	Person_Relative	393	Kinship	394
+4076	Participant_Event	14	Part	15
+2724	Deceased_Place	798	Country	799
+738	Awardee_Award	193	Co-winner	739
+3673	Deceased_Place	2612	Territory	1474	Country	172
+591	Student_University	592	Major	593	Degree	62
+2386	Deceased_Place	1482	Country	551
+1630	Player_Team	2297	Acquisition	9
+1774	Member_Membership	22	Role	52
+566	Student_Degree	540	University	1453
+1473	Player_Team	1024	Acquisition	9
+1530	Player_Team	1531	Acquisition	9
+1826	Deceased_Place	98	Territory	70	Country	99
+1226	Person_Sibling	3622	Kinship	38
+568	Player_Team	1483	Acquisition	9
+3106	Student_University	1619	Degree	545
+1076	Player_Team	3199	Acquisition	9
+1627	Person_Relative	2862	Kinship	1769
+1091	Player_Team	1276	Acquisition	9
+1921	Player_Team	81	Acquisition	9
+1314	Person_Relative	1901	Kinship	1902
+657	Player_Team	1444	Acquisition	9
+478	Player_Team	4002	Acquisition	9
+1773	Student_University	3776	Degree	62
+229	Deceased_Place	250	Country	920
+2647	Person_Birthplace	4306	Territory	3086	Country	172
+3988	Deceased_Place	3989	Territory	3990	Country	172
+1786	Person_Relative	2793	Kinship	394
+888	Person_Sibling	1874	Kinship	38
+1327	Politician_Position	75	Predecessor	1325	Successor	1792
+1716	Player_Team	3648	Acquisition	9
+999	Politician_Position	3487	Object	3488
+720	Player_Team	721	Acquisition	9
+1119	Player_Team	1171	Acquisition	9
+3175	Politician_Position	693	Object	3802
+672	Nominee_Award	1343	Work	673	Event	674
+4442	Person_Sibling	4443	Kinship	38
+3722	Person_Birthplace	98	Territory	70	Country	99
+4346	Deceased_Place	550	Country	551
+821	Person_Relative	450	Kinship	520
+4407	Person_Birthplace	2994	Territory	2995
+492	Person_Relative	493	Kinship	336
+144	Person_Sibling	3233	Kinship	38
+2676	Person_Relative	530	Kinship	379
+2696	Deceased_Place	98	Country	96
+4157	Member_Membership	1350	Role	646
+534	Player_Team	907	Acquisition	9
+303	Player_Team	2255	Acquisition	9
+2973	Person_Relative	2366	Kinship	18
+2574	Awardee_Award	128	Work	2768
+3136	Player_Team	3137	Acquisition	9
+1365	Awardee_Award	193	Co-winner	1364	Co-winner	1363
+1730	Student_University	27	Major	1009	Degree	29
+4149	Deceased_Place	819	Country	820
+4205	Student_University	4206	Major	526
+1813	Student_University	3193	Degree	62
+1415	Person_Relative	4129	Kinship	320
+3582	Deceased_Place	98	Country	96
+1441	Awardee_Award	276	Co-winner	412
+3139	Person_Birthplace	98	Country	65
+3116	Member_Membership	198	Role	52
+4132	Person_Birthplace	98	Territory	70	Country	99
+3978	Person_Birthplace	2591	Territory	3284	Country	99
+2603	Person_Birthplace	2604	Country	2605
+717	Player_Team	838	Acquisition	9
+797	Person_Event	489	Role	490
+1375	Politician_Position	359	Predecessor	361	Successor	4430
+781	Person_Relative	782	Kinship	106
+1037	Person_Relative	1038	Kinship	520
+909	Person_Sibling	1504	Kinship	38
+2409	Player_Team	848	Acquisition	9
+413	Participant_Event	54	Part	55
+1682	Person_Birthplace	2507	Country	923
+2937	Player_Team	2938	Acquisition	9
+1845	Deceased_Place	3161	Territory	171	Country	172
+2896	Student_University	60	Degree	540
+4141	Student_University	2906	Major	3265
+965	Person_Sibling	559	Kinship	560
+2847	Deceased_Place	170	Territory	171	Country	172
+2186	Person_Sibling	1728	Kinship	38
+1339	Nominee_Award	240	Work	648	Event	649
+265	Nominee_Award	266	Event	2393
+1415	Person_Relative	424	Kinship	336
+2198	Student_University	544	Degree	470
+2912	Person_Event	489	Role	490
+1197	Participant_Event	811	Status	2
+1724	Awardee_Award	128	Work	3511
+1339	Nominee_Award	89	Work	648	Event	649
+650	Politician_Position	651	Electorate	3606
+2629	Politician_Position	260	Predecessor	2630	Successor	261
+1091	Player_Team	1092	Acquisition	9
+1079	Student_University	1080	Major	1081
+1268	Nominee_Award	183	Event	1050
+332	Awardee_Award	433	Work	334	Event	442
+3191	Deceased_Place	98	Country	99
+1912	Participant_Event	54	Part	55
+4147	Person_Birthplace	4148	Country	99
+3814	Deceased_Place	98	Territory	70	Country	99
+2609	Person_Birthplace	2137	Territory	170
+2322	Member_Membership	22	Role	48
+2805	Politician_Position	746	Predecessor	972	Successor	867
+3348	Student_University	1747	Major	61
+3583	Politician_Position	359	Predecessor	3584	Successor	3585
+1813	Politician_Position	606	Object	4066
+789	Person_Relative	2059	Kinship	1058
+159	Player_Team	306	Acquisition	9
+492	Person_Relative	530	Kinship	379
+2121	Person_Birthplace	225	Territory	372	Country	99
+139	Player_Team	528	Acquisition	9
+3849	Nominee_Award	1173	Event	2126
+1896	Player_Team	1051	Acquisition	9
+2016	Person_Relative	16	Kinship	394
+157	Person_Sibling	1754	Kinship	233
+177	Person_Relative	519	Kinship	520
+3554	Awardee_Award	128	Conferrer	4084
+463	Deceased_Place	98	Country	96
+100	Awardee_Award	43	Co-winner	101
+2753	Deceased_Place	2754	Country	2755
+611	Person_Relative	542	Kinship	116
+3360	Deceased_Place	985	Country	1283
+682	Player_Team	2258	Specialty	977
+3883	Player_Team	3884	Acquisition	9
+574	Player_Team	1440	Acquisition	9
+563	Person_Relative	415	Kinship	18
+2683	Politician_Position	1598	Predecessor	2684	Successor	311
+1241	Person_Event	489	Role	490
+1773	Student_University	27	Degree	545
+399	Player_Team	1927	Acquisition	9
+2911	Nominee_Award	1173	Event	2065
+617	Deceased_Place	3138	Territory	1920	Country	172
+2167	Employee_Employer	536	Position	2168
+2012	Awardee_Award	128	Conferrer	2606
+259	Politician_Position	260	Predecessor	261	Successor	261
+1339	Awardee_Award	1949	Work	1180
+1433	Person_Relative	705	Kinship	614
+1692	Member_Membership	22	Role	52
+2226	Player_Team	2227	Acquisition	9
+1355	Politician_Position	1356	Predecessor	1357	Successor	1358
+4278	Deceased_Place	995	Country	99
+919	Deceased_Place	2667	Country	920
+1312	Deceased_Place	98	Country	96
+78	Person_Sibling	2893	Kinship	38
+1006	Awardee_Award	167	Event	213
+1166	Student_University	2906	Degree	29
+3652	Student_University	809	Major	810
+580	Deceased_Place	98	Territory	70	Country	99
+1935	Person_Relative	3522	Kinship	2188
+512	Awardee_Award	128	Conferrer	1372
+512	Awardee_Award	128	Conferrer	2542
+2143	Player_Team	2144	Acquisition	9
+2273	Player_Team	3707	Acquisition	9
+760	Player_Team	1112	Acquisition	9
+285	Politician_Position	2985	Predecessor	4284	Successor	287
+1186	Deceased_Place	550	Country	551
+4380	Politician_Position	4379	Predecessor	4420	Successor	4378
+1743	Politician_Position	252	Term	3165
+1360	Member_Membership	3947	Role	646
+4376	Deceased_Place	4377	Territory	3086	Country	172
+3659	Participant_Event	54	Part	55
+290	Player_Team	3840	Acquisition	9
+1682	Awardee_Award	193	Co-winner	1683
+2861	Person_Relative	2395	Kinship	18
+352	Politician_Position	351	Predecessor	353	Successor	2202
+2773	Person_Birthplace	2296	Territory	1474
+711	Awardee_Award	128	Conferrer	2402
+595	Person_Sibling	1055	Kinship	38
+984	Deceased_Place	985	Territory	986	Country	99
+1039	Deceased_Place	985	Territory	986	Country	99
+1906	Player_Team	2444	Acquisition	9
+971	Politician_Position	385	Predecessor	1211	Successor	1537
+3128	Deceased_Place	3180	Territory	171	Country	172
+3899	Politician_Position	3877	Predecessor	3877	Successor	3900
+4452	Person_Sibling	4453	Kinship	38
+1490	Player_Team	147	Acquisition	9
+2371	Deceased_Place	1046	Territory	372	Country	99
+3972	Deceased_Place	98	Country	96
+2804	Person_Birthplace	3661	Territory	170
+1613	Politician_Position	2145	Object	2424
+1251	Player_Team	1252	Acquisition	9
+2422	Person_Birthplace	98	Territory	70	Country	99
+1967	Player_Team	3489	Acquisition	9
+723	Player_Team	3577	Acquisition	9
+830	Person_Relative	157	Kinship	158
+612	Person_Relative	2179	Kinship	106
+867	Politician_Position	355	Predecessor	868	Successor	869
+1419	Player_Team	3319	Acquisition	9
+2927	Person_Birthplace	2928	Territory	1474
+972	Awardee_Award	313	Co-winner	2518
+1951	Deceased_Place	98	Territory	70	Country	99
+3290	Politician_Position	3291	Predecessor	3292	Successor	3293
+232	Person_Relative	706	Kinship	394
+2389	Player_Team	1684	Acquisition	9
+3667	Player_Team	3668	Acquisition	9
+1184	Awardee_Award	833	Work	334
+3612	Person_Birthplace	2591	Territory	1470	Country	65
+3999	Deceased_Place	98	Country	96
+451	Person_Relative	450	Kinship	520
+153	Person_Sibling	152	Kinship	38
+2117	Student_University	903	Major	1142	Degree	62
+906	Student_University	27	Major	526	Degree	62
+1455	Member_Membership	1134	Role	52
+1530	Player_Team	2677	Acquisition	9
+1280	Player_Team	2001	Acquisition	9
+1213	Person_Sibling	1027	Kinship	38
+668	Player_Team	3563	Acquisition	9
+1956	Person_Birthplace	98	Territory	70	Country	99
+3820	Deceased_Place	3821	Territory	3822	Country	172
+3523	Student_University	3524	Degree	470
+94	Person_Birthplace	1833	Country	1834
+530	Person_Relative	1038	Kinship	394
+118	Person_Relative	563	Kinship	18
+161	Player_Team	1118	Acquisition	9
+418	Student_University	419	Degree	420
+4036	Deceased_Place	98	Territory	70	Country	99
+2403	Person_Relative	1898	Kinship	2188
+1411	Person_Relative	1342	Kinship	520
+1435	Player_Team	1586	Acquisition	9
+564	Player_Team	2627	Acquisition	9
+867	Politician_Position	1621	Predecessor	868	Successor	2317
+1303	Awardee_Award	3683	Conferrer	3445
+261	Politician_Position	260	Predecessor	2629	Successor	259
+3179	Person_Relative	3146	Kinship	18
+1200	Deceased_Place	98	Territory	70	Country	99
+3914	Member_Membership	1350	Role	646
+2582	Student_University	1261	Major	3323
+1310	Person_Birthplace	1311	Country	1159
+2859	Person_Relative	3998	Kinship	890
+231	Person_Sibling	2036	Kinship	38
+2313	Person_Event	489	Role	490
+1720	Person_Birthplace	2073	Country	65
+1305	Awardee_Award	1306	Conferrer	1307
+1038	Person_Relative	821	Kinship	143
+2982	Politician_Position	2983	Object	2679
+2106	Player_Team	1236	Acquisition	9
+478	Player_Team	803	Acquisition	9
+2631	Politician_Position	2884	Object	2885
+1766	Person_Relative	1765	Kinship	106
+173	Nominee_Award	240	Work	241	Event	242
+3234	Student_University	27	Degree	62
+467	Student_University	468	Degree	1301
+822	Person_Relative	547	Kinship	18
+1182	Player_Team	366	Acquisition	9
+1219	Member_Membership	22	Role	48
+702	Person_Birthplace	937	Country	65
+444	Employee_Employer	742	Position	3737
+2068	Deceased_Place	562	Country	172
+2396	Person_Sibling	230	Kinship	38
+969	Player_Team	970	Acquisition	9
+2279	Deceased_Place	98	Country	96
+1246	Student_University	60	Degree	545
+4023	Deceased_Place	3350	Country	99
+595	Person_Sibling	2325	Kinship	38
+59	Nominee_Award	240	Work	673	Event	674
+552	Player_Team	553	Acquisition	9
+2295	Person_Birthplace	3893	Territory	1341
+290	Player_Team	796	Acquisition	9
+1011	Person_Relative	1010	Kinship	2404
+1653	Student_University	1099	Degree	759
+1065	Nominee_Award	240	Work	137	Event	138
+195	Person_Birthplace	255	Country	256
+2954	Person_Birthplace	2955	Country	551
+254	Person_Birthplace	255	Country	256
+157	Person_Sibling	3738	Kinship	233
+4135	Player_Team	4053	Acquisition	9
+611	Person_Relative	610	Kinship	143
+2464	Politician_Position	40	Term	41
+919	Person_Birthplace	250	Country	920
+765	Student_University	618	Degree	62
+3261	Player_Team	1320	Acquisition	9
+429	Politician_Position	75	Predecessor	1558	Successor	428
+921	Person_Birthplace	98	Country	65
+177	Person_Relative	662	Kinship	178
+2441	Person_Birthplace	2442	Country	2443
+2122	Member_Membership	1456	Role	52
+1808	Player_Team	1809	Acquisition	9
+897	Student_University	3810	Degree	3811
+1724	Awardee_Award	128	Work	1642
+1967	Player_Team	373	Acquisition	9
+1393	Politician_Position	355	Predecessor	869	Successor	2458
+4239	Person_Birthplace	98	Country	70
+2487	Person_Sibling	2620	Kinship	38
+428	Politician_Position	75	Predecessor	429	Successor	430
+2589	Person_Relative	1433	Kinship	1769
+2949	Deceased_Place	2950	Country	2951
+1241	Person_Birthplace	1242	Country	844
+710	Person_Relative	3553	Kinship	143
+2471	Nominee_Award	1459	Work	2472
+695	Player_Team	2881	Acquisition	9
+92	Player_Team	93	Acquisition	9
+1226	Person_Sibling	79	Kinship	38
+754	Deceased_Place	1482	Country	551
+821	Person_Relative	877	Kinship	520
+653	Player_Team	3669	Acquisition	9
+3176	Deceased_Place	98	Country	96
+672	Student_University	514	Degree	62
+3001	Awardee_Award	276	Co-winner	4235	Co-winner	4236
+3281	Student_University	3282	Degree	121
+2371	Person_Birthplace	1046	Country	65
+2872	Person_Birthplace	1046	Country	65
+723	Player_Team	4025	Acquisition	9
+1724	Awardee_Award	128	Work	4455
+387	Player_Team	297	Acquisition	9
+3461	Member_Membership	1350	Role	646
+705	Person_Relative	157	Kinship	1215
+944	Person_Sibling	559	Kinship	560
+357	Politician_Position	1621	Predecessor	1622	Successor	1622
+1139	Awardee_Award	128	Work	1801
+2446	Player_Team	976	Specialty	732
+3169	Player_Team	2764	Acquisition	9
+2368	Person_Relative	610	Kinship	116
+1609	Player_Team	716	Acquisition	9
+449	Awardee_Award	276	Co-winner	448	Co-winner	447
+4024	Person_Relative	3163	Kinship	520
+871	Player_Team	4272	Acquisition	9
+530	Person_Relative	363	Kinship	394
+2805	Politician_Position	1356	Predecessor	2956	Successor	867
+1664	Politician_Position	355	Predecessor	1662	Successor	1211
+779	Politician_Position	1536	Predecessor	2813	Successor	778
+20	Person_Relative	19	Kinship	18
+1160	Person_Relative	4064	Kinship	320
+588	Deceased_Place	98	Territory	70	Country	99
+1411	Person_Relative	1037	Kinship	2188
+1882	Deceased_Place	1883	Territory	1884	Country	65
+85	Nominee_Award	167	Event	1229
+3066	Deceased_Place	98	Country	96
+1074	Player_Team	3427	Acquisition	9
+229	Politician_Position	227	Predecessor	226	Successor	1199
+730	Player_Team	731	Specialty	732
+1055	Person_Sibling	2325	Kinship	38
+1038	Person_Sibling	611	Kinship	233
+3298	Deceased_Place	98	Territory	70	Country	99
+512	Awardee_Award	128	Conferrer	3959
+1164	Awardee_Award	43	Co-winner	1165
+2420	Student_University	3769	Degree	29
+610	Person_Relative	611	Kinship	520
+3507	Person_Birthplace	98	Country	99
+1837	Member_Membership	22	Role	201
+365	Player_Team	2151	Acquisition	9
+1800	Awardee_Award	128	Work	2794
+762	Player_Team	3885	Acquisition	9
+2409	Player_Team	2352	Acquisition	9
+832	Awardee_Award	1989	Work	834
+2670	Person_Birthplace	1046	Country	65
+547	Person_Relative	1230	Kinship	394
+1355	Politician_Position	746	Predecessor	202	Successor	1859
+3067	Member_Membership	22	Role	52
+363	Person_Relative	493	Kinship	336
+3103	Player_Team	3835	Acquisition	9
+1401	Player_Team	1077	Acquisition	9
+130	Player_Team	794	Acquisition	9
+132	Person_Sibling	2470	Kinship	38
+853	Player_Team	854	Acquisition	9
+265	Nominee_Award	266	Event	1105
+1200	Person_Birthplace	959	Country	65
+134	Person_Relative	16	Kinship	18
+1305	Awardee_Award	282	Conferrer	1926
+717	Player_Team	918	Acquisition	9
+2059	Person_Relative	612	Kinship	320
+1101	Player_Team	3527	Acquisition	9
+59	Nominee_Award	89	Work	673	Event	674
+1465	Player_Team	2904	Acquisition	9
+2315	Awardee_Award	128	Work	712
+92	Player_Team	2381	Acquisition	9
+1202	Player_Team	3077	Acquisition	9
+2140	Person_Relative	547	Kinship	364
+3296	Deceased_Place	98	Country	96
+378	Person_Relative	547	Kinship	322
+1849	Player_Team	3063	Acquisition	9
+377	Person_Relative	3015	Kinship	178
+1216	Student_University	1218	Degree	540
+1513	Player_Team	3063	Acquisition	9
+343	Player_Team	2497	Acquisition	9
+2068	Person_Event	489	Role	490
+59	Student_University	60	Major	61	Degree	62
+1083	Player_Team	4014	Acquisition	9
+2205	Student_University	2206	Major	2207
+4080	Politician_Position	4081	Predecessor	4082	Successor	4083
+3591	Person_Birthplace	170	Territory	171
+583	Student_University	1739	Major	852
+4274	Player_Team	4275	Acquisition	9
+705	Person_Relative	2674	Kinship	2188
+1979	Player_Team	306	Acquisition	9
+353	Politician_Position	351	Predecessor	350	Successor	352
+301	Player_Team	1236	Acquisition	9
+3314	Student_University	1619	Major	61	Degree	29
+2631	Student_University	511	Degree	121
+3239	Awardee_Award	276	Co-winner	3238	Co-winner	3237
+1455	Member_Membership	1350	Role	646
+4436	Deceased_Place	3464	Territory	4437	Country	551
+3936	Student_University	4054	Major	61	Degree	62
+1608	Deceased_Place	98	Country	96
+2344	Player_Team	3743	Acquisition	9
+493	Person_Relative	1038	Kinship	364
+878	Awardee_Award	240	Work	90	Event	91
+1076	Player_Team	1948	Acquisition	9
+177	Person_Relative	705	Kinship	18
+3751	Player_Team	3435	Acquisition	9
+1038	Person_Relative	610	Kinship	143
+610	Person_Relative	1940	Kinship	379
+868	Politician_Position	1621	Predecessor	867	Successor	867
+587	Deceased_Place	98	Country	96
+2081	Awardee_Award	43	Co-winner	2080	Co-winner	2082
+4302	Student_Degree	540	University	4303
+1556	Politician_Position	385	Predecessor	2931	Successor	2932
+363	Person_Relative	530	Kinship	379
+692	Politician_Position	693	Electorate	694
+2220	Player_Team	4131	Acquisition	9
+3544	Player_Team	3842	Acquisition	9
+343	Player_Team	1171	Acquisition	9
+2713	Awardee_Award	276	Co-winner	2712	Co-winner	2711
+966	Person_Birthplace	967	Country	65
+1673	Person_Birthplace	1674	Country	1675
+2760	Person_Birthplace	550	Country	1159
+1037	Person_Relative	17	Kinship	520
+1584	Person_Relative	830	Kinship	368
+265	Nominee_Award	266	Event	1050
+214	Awardee_Award	585	Work	586
+720	Player_Team	1271	Acquisition	9
+1846	Participant_Event	1847	Status	2
+154	Player_Team	373	Acquisition	9
+2127	Player_Team	2823	Acquisition	9
+880	Person_Relative	1152	Kinship	1769
+2259	Player_Team	2260	Acquisition	9
+707	Awardee_Award	2174	Work	1460
+399	Player_Team	324	Acquisition	9
+63	Person_Birthplace	64	Country	65
+1587	Politician_Position	40	Term	41
+563	Person_Relative	807	Kinship	18
+822	Politician_Position	1646	Object	1647
+4045	Person_Event	489	Role	490
+2044	Player_Team	329	Acquisition	9
+3735	Person_Event	489	Role	490
+482	Player_Team	2001	Acquisition	9
+1849	Player_Team	3173	Acquisition	9
+3025	Person_Sibling	4462	Kinship	38
+387	Player_Team	1483	Acquisition	9
+1797	Person_Birthplace	1798	Country	65
+4050	Deceased_Place	1674	Country	1675
+1017	Player_Team	1041	Acquisition	9
+3995	Student_University	3996	Major	837	Degree	29
+680	Player_Team	681	Acquisition	9
+2750	Person_Birthplace	2751	Territory	1341	Country	172
+343	Player_Team	870	Acquisition	9
+3688	Person_Relative	3689	Kinship	3690
+2191	Participant_Event	2064	Status	2
+2336	Person_Birthplace	2337	Country	485
+3965	Person_Birthplace	3966	Territory	70	Country	99
+3881	Player_Team	2255	Acquisition	9
+832	Nominee_Award	1258	Work	834
+3564	Person_Event	489	Role	490
+494	Person_Birthplace	126	Territory	1954	Country	65
+1606	Nominee_Award	333	Work	1607
+2288	Student_University	2289	Major	1142
+2763	Player_Team	3579	Acquisition	9
+2936	Awardee_Award	183	Event	2437
+1627	Person_Relative	638	Kinship	143
+496	Student_Degree	282	University	1619
+1429	Person_Sibling	830	Kinship	233
+1443	Player_Team	763	Acquisition	9
+1976	Person_Relative	1975	Kinship	322
+1736	Politician_Position	1536	Predecessor	1737	Successor	1738
+2011	Player_Team	2514	Acquisition	9
+82	Awardee_Award	83	Co-winner	84
+885	Deceased_Place	98	Territory	70	Country	99
+2498	Student_University	2499	Major	2500	Degree	29
+478	Player_Team	1816	Acquisition	9
+531	Member_Membership	2517	Role	52
+2224	Politician_Position	385	Predecessor	2222	Successor	4244
+2330	Person_Birthplace	2331	Country	65
+4279	Deceased_Place	4280	Country	327
+4367	Politician_Position	1278	Term	2697
+2141	Player_Team	2781	Acquisition	9
+3076	Awardee_Award	276	Co-winner	621	Co-winner	2649
+711	Awardee_Award	128	Conferrer	3490
+773	Person_Event	489	Role	490
+478	Player_Team	2894	Acquisition	9
+830	Person_Relative	1433	Kinship	364
+59	Awardee_Award	240	Work	673	Event	674
+908	Awardee_Award	83	Co-winner	2865
+436	Person_Birthplace	1672	Country	65
+1006	Nominee_Award	2914	Event	1269
+1590	Person_Birthplace	225	Territory	1591	Country	65
+617	Student_University	618	Major	281	Degree	619
+350	Politician_Position	351	Predecessor	2494	Successor	2867
+187	Awardee_Award	188	Work	189	Event	190
+3779	Nominee_Award	740	Work	241	Event	242
+4103	Politician_Position	1646	Object	1647
+3764	Deceased_Place	98	Territory	70	Country	99
+19	Person_Relative	563	Kinship	18
+3976	Player_Team	3977	Acquisition	9
+399	Player_Team	400	Acquisition	9
+16	Person_Relative	1342	Kinship	364
+1573	Nominee_Award	340	Work	1574	Event	1575
+3222	Student_University	2569	Degree	1301
+2187	Person_Relative	4018	Kinship	364
+217	Participant_Event	54	Part	55
+2607	Player_Team	2038	Acquisition	9
+927	Player_Team	928	Acquisition	9
+1083	Player_Team	1084	Acquisition	9
+349	Participant_Event	54	Part	55
+1960	Politician_Position	1958	Predecessor	1957	Successor	4208
+2866	Deceased_Place	250	Country	920
+152	Person_Sibling	153	Kinship	38
+486	Student_Degree	540	University	487
+2433	Deceased_Place	2434	Country	926
+4031	Politician_Position	2983	Object	793
+871	Player_Team	872	Acquisition	9
+894	Player_Team	895	Specialty	896
+1716	Player_Team	1497	Acquisition	9
+3924	Member_Membership	22	Role	48
+130	Player_Team	131	Acquisition	9
+450	Person_Relative	542	Kinship	116
+1124	Player_Team	3102	Acquisition	9
+4093	Person_Relative	331	Kinship	320
+496	Student_Degree	423	University	498
+53	Participant_Event	54	Part	55
+1442	Player_Team	1862	Acquisition	9
+159	Player_Team	160	Acquisition	9
+3249	Politician_Position	1190	Predecessor	3247	Successor	3247
+611	Person_Relative	963	Kinship	158
+2528	Player_Team	1104	Acquisition	9
+1060	Person_Birthplace	98	Country	65
+756	Deceased_Place	98	Country	96
+3300	Person_Birthplace	3789	Territory	70	Country	99
+450	Person_Sibling	611	Kinship	233
+2171	Player_Team	3057	Acquisition	9
+3615	Deceased_Place	2991	Country	799
+1107	Player_Team	1138	Acquisition	9
+727	Player_Team	81	Acquisition	9
+774	Awardee_Award	276	Co-winner	775
+488	Person_Event	489	Role	490
+1004	Player_Team	1781	Acquisition	9
+2056	Player_Team	2057	Acquisition	9
+3653	Student_University	3654	Major	837	Degree	62
+682	Player_Team	976	Specialty	977
+1627	Person_Relative	3595	Kinship	663
+1292	Person_Relative	1152	Kinship	368
+1849	Player_Team	81	Acquisition	9
+760	Player_Team	1063	Acquisition	9
+3167	Player_Team	1501	Acquisition	9
+2461	Player_Team	2462	Acquisition	9
+690	Person_Relative	691	Kinship	322
+3304	Player_Team	3305	Acquisition	9
+163	Player_Team	1679	Acquisition	9
+751	Person_Birthplace	752	Territory	753
+2816	Person_Sibling	3242	Kinship	233
+690	Person_Relative	3596	Kinship	364
+4142	Student_University	4143	Major	281
+4333	Deceased_Place	2130	Country	4334
+2702	Politician_Position	1278	Term	2703
+1752	Nominee_Award	240	Work	1617	Event	1753
+775	Awardee_Award	276	Co-winner	774
+730	Player_Team	3059	Acquisition	9
+301	Player_Team	1655	Acquisition	9
+1351	Player_Team	1352	Specialty	1353
+672	Nominee_Award	440	Work	673	Event	674
+2769	Deceased_Place	2770	Territory	2771	Country	96
+684	Deceased_Place	98	Territory	70	Country	99
+2957	Nominee_Award	2958	Work	2959
+1393	Politician_Position	1621	Predecessor	2458	Successor	2458
+2554	Person_Sibling	660	Kinship	38
+909	Person_Sibling	2083	Kinship	38
+1004	Player_Team	2290	Acquisition	9
+3544	Player_Team	1832	Acquisition	9
+409	Awardee_Award	340	Work	410	Event	411
+3174	Student_University	3147	Degree	420
+1714	Player_Team	1715	Acquisition	9
+1662	Politician_Position	203	Predecessor	1663	Successor	1664
+1561	Deceased_Place	98	Territory	70	Country	99
+1618	Student_University	1619	Major	1009	Degree	29
+2625	Person_Sibling	2626	Kinship	38
+664	Participant_Event	665	Status	2
+122	Student_University	123	Degree	545
+1216	Member_Membership	2517	Role	48
+695	Player_Team	696	Acquisition	9
+141	Person_Relative	4270	Kinship	890
+187	Nominee_Award	188	Work	648	Event	649
+917	Player_Team	1104	Acquisition	9
+1082	Politician_Position	40	Term	41
+2222	Politician_Position	385	Predecessor	2223	Successor	2224
+1702	Person_Relative	117	Kinship	890
+2709	Player_Team	2462	Acquisition	9
+157	Person_Relative	177	Kinship	178
+1359	Deceased_Place	98	Territory	70	Country	99
+1292	Person_Relative	880	Kinship	106
+187	Nominee_Award	647	Work	648	Event	649
+2624	Deceased_Place	1482	Country	1159
+365	Player_Team	1718	Acquisition	9
+547	Person_Relative	20	Kinship	364
+2979	Student_University	742	Major	852
+1280	Player_Team	1551	Acquisition	9
+2409	Player_Team	637	Acquisition	9
+1255	Politician_Position	1417	Predecessor	1416	Successor	1895
+3000	Member_Membership	22	Role	52
+666	Person_Birthplace	667	Country	65
+2022	Deceased_Place	2023	Country	2024
+1850	Student_University	1851	Major	1009	Degree	470
+3190	Person_Relative	2589	Kinship	394
+1875	Politician_Position	1508	Term	1509
+387	Player_Team	594	Acquisition	9
+443	Person_Relative	19	Kinship	178
+212	Nominee_Award	183	Event	1458
+265	Nominee_Award	266	Event	1931
+1197	Participant_Event	1198	Status	2
+981	Student_University	982	Degree	983
+4220	Player_Team	1497	Acquisition	9
+2409	Player_Team	1968	Acquisition	9
+2966	Deceased_Place	2434	Country	926
+4431	Player_Team	4432	Specialty	977
+2548	Awardee_Award	128	Work	2549
+2124	Deceased_Place	562	Country	172
+930	Student_Degree	931	University	221
+2788	Player_Team	3772	Acquisition	9
+4047	Person_Sibling	4048	Kinship	38
+2777	Politician_Position	1243	Predecessor	2778	Successor	2779
+319	Person_Relative	318	Kinship	320
+2307	Player_Team	2514	Acquisition	9
+339	Nominee_Award	1173	Event	3033
+231	Person_Sibling	230	Kinship	38
+2003	Student_University	2004	Major	2005	Degree	1385
+1151	Person_Relative	1152	Kinship	520
+2640	Politician_Position	1958	Predecessor	2641	Successor	2642
+972	Politician_Position	203	Predecessor	1537	Successor	1612
+1401	Player_Team	2547	Acquisition	9
+1743	Politician_Position	746	Predecessor	2758	Successor	2759
+823	Awardee_Award	43	Co-winner	824	Co-winner	825
+3071	Participant_Event	54	Part	55
+365	Player_Team	546	Acquisition	9
+20	Person_Relative	104	Kinship	368
+1838	Member_Membership	22	Role	48
+2899	Player_Team	2900	Acquisition	9
+3609	Deceased_Place	98	Country	96
+1814	Participant_Event	54	Part	55
+515	Awardee_Award	43	Co-winner	516	Co-winner	517
+924	Deceased_Place	925	Country	926
+735	Awardee_Award	128	Work	736
+818	Deceased_Place	819	Country	820
+2423	Member_Membership	22	Role	201
+228	Politician_Position	227	Predecessor	2194	Successor	226
+2179	Person_Relative	612	Kinship	520
+107	Politician_Position	108	Predecessor	109	Successor	110
+2011	Player_Team	1582	Acquisition	9
+880	Person_Relative	1292	Kinship	178
+2253	Student_University	2254	Degree	29
+20	Person_Relative	117	Kinship	18
+1827	Player_Team	155	Acquisition	9
+204	Politician_Position	746	Predecessor	1421	Successor	1719
+2033	Awardee_Award	276	Co-winner	2034	Co-winner	2035
+1331	Player_Team	1332	Acquisition	9
+1226	Person_Sibling	2041	Kinship	38
+552	Player_Team	3270	Acquisition	9
+4067	Deceased_Place	4068	Country	920
+2235	Person_Birthplace	2236	Territory	2237
+901	Member_Membership	22	Role	52
+2644	Person_Birthplace	1046	Country	65
+496	Student_Degree	282	University	2583
+3378	Person_Birthplace	98	Territory	70	Country	99
+685	Player_Team	553	Acquisition	9
+717	Player_Team	553	Acquisition	9
+2340	Awardee_Award	2145	Conferrer	2341
+3289	Student_University	3282	Degree	121
+883	Player_Team	3104	Acquisition	9
+934	Person_Event	489	Role	490
+159	Player_Team	1471	Acquisition	9
+2905	Student_University	27	Major	2419
+532	Student_University	1680	Degree	1681
+1017	Player_Team	4392	Acquisition	9
+3611	Deceased_Place	98	Country	96
+1406	Awardee_Award	128	Work	289
+3740	Deceased_Place	98	Territory	70	Country	99
+3944	Deceased_Place	98	Territory	70	Country	99
+1800	Awardee_Award	128	Work	866
+1020	Deceased_Place	1315	Country	601
+675	Player_Team	535	Acquisition	9
+401	Awardee_Award	402	Co-winner	403
+2579	Person_Sibling	1874	Kinship	38
+85	Nominee_Award	167	Event	35
+971	Politician_Position	355	Predecessor	1211	Successor	973
+1166	Student_University	1167	Degree	62
+1076	Player_Team	248	Acquisition	9
+1464	Person_Sibling	1463	Kinship	38
+2310	Politician_Position	2230	Predecessor	2311	Successor	2312
+1331	Player_Team	329	Acquisition	9
+4158	Deceased_Place	1482	Country	3391
+1238	Deceased_Place	1239	Country	65
+2399	Person_Relative	3762	Kinship	18
+288	Awardee_Award	128	Work	712
+2150	Player_Team	1497	Acquisition	9
+767	Person_Relative	766	Kinship	143
+4109	Player_Team	140	Acquisition	9
+1428	Deceased_Place	98	Territory	70	Country	99
+1259	Player_Team	1748	Acquisition	9
+2376	Awardee_Award	43	Co-winner	2836
+1430	Person_Relative	114	Kinship	18
+3678	Student_University	3872	Major	427
+808	Student_University	809	Major	810
+1216	Member_Membership	22	Role	52
+1270	Player_Team	1985	Acquisition	9
+1028	Awardee_Award	500	Event	1066
+1126	Player_Team	1998	Acquisition	9
+635	Person_Sibling	3112	Kinship	38
+2642	Politician_Position	1958	Predecessor	2640	Successor	2069
+2649	Awardee_Award	276	Co-winner	621	Co-winner	3076
+1490	Player_Team	1491	Acquisition	9
+3439	Person_Birthplace	170	Territory	171
+2545	Member_Membership	22	Role	52
+361	Politician_Position	359	Predecessor	358	Successor	1375
+612	Person_Relative	3576	Kinship	18
+1558	Politician_Position	1243	Predecessor	1559	Successor	1560
+323	Player_Team	2468	Acquisition	9
+3881	Player_Team	4203	Acquisition	9
+2680	Member_Membership	3216	Role	48
+454	Person_Sibling	1728	Kinship	38
+16	Awardee_Award	2145	Conferrer	2146
+2138	Deceased_Place	2139	Country	551
+1366	Member_Membership	2383	Role	52
+2984	Politician_Position	3535	Predecessor	3493	Successor	3494
+672	Awardee_Award	89	Work	673	Event	674
+2461	Player_Team	970	Acquisition	9
+2170	Deceased_Place	98	Territory	70	Country	99
+3143	Person_Birthplace	4362	Country	65
+2280	Deceased_Place	98	Territory	70	Country	99
+1370	Awardee_Award	128	Conferrer	1371
+2186	Person_Sibling	1600	Kinship	38
+495	Awardee_Award	193	Co-winner	494
+2285	Deceased_Place	98	Country	96
+415	Person_Relative	20	Kinship	18
+1935	Person_Relative	691	Kinship	322
+412	Awardee_Award	276	Co-winner	1441
+1804	Player_Team	3607	Acquisition	9
+1184	Nominee_Award	833	Work	1163
+1513	Player_Team	4163	Acquisition	9
+4150	Nominee_Award	433	Work	434	Event	435
+2351	Player_Team	3775	Acquisition	9
+504	Student_Degree	4070	University	4071
+2967	Participant_Event	2968	Status	2
+149	Awardee_Award	433	Work	151	Event	957
+1220	Student_University	1221	Degree	619
+532	Politician_Position	75	Predecessor	421	Successor	533
+4024	Politician_Position	3895	Predecessor	3896	Successor	3896
+467	Student_University	468	Major	469	Degree	470
+3905	Deceased_Place	98	Country	96
+3685	Member_Membership	1350	Role	646
+2851	Person_Birthplace	2137	Territory	171
+19	Person_Relative	443	Kinship	890
+3865	Player_Team	3866	Acquisition	9
+1473	Player_Team	848	Acquisition	9
+845	Politician_Position	846	Object	847
+2263	Student_University	514	Degree	1301
+2614	Deceased_Place	98	Territory	70	Country	99
+85	Nominee_Award	167	Event	168
+2483	Person_Relative	2484	Kinship	116
+787	Politician_Position	1344	Predecessor	2316	Successor	1447
+66	Person_Sibling	67	Kinship	38
+974	Person_Relative	975	Kinship	336
+3081	Participant_Event	14	Part	15
+2952	Person_Birthplace	1122	Territory	372	Country	99
+1630	Player_Team	1531	Acquisition	9
+1292	Person_Relative	1293	Kinship	18
+917	Player_Team	3509	Acquisition	9
+328	Player_Team	329	Acquisition	9
+963	Person_Relative	492	Kinship	663
+1702	Person_Relative	104	Kinship	143
+719	Person_Birthplace	98	Territory	70	Country	99
+3432	Student_University	4374	Major	281
+1056	Person_Relative	1057	Kinship	1058
+16	Person_Relative	542	Kinship	116
+2795	Nominee_Award	2053	Event	1174
+67	Person_Sibling	1728	Kinship	38
+3869	Deceased_Place	98	Territory	70	Country	99
+4013	Student_Degree	1217	University	2897
+4415	Deceased_Place	98	Country	96
+30	Person_Birthplace	31	Country	32
+519	Person_Relative	1429	Kinship	320
+1202	Player_Team	1203	Acquisition	9
+2313	Deceased_Place	2933	Country	172
+2307	Awardee_Award	740	Work	1617	Event	1753
+1182	Player_Team	1183	Acquisition	9
+2918	Player_Team	2919	Acquisition	9
+1119	Player_Team	1120	Acquisition	9
+4358	Member_Membership	1350	Role	646
+4399	Person_Sibling	3699	Kinship	233
+1177	Awardee_Award	43	Co-winner	1176	Co-winner	1175
+904	Player_Team	3621	Acquisition	9
+868	Politician_Position	1086	Predecessor	867	Successor	2682
+3155	Awardee_Award	276	Co-winner	3154	Co-winner	3156
+3261	Player_Team	293	Acquisition	9
+1490	Player_Team	3833	Acquisition	9
+4242	Player_Team	724	Acquisition	9
+3574	Player_Team	3575	Acquisition	9
+3956	Deceased_Place	1329	Country	2595
+3916	Player_Team	3917	Acquisition	9
+2789	Deceased_Place	2790	Territory	1474	Country	172
+2399	Person_Relative	2085	Kinship	18
+1683	Awardee_Award	193	Co-winner	1682
+1779	Deceased_Place	98	Country	96
+1268	Nominee_Award	183	Event	1269
+2780	Player_Team	3840	Acquisition	9
+2025	Person_Sibling	1946	Kinship	38
+1207	Player_Team	3579	Acquisition	9
+3	Politician_Position	4	Predecessor	5	Successor	6
+1238	Person_Birthplace	98	Country	65
+2238	Deceased_Place	98	Country	96
+139	Player_Team	140	Acquisition	9
+3620	Deceased_Place	250	Country	920
+1695	Player_Team	1696	Acquisition	9
+1938	Deceased_Place	1939	Country	799
+1510	Deceased_Place	250	Country	920
+88	Nominee_Award	89	Work	1624	Event	435
+3096	Person_Event	489	Role	490
+1015	Player_Team	4416	Acquisition	9
+2691	Participant_Event	54	Part	55
+3881	Player_Team	1483	Acquisition	9
+2358	Player_Team	2135	Acquisition	9
+130	Player_Team	686	Acquisition	9
+3287	Person_Birthplace	3288	Country	65
+3827	Deceased_Place	550	Country	1159
+1503	Person_Sibling	1865	Kinship	38
+608	Student_Degree	540	University	129
+832	Nominee_Award	1989	Work	834
+1537	Politician_Position	355	Predecessor	973	Successor	867
+149	Nominee_Award	333	Work	151
+4238	Player_Team	1887	Acquisition	9
+543	Student_University	544	Degree	545
+902	Student_University	903	Degree	423
+397	Person_Sibling	398	Kinship	38
+832	Nominee_Award	3593	Work	834
+3278	Awardee_Award	276	Co-winner	3279
+1162	Person_Relative	547	Kinship	18
+3819	Player_Team	1669	Acquisition	9
+2947	Person_Relative	2948	Kinship	178
+1197	Participant_Event	2182	Status	2
+3601	Awardee_Award	43	Co-winner	3602
+754	Awardee_Award	193	Co-winner	755
+1405	Person_Sibling	3730	Kinship	233
+2157	Person_Birthplace	98	Territory	70	Country	99
+3617	Awardee_Award	128	Conferrer	4308
+4403	Student_University	4404	Degree	62	Major	392
+574	Player_Team	575	Acquisition	9
+675	Player_Team	3307	Acquisition	9
+2558	Person_Birthplace	170	Territory	171
+1596	Person_Birthplace	1833	Territory	4022
+791	Member_Membership	22	Role	201
+1328	Person_Birthplace	1329	Country	1330
+965	Person_Sibling	944	Kinship	560
+996	Politician_Position	1621	Predecessor	1622	Successor	1859
+2046	Student_University	3211	Degree	545
+1523	Member_Membership	1456	Role	52
+595	Person_Sibling	509	Kinship	38
+4276	Deceased_Place	98	Territory	70	Country	99
+527	Player_Team	1652	Acquisition	9
+2165	Person_Relative	331	Kinship	58
+2638	Deceased_Place	1553	Territory	1554	Country	2828
+1724	Student_Degree	540	University	487
+3474	Student_University	3475	Major	3476
+290	Player_Team	1903	Acquisition	9
+1789	Player_Team	895	Specialty	732
+989	Person_Sibling	3060	Kinship	38
+1735	Player_Team	1102	Acquisition	9
+97	Person_Birthplace	98	Territory	70	Country	99
+1854	Participant_Event	307	Status	2
+2780	Player_Team	373	Acquisition	9
+482	Player_Team	483	Acquisition	9
+3993	Player_Team	838	Acquisition	9
+1038	Person_Relative	963	Kinship	158
+173	Awardee_Award	89	Work	241	Event	242
+473	Person_Relative	474	Kinship	475
+3025	Person_Sibling	4016	Kinship	38
+1651	Player_Team	3527	Acquisition	9
+3114	Deceased_Place	2970	Country	799
+1804	Player_Team	1805	Acquisition	9
+437	Person_Sibling	2350	Kinship	38
+451	Person_Relative	363	Kinship	520
+493	Person_Relative	16	Kinship	364
+1065	Nominee_Award	266	Event	1066
+2440	Person_Sibling	1566	Kinship	38
+1793	Participant_Event	630	Status	1794
+3894	Politician_Position	3895	Predecessor	3896	Successor	4024
+735	Awardee_Award	128	Work	1801
+1065	Awardee_Award	240	Work	137	Event	138
+1292	Person_Relative	157	Kinship	336
+1226	Person_Sibling	2893	Kinship	38
+1091	Player_Team	1691	Acquisition	9
+1137	Player_Team	160	Acquisition	9
+3745	Deceased_Place	170	Country	172
+3016	Player_Team	3655	Acquisition	9
+888	Person_Sibling	889	Kinship	38
+632	Student_Degree	619	University	3750
+2826	Deceased_Place	2827	Territory	2818	Country	2828
+1126	Player_Team	3121	Acquisition	9
+3627	Student_University	511	Degree	121
+1695	Player_Team	3547	Acquisition	9
+117	Person_Relative	563	Kinship	18
+2659	Nominee_Award	1173	Event	2132
+2803	Politician_Position	3152	Object	1801
+1056	Person_Relative	2411	Kinship	890
+4077	Person_Birthplace	1149	Country	923
+1743	Politician_Position	1529	Predecessor	3628	Successor	3629
+805	Person_Sibling	462	Kinship	38
+1468	Person_Relative	4209	Kinship	3230
+2737	Player_Team	2342	Specialty	896
+868	Politician_Position	355	Predecessor	867	Successor	867
+1560	Politician_Position	75	Predecessor	2178	Successor	1558
+2989	Student_University	2990	Degree	423
+1179	Nominee_Award	1173	Event	1153
+357	Politician_Position	355	Predecessor	354	Successor	1622
+965	Person_Sibling	558	Kinship	560
+1013	Player_Team	1014	Acquisition	9
+275	Awardee_Award	276	Co-winner	277	Co-winner	278
+853	Player_Team	535	Acquisition	9
+3733	Person_Event	489	Role	490
+1064	Deceased_Place	98	Country	96
+1828	Awardee_Award	128	Work	2768
+187	Nominee_Award	1518	Work	648
+1955	Student_Degree	540	University	1801
+825	Awardee_Award	43	Co-winner	823	Co-winner	824
+1435	Player_Team	4332	Acquisition	9
+3703	Player_Team	3704	Acquisition	9
+110	Politician_Position	108	Predecessor	107	Successor	107
+1349	Member_Membership	1350	Role	646
+1922	Person_Birthplace	1315	Territory	1923	Country	65
+2183	Politician_Position	846	Electorate	2184
+1421	Politician_Position	746	Predecessor	1859	Successor	204
+19	Person_Relative	20	Kinship	18
+92	Player_Team	140	Acquisition	9
+2515	Player_Team	2381	Acquisition	9
+1749	Person_Relative	2395	Kinship	18
+3372	Deceased_Place	98	Territory	70	Country	99
+2802	Student_University	445	Major	61
+39	Participant_Event	54	Part	55
+4319	Person_Birthplace	4320	Country	3943
+2317	Politician_Position	1344	Predecessor	972	Successor	2316
+2498	Person_Birthplace	2511	Territory	2512
+886	Person_Relative	3315	Kinship	320
+1513	Player_Team	1112	Acquisition	9
+3941	Person_Birthplace	3942	Country	3943
+3237	Awardee_Award	276	Co-winner	3238	Co-winner	3239
+1735	Player_Team	3411	Acquisition	9
+517	Awardee_Award	43	Co-winner	515	Co-winner	516
+214	Awardee_Award	1049	Work	586	Event	957
+2171	Player_Team	2032	Acquisition	9
+3643	Deceased_Place	98	Country	96
+1465	Player_Team	1466	Acquisition	9
+4106	Student_University	633	Major	526	Degree	29
+486	Awardee_Award	128	Work	1407
+1743	Politician_Position	1484	Predecessor	3636	Successor	3637
+1977	Awardee_Award	3857	Co-winner	3858
+16	Person_Relative	2016	Kinship	379
+1335	Politician_Position	227	Predecessor	1334	Successor	2216
+85	Nominee_Award	167	Event	1188
+787	Politician_Position	786	Predecessor	2316	Successor	785
+707	Nominee_Award	183	Event	2308
+1045	Deceased_Place	1046	Territory	372	Country	99
+2382	Member_Membership	2383	Role	646
+2587	Student_University	633	Major	1009	Degree	29
+3633	Person_Relative	3146	Kinship	18
+564	Player_Team	565	Acquisition	9
+2284	Awardee_Award	43	Co-winner	1254
+439	Awardee_Award	440	Work	90	Event	91
+444	Employee_Employer	536	Position	446
+1824	Person_Relative	3083	Kinship	520
+2862	Person_Relative	2861	Kinship	116
+1189	Politician_Position	1190	Predecessor	1191	Successor	1192
+191	Deceased_Place	98	Country	70
+63	Person_Event	489	Role	490
+1688	Employee_Employer	60	Position	12
+2666	Politician_Position	2201	Object	3266
+265	Awardee_Award	266	Event	2799
+154	Player_Team	848	Acquisition	9
+2829	Person_Relative	1935	Kinship	394
+2054	Deceased_Place	2055	Country	601
+2946	Person_Birthplace	2496	Country	1159
+875	Player_Team	2189	Acquisition	9
+2913	Student_University	27	Major	2618	Degree	29
+558	Person_Sibling	559	Kinship	560
+612	Person_Relative	2488	Kinship	320
+4391	Deceased_Place	98	Territory	70	Country	99
+1986	Awardee_Award	128	Work	3446
+3369	Student_University	3370	Degree	470	Major	2634
+4177	Student_University	4178	Degree	4179
+685	Player_Team	50	Acquisition	9
+2175	Member_Membership	200	Role	201
+3184	Player_Team	3185	Acquisition	9
+1967	Player_Team	2370	Acquisition	9
+303	Player_Team	50	Acquisition	9
+2493	Deceased_Place	98	Country	96
+182	Person_Birthplace	170	Territory	171
+879	Person_Relative	880	Kinship	320
+122	Student_University	27	Major	3919
+2051	Deceased_Place	995	Territory	70	Country	99
+1973	Student_University	27	Degree	1301
+1888	Person_Event	489	Role	490
+670	Deceased_Place	98	Country	96
+24	Player_Team	1390	Specialty	1237
+199	Member_Membership	1456	Role	52
+4086	Person_Birthplace	1780	Country	65
+1932	Player_Team	1585	Acquisition	9
+1072	Member_Membership	505	Role	52
+949	Participant_Event	54	Part	55
+943	Person_Sibling	4051	Kinship	38
+1906	Player_Team	1832	Acquisition	9
+1694	Awardee_Award	128	Work	4119
+3529	Person_Birthplace	98	Country	65
+611	Person_Relative	530	Kinship	379
+2482	Politician_Position	1621	Predecessor	1664	Successor	1664
+3964	Deceased_Place	562	Country	172
+2992	Deceased_Place	98	Territory	70	Country	99
+1513	Player_Team	1395	Acquisition	9
+2528	Player_Team	160	Acquisition	9
+3442	Nominee_Award	1173	Event	2437
+84	Awardee_Award	83	Co-winner	82
+3768	Deceased_Place	3159	Country	642
+144	Person_Sibling	4291	Kinship	38
+2367	Person_Relative	1411	Kinship	143
+1986	Awardee_Award	128	Work	1801
+179	Player_Team	483	Acquisition	9
+3466	Person_Birthplace	3467	Territory	1279
+2082	Deceased_Place	98	Territory	70	Country	99
+478	Player_Team	348	Acquisition	9
+2476	Person_Relative	2477	Kinship	520
+1366	Deceased_Place	1329	Country	3424
+2568	Employee_Employer	1747	Position	12
+197	Member_Membership	198	Role	201
+331	Person_Relative	2165	Kinship	1273
+542	Person_Relative	450	Kinship	857
+246	Person_Relative	493	Kinship	336
+3027	Participant_Event	14	Part	218
+496	Student_Degree	497	University	498
+915	Person_Relative	1840	Kinship	2404
+1267	Student_University	120	Major	571	Degree	619
+1391	Person_Sibling	1472	Kinship	38
+3090	Employee_Employer	11	Position	12
+1169	Player_Team	3137	Acquisition	9
+2100	Participant_Event	14	Part	218
+3567	Nominee_Award	951	Event	1029
+1316	Person_Relative	2195	Kinship	520
+2992	Person_Birthplace	69	Country	65
+1634	Student_University	300	Degree	29
+1455	Employee_Employer	11	Position	12
+2397	Student_University	238	Major	3472
+1627	Person_Relative	2596	Kinship	874
+1006	Nominee_Award	34	Event	2714
+2376	Member_Membership	47	Role	52
+1477	Participant_Event	14	Part	218
+1213	Person_Sibling	1457	Kinship	38
+1627	Person_Relative	1601	Kinship	452
+1178	Participant_Event	14	Part	218
+1085	Politician_Position	1190	Predecessor	354	Successor	1255
+547	Person_Relative	414	Kinship	18
+675	Player_Team	1640	Acquisition	9
+2699	Student_University	3925	Degree	1100
+1881	Deceased_Place	69	Country	96
+2707	Person_Birthplace	69	Country	65
+36	Person_Sibling	1391	Kinship	38
+2161	Player_Team	2062	Specialty	408
+3263	Student_University	3973	Major	1100	Degree	983
+1975	Person_Relative	1976	Kinship	1273
+1933	Student_University	300	Degree	29	Major	1009
+830	Person_Relative	1721	Kinship	520
+821	Person_Relative	246	Kinship	178
+2520	Member_Membership	47	Role	48
+362	Person_Relative	246	Kinship	548
+636	Player_Team	1102	Acquisition	9
+4287	Player_Team	407	Specialty	1785
+317	Member_Membership	47	Role	52
+830	Person_Relative	661	Kinship	614
+1472	Person_Sibling	1391	Kinship	38
+780	Politician_Position	1536	Predecessor	778	Successor	3056
+2487	Person_Sibling	2480	Kinship	38
+855	Student_University	120	Major	856
+386	Politician_Position	385	Predecessor	2109	Successor	204
+59	Nominee_Award	1185	Work	673
+661	Person_Relative	886	Kinship	520
+3624	Student_University	1657	Major	3625	Degree	29
+1085	Politician_Position	1529	Predecessor	1528	Successor	3716
+88	Awardee_Award	1185	Work	90
+2643	Awardee_Award	1049	Work	458	Event	459
+4335	Person_Relative	115	Kinship	890
+4265	Student_University	426	Major	526	Degree	497
+873	Person_Relative	451	Kinship	2188
+1267	Student_University	120	Major	281	Degree	282
+1006	Nominee_Award	86	Event	1269
+3736	Player_Team	180	Acquisition	9
+3957	Person_Sibling	2480	Kinship	38
+1860	Politician_Position	746	Predecessor	1557	Successor	2758
+3656	Person_Birthplace	69	Country	65
+386	Politician_Position	1484	Predecessor	2153	Successor	2154
+2136	Student_University	4249	Major	571	Degree	62
+1786	Person_Relative	1627	Kinship	548
+529	Person_Sibling	492	Kinship	38
+2708	Member_Membership	47	Role	48
+432	Nominee_Award	1426	Work	1354
+576	Nominee_Award	266	Event	2193
+2448	Member_Membership	47	Role	52
+2318	Participant_Event	14	Part	218
+3610	Person_Relative	1627	Kinship	452
+1472	Person_Sibling	37	Kinship	38
+2699	Student_University	2700	Degree	1100
+451	Person_Relative	246	Kinship	178
+2865	Student_University	1657	Major	3536	Degree	619
+1284	Student_University	4216	Major	571
+1294	Participant_Event	2513	Status	2
+2715	Employee_Employer	618	Position	3280
+10	Employee_Employer	11	Position	12
+2058	Employee_Employer	11	Position	12
+3022	Deceased_Place	1891	Country	551
+1721	Person_Relative	177	Kinship	158
+1829	Student_University	1830	Major	1100
+570	Student_University	27	Major	571	Degree	470
+1391	Person_Sibling	1027	Kinship	38
+608	Awardee_Award	128	Work	166
+1933	Awardee_Award	513	Conferrer	1934
+3163	Person_Birthplace	1908	Country	1909
+3723	Member_Membership	47	Role	52
+492	Person_Relative	451	Kinship	452
+4161	Deceased_Place	1891	Country	551
+457	Nominee_Award	240	Work	458	Event	459
+529	Person_Relative	451	Kinship	452
+127	Awardee_Award	128	Work	1642
+3763	Deceased_Place	1046	Country	3209
+529	Person_Relative	610	Kinship	143
+1324	Member_Membership	47	Role	52
+1572	Person_Sibling	1457	Kinship	38
+1783	Player_Team	1784	Specialty	1785
+2291	Participant_Event	14	Part	218
+1394	Player_Team	1395	Acquisition	9
+2428	Politician_Position	3311	Predecessor	3312	Successor	3313
+662	Person_Relative	177	Kinship	452
+1572	Person_Sibling	1472	Kinship	38
+1061	Politician_Position	227	Predecessor	1088	Successor	1089
+4356	Employee_Employer	11	Position	12
+1267	Student_University	120	Major	281	Degree	619
+362	Person_Relative	492	Kinship	548
+3929	Player_Team	3930	Specialty	1785
+662	Person_Relative	661	Kinship	116
+2225	Employee_Employer	11	Position	12
+3214	Member_Membership	22	Role	23
+3079	Employee_Employer	11	Position	12
+3045	Person_Relative	3046	Kinship	1273
+1583	Person_Relative	1721	Kinship	364
+414	Person_Relative	415	Kinship	364
+741	Student_University	742	Degree	29
+2873	Person_Relative	915	Kinship	116
+1713	Student_University	27	Major	28	Degree	29
+1587	Participant_Event	14	Part	218
+2363	Awardee_Award	1173	Event	2838
+2185	Member_Membership	47	Role	52
+3937	Deceased_Place	69	Country	65
+3302	Employee_Employer	11	Position	12
+457	Person_Birthplace	1387	Territory	1388
+1131	Politician_Position	693	Electorate	3901
+1212	Person_Sibling	1457	Kinship	38
+684	Person_Birthplace	69	Country	65
+3009	Player_Team	1352	Specialty	408
+2659	Nominee_Award	215	Event	2437
+4354	Person_Birthplace	69	Country	65
+636	Player_Team	1729	Acquisition	9
+1131	Person_Relative	2002	Kinship	106
+3805	Employee_Employer	11	Position	12
+464	Participant_Event	14	Part	218
+1438	Player_Team	1729	Acquisition	9
+2084	Person_Relative	2085	Kinship	548
+406	Player_Team	407	Specialty	408
+661	Person_Relative	1583	Kinship	857
+832	Nominee_Award	1185	Work	834
+1294	Participant_Event	2968	Status	2
+1583	Person_Relative	177	Kinship	452
+1814	Participant_Event	14	Part	218
+2774	Student_Degree	497	University	2775
+1076	Player_Team	1819	Acquisition	9
+7	Player_Team	1712	Acquisition	9
+432	Nominee_Award	433	Work	434	Event	435
+2873	Person_Relative	789	Kinship	874
+2479	Person_Sibling	2480	Kinship	38
+71	Deceased_Place	72	Country	73
+1169	Player_Team	2690	Acquisition	9
+1267	Awardee_Award	43	Co-winner	1266	Co-winner	1265
+1394	Player_Team	1135	Acquisition	9
+135	Awardee_Award	951	Event	1174
+790	Nominee_Award	381	Work	458	Event	459
+1023	Player_Team	1448	Acquisition	9
+105	Person_Relative	270	Kinship	857
+245	Person_Relative	246	Kinship	18
+1294	Participant_Event	2762	Status	2
+3987	Deceased_Place	1400	Territory	175	Country	820
+349	Participant_Event	14	Part	218
+157	Person_Relative	830	Kinship	857
+529	Person_Relative	963	Kinship	158
+1860	Politician_Position	355	Predecessor	996	Successor	1240
+7	Player_Team	384	Acquisition	9
+36	Person_Sibling	1457	Kinship	38
+1288	Member_Membership	47	Role	48
+1583	Person_Relative	661	Kinship	116
+1023	Player_Team	155	Acquisition	9
+1023	Player_Team	1024	Acquisition	9
+119	Student_University	120	Degree	121
+1774	Member_Membership	47	Role	52
+2784	Employee_Employer	11	Position	12
+2161	Player_Team	3440	Specialty	408
+2752	Employee_Employer	11	Position	12
+2428	Student_Degree	2429	University	221
+3850	Student_University	120	Degree	545
+1139	Awardee_Award	128	Work	2537
+3416	Student_University	300	Degree	1385
+1394	Player_Team	1729	Acquisition	9
+1533	Person_Relative	1702	Kinship	1273
+2140	Person_Relative	105	Kinship	1273
+2428	Person_Birthplace	69	Territory	70	Country	99
+432	Awardee_Award	951	Event	2812
+4137	Member_Membership	47	Role	52
+711	Awardee_Award	128	Conferrer	120
+2978	Student_University	1739	Major	1100	Degree	470
+362	Person_Relative	245	Kinship	548
+1172	Nominee_Award	1173	Event	968
+1656	Student_University	1657	Major	1658	Degree	29
+1837	Member_Membership	22	Role	23
+432	Awardee_Award	150	Work	434
+187	Nominee_Award	1518	Work	382
+432	Nominee_Award	150	Work	434
+1316	Person_Relative	1898	Kinship	178
+3613	Person_Relative	3614	Kinship	1273
+1472	Person_Sibling	1457	Kinship	38
+37	Person_Sibling	1391	Kinship	38
+547	Person_Relative	19	Kinship	548
+406	Player_Team	2811	Specialty	408
+2580	Person_Birthplace	69	Country	65
+3856	Player_Team	407	Specialty	408
+1692	Member_Membership	47	Role	52
+134	Person_Relative	873	Kinship	336
+1721	Person_Relative	1583	Kinship	320
+2141	Player_Team	1640	Acquisition	9
+33	Nominee_Award	34	Event	2193
+687	Politician_Position	351	Predecessor	2149	Successor	778
+1394	Player_Team	2450	Acquisition	9
+661	Person_Relative	232	Kinship	320
+270	Person_Relative	1527	Kinship	520
+2195	Person_Relative	1316	Kinship	143
+88	Nominee_Award	1623	Work	441
+512	Awardee_Award	513	Conferrer	514
+1434	Politician_Position	227	Predecessor	2216	Successor	1061
+4032	Employee_Employer	11	Position	12
+1037	Person_Relative	1411	Kinship	1273
+3172	Student_University	120	Degree	1301
+741	Awardee_Award	43	Co-winner	1110	Co-winner	1109
+780	Politician_Position	309	Predecessor	778	Successor	3056
+488	Person_Relative	4273	Kinship	857
+204	Politician_Position	385	Predecessor	386	Successor	202
+1023	Player_Team	2450	Acquisition	9
+1169	Player_Team	1876	Acquisition	9
+406	Player_Team	2463	Specialty	408
+2729	Employee_Employer	11	Position	12
+631	Member_Membership	47	Role	52
+369	Player_Team	1051	Acquisition	9
+1698	Student_University	2555	Major	571	Degree	29
+33	Nominee_Award	34	Event	2838
+961	Awardee_Award	951	Event	2972
+85	Nominee_Award	86	Event	2354
+1011	Person_Relative	270	Kinship	1769
+4338	Person_Sibling	2480	Kinship	38
+650	Student_University	3301	Degree	1100
+576	Nominee_Award	500	Event	2132
+2321	Player_Team	1016	Acquisition	9
+636	Player_Team	637	Acquisition	9
+246	Person_Relative	362	Kinship	336
+3041	Person_Sibling	2480	Kinship	38
+2428	Student_University	221	Degree	2429	Major	2430
+179	Player_Team	180	Acquisition	9
+1771	Awardee_Award	951	Event	1772
+450	Person_Relative	1835	Kinship	158
+672	Nominee_Award	887	Work	673
+124	Member_Membership	47	Role	52
+1539	Awardee_Award	513	Conferrer	1540
+2800	Deceased_Place	1891	Country	551
+3706	Member_Membership	22	Role	23
+636	Player_Team	1815	Acquisition	9
+1898	Person_Relative	1527	Kinship	1273
+415	Person_Relative	414	Kinship	336
+636	Player_Team	528	Acquisition	9
+1025	Player_Team	388	Acquisition	9
+424	Person_Relative	975	Kinship	874
+530	Person_Relative	873	Kinship	2188
+1006	Nominee_Award	86	Event	268
+115	Person_Relative	4335	Kinship	520
+991	Student_University	300	Major	571	Degree	29
+187	Awardee_Award	647	Work	382	Event	383
+85	Nominee_Award	86	Event	1437
+2715	Student_Degree	2731	University	2716
+246	Person_Relative	393	Kinship	394
+1316	Person_Relative	815	Kinship	394
+1472	Person_Sibling	1027	Kinship	38
+209	Employee_Employer	11	Position	12
+1065	Nominee_Award	266	Event	968
+2674	Person_Relative	880	Kinship	1369
+1961	Politician_Position	997	Predecessor	1667	Successor	813
+3605	Employee_Employer	11	Position	12
+331	Person_Relative	639	Kinship	1273
+832	Awardee_Award	887	Work	834
+1693	Player_Team	180	Acquisition	9
+1290	Employee_Employer	11	Position	12
+873	Person_Relative	530	Kinship	874
+1394	Player_Team	1491	Acquisition	9
+4241	Employee_Employer	11	Position	12
+636	Player_Team	2050	Acquisition	9
+512	Awardee_Award	513	Conferrer	1839
+1667	Politician_Position	1356	Predecessor	3187	Successor	3188
+576	Student_University	3147	Major	3148	Degree	1385
+1025	Player_Team	838	Acquisition	9
+135	Awardee_Award	951	Event	968
+529	Person_Relative	530	Kinship	379
+3208	Deceased_Place	1046	Country	3209
+33	Nominee_Award	34	Event	35
+2078	Member_Membership	47	Role	52
+860	Player_Team	2050	Acquisition	9
+672	Nominee_Award	2040	Work	703	Event	704
+380	Student_University	1657	Degree	497
+661	Person_Relative	156	Kinship	178
+288	Awardee_Award	128	Work	166
+432	Nominee_Award	433	Work	434
+59	Nominee_Award	1185	Work	703
+2525	Student_University	1619	Degree	497	Major	2526
+3149	Player_Team	1729	Acquisition	9
+2593	Deceased_Place	69	Country	65
+2314	Student_University	597	Degree	619	Major	571
+1316	Person_Relative	3015	Kinship	1769
+3618	Deceased_Place	69	Country	96
+1859	Politician_Position	1344	Predecessor	354	Successor	1667
+1527	Person_Relative	974	Kinship	336
+1773	Student_University	300	Degree	545
+2363	Awardee_Award	2053	Event	2714
+2489	Nominee_Award	240	Work	382	Event	383
+1643	Person_Relative	547	Kinship	394
+1517	Awardee_Award	183	Event	2250
+1742	Member_Membership	22	Role	23
+3681	Student_University	3682	Degree	759	Major	1100
+457	Awardee_Award	89	Work	458	Event	459
+659	Person_Relative	56	Kinship	394
+406	Player_Team	3440	Specialty	408
+85	Nominee_Award	86	Event	87
+547	Person_Relative	1316	Kinship	520
+1818	Player_Team	3215	Acquisition	9
+2861	Person_Relative	1975	Kinship	1273
+1517	Awardee_Award	183	Event	213
+1294	Participant_Event	3115	Status	2
+101	Deceased_Place	72	Country	73
+2666	Politician_Position	12	Object	11
+1366	Member_Membership	47	Role	52
+20	Person_Relative	1643	Kinship	320
+3441	Person_Birthplace	1908	Country	1909
+157	Person_Relative	886	Kinship	857
+1219	Member_Membership	47	Role	646
+1040	Member_Membership	47	Role	646
+3663	Employee_Employer	11	Position	12
+16	Person_Relative	1835	Kinship	158
+2688	Person_Sibling	2480	Kinship	38
+519	Person_Relative	831	Kinship	18
+2363	Nominee_Award	1173	Event	268
+636	Player_Team	155	Acquisition	9
+996	Politician_Position	355	Predecessor	1859	Successor	1860
+915	Person_Relative	639	Kinship	2404
+134	Person_Relative	246	Kinship	18
+687	Politician_Position	351	Predecessor	2867	Successor	2725
+611	Person_Relative	451	Kinship	452
+2086	Player_Team	2108	Specialty	408
+85	Nominee_Award	86	Event	1168
+974	Person_Relative	270	Kinship	320
+2489	Nominee_Award	89	Work	382	Event	383
+1025	Player_Team	3091	Acquisition	9
+2391	Player_Team	2062	Specialty	408
+915	Person_Sibling	942	Kinship	38
+3478	Student_Degree	513	University	3479
+33	Awardee_Award	34	Event	1458
+4419	Person_Birthplace	69	Country	65
+1750	Member_Membership	47	Role	48
+439	Nominee_Award	1623	Work	1624
+1391	Person_Sibling	1213	Kinship	38
+115	Person_Relative	1994	Kinship	663
+2852	Student_University	2853	Degree	497
+414	Person_Relative	547	Kinship	18
+2363	Nominee_Award	1173	Event	1188
+3461	Employee_Employer	11	Position	12
+115	Person_Relative	1467	Kinship	116
+1584	Person_Relative	661	Kinship	106
+1023	Player_Team	1582	Acquisition	9
+3793	Deceased_Place	69	Country	65
+4259	Member_Membership	22	Role	23
+2315	Awardee_Award	128	Work	2537
+915	Person_Sibling	3430	Kinship	38
+3048	Student_Degree	29	University	238
+127	Awardee_Award	128	Work	1140
+1705	Student_University	27	Major	571	Degree	62
+4429	Employee_Employer	11	Position	12
+1241	Deceased_Place	1400	Country	176
+1702	Person_Relative	1494	Kinship	548
+21	Member_Membership	22	Role	23
+2363	Nominee_Award	1173	Event	2364
+1855	Person_Sibling	2480	Kinship	38
+1172	Nominee_Award	215	Event	1802
+2185	Awardee_Award	128	Conferrer	238
+88	Nominee_Award	1185	Work	1624
+1038	Person_Relative	451	Kinship	452
+1061	Politician_Position	227	Predecessor	1434	Successor	457
+127	Awardee_Award	128	Work	487
+2489	Awardee_Award	240	Work	382	Event	383
+4175	Employee_Employer	11	Position	12
+4182	Person_Birthplace	69	Country	65
+127	Awardee_Award	128	Work	305
+1532	Student_University	238	Major	571
+1083	Player_Team	1819	Acquisition	9
+873	Person_Relative	877	Kinship	364
+1986	Awardee_Award	128	Work	2537
+1517	Awardee_Award	183	Event	1458
+33	Nominee_Award	34	Event	1222
+1109	Awardee_Award	43	Co-winner	1110	Co-winner	741
+380	Awardee_Award	456	Work	382
+177	Person_Relative	156	Kinship	548
+1219	Member_Membership	47	Role	52
+1405	Person_Relative	1404	Kinship	857
+2903	Member_Membership	47	Role	52
+7	Player_Team	2077	Acquisition	9
+2898	Person_Birthplace	69	Country	65
+1818	Player_Team	1819	Acquisition	9
+1984	Player_Team	3806	Acquisition	9
+1248	Awardee_Award	128	Work	2537
+33	Nominee_Award	34	Event	1105
+2691	Participant_Event	14	Part	218
+2321	Player_Team	565	Acquisition	9
+672	Nominee_Award	1185	Work	673
+542	Person_Relative	611	Kinship	857
+33	Nominee_Award	167	Event	267
+118	Person_Relative	19	Kinship	874
+1721	Person_Relative	1430	Kinship	364
+4097	Employee_Employer	11	Position	12
+1054	Deceased_Place	69	Country	65
+457	Awardee_Award	440	Work	458	Event	459
+3856	Player_Team	4366	Specialty	408
+1961	Politician_Position	1344	Predecessor	386	Successor	1666
+1025	Player_Team	2151	Acquisition	9
+2187	Person_Relative	2165	Kinship	1273
+1487	Person_Birthplace	1488	Territory	1489	Country	679
+915	Person_Sibling	2300	Kinship	233
+636	Player_Team	1858	Acquisition	9
+1517	Nominee_Award	183	Event	2714
+2397	Student_University	2398	Degree	497
+1292	Person_Relative	177	Kinship	548
+4229	Deceased_Place	4230	Country	3209
+380	Nominee_Award	456	Work	382
+2457	Politician_Position	746	Predecessor	2096	Successor	386
+3759	Person_Birthplace	69	Territory	3760	Country	65
+3641	Employee_Employer	11	Position	12
+68	Deceased_Place	69	Country	70
+2873	Person_Relative	1316	Kinship	1273
+1666	Politician_Position	997	Predecessor	1085	Successor	1667
+1564	Deceased_Place	69	Country	65
+1169	Player_Team	3634	Acquisition	9
+1572	Person_Sibling	1391	Kinship	38
+19	Person_Relative	1786	Kinship	1369
+807	Person_Relative	659	Kinship	336
+4188	Deceased_Place	1908	Country	1909
+741	Member_Membership	22	Role	52
+1517	Awardee_Award	183	Event	2972
+688	Politician_Position	351	Predecessor	2149	Successor	687
+1910	Member_Membership	47	Role	52
+2685	Nominee_Award	951	Event	1802
+2613	Member_Membership	47	Role	52
+1391	Person_Sibling	1457	Kinship	38
+2373	Employee_Employer	11	Position	12
+2435	Employee_Employer	11	Position	12
+1006	Nominee_Award	34	Event	1458
+33	Awardee_Award	34	Event	148
+1310	Member_Membership	47	Role	48
+127	Awardee_Award	128	Work	1380
+2674	Person_Relative	705	Kinship	1273
+7	Player_Team	8	Acquisition	9
+33	Awardee_Award	34	Event	709
+1818	Player_Team	1077	Acquisition	9
+127	Awardee_Award	128	Work	2190
+1724	Awardee_Award	128	Work	2537
+1294	Participant_Event	4226	Status	2
+1339	Nominee_Award	240	Work	1180	Event	1181
+105	Person_Relative	1685	Kinship	1273
+2413	Student_University	1002	Degree	2414
+672	Awardee_Award	2040	Work	703	Event	704
+59	Awardee_Award	2040	Work	703	Event	704
+830	Person_Relative	831	Kinship	364
+1394	Player_Team	731	Acquisition	9
+1131	Politician_Position	693	Electorate	1132
+1818	Player_Team	565	Acquisition	9
+530	Person_Relative	1411	Kinship	1369
+3375	Deceased_Place	1891	Country	551
+169	Nominee_Award	951	Event	501
+2889	Deceased_Place	69	Country	65
+1339	Awardee_Award	89	Work	1180	Event	1181
+2757	Member_Membership	47	Role	52
+1025	Player_Team	4192	Acquisition	9
+2061	Player_Team	2062	Specialty	1785
+246	Person_Relative	451	Kinship	452
+432	Nominee_Award	4180	Work	434
+488	Student_University	1763	Major	1100
+7	Player_Team	2473	Acquisition	9
+537	Player_Team	2675	Acquisition	9
+1411	Person_Relative	530	Kinship	874
+1643	Person_Relative	20	Kinship	364
+689	Politician_Position	1598	Predecessor	687	Successor	2692
+1984	Player_Team	1985	Acquisition	9
+495	Deceased_Place	1400	Country	820
+2307	Nominee_Award	740	Work	1180	Event	1181
+915	Person_Relative	2197	Kinship	18
+246	Person_Relative	542	Kinship	116
+1052	Member_Membership	22	Role	23
+660	Person_Sibling	1391	Kinship	38
+179	Player_Team	1729	Acquisition	9
+710	Student_University	238	Major	281
+7	Player_Team	1734	Acquisition	9
+246	Person_Sibling	611	Kinship	233
+1467	Person_Relative	115	Kinship	857
+2061	Player_Team	3061	Specialty	1785
+1294	Participant_Event	2182	Status	1794
+2243	Member_Membership	22	Role	23
+386	Politician_Position	1344	Predecessor	354	Successor	1961
+894	Player_Team	1729	Specialty	896
+2199	Employee_Employer	11	Position	12
+2715	Employee_Employer	3537	Position	3538
+457	Nominee_Award	89	Work	458	Event	459
+963	Person_Relative	363	Kinship	857
+643	Awardee_Award	128	Work	166
+1860	Politician_Position	1621	Predecessor	1240	Successor	3122
+369	Player_Team	103	Acquisition	9
+246	Person_Relative	877	Kinship	364
+966	Student_University	221	Major	1100
+177	Person_Relative	1721	Kinship	857
+1023	Player_Team	2370	Acquisition	9
+3313	Politician_Position	3311	Predecessor	2428	Successor	2428
+537	Player_Team	1276	Acquisition	9
+33	Nominee_Award	34	Event	1650
+2284	Deceased_Place	2148	Country	679
+2391	Player_Team	3440	Specialty	408
+2715	Employee_Employer	1371	Position	3538
+860	Player_Team	3039	Acquisition	9
+3836	Person_Birthplace	69	Country	65
+3484	Player_Team	180	Acquisition	9
+439	Nominee_Award	1623	Work	90
+2006	Student_Degree	513	University	2007
+1213	Person_Sibling	1391	Kinship	38
+1151	Person_Relative	157	Kinship	548
+576	Nominee_Award	266	Event	1437
+610	Person_Relative	873	Kinship	874
+3113	Student_University	120	Major	427	Degree	29
+4204	Employee_Employer	11	Position	12
+661	Person_Relative	1292	Kinship	18
+1391	Person_Sibling	850	Kinship	38
+1025	Player_Team	50	Acquisition	9
+1890	Person_Birthplace	1891	Country	551
+414	Person_Relative	20	Kinship	364
+537	Player_Team	914	Acquisition	9
+886	Person_Relative	661	Kinship	106
+2961	Student_University	238	Major	852
+3936	Student_University	3088	Major	28	Degree	29
+1030	Member_Membership	47	Role	48
+915	Person_Relative	1749	Kinship	178
+88	Nominee_Award	1185	Work	90
+3938	Employee_Employer	11	Position	12
+33	Nominee_Award	167	Event	2745
+831	Person_Relative	519	Kinship	18
+1204	Employee_Employer	11	Position	12
+749	Person_Birthplace	69	Country	65
+3910	Player_Team	3800	Specialty	408
+1709	Employee_Employer	11	Position	12
+2412	Participant_Event	14	Part	218
+2321	Player_Team	731	Acquisition	9
+2678	Deceased_Place	1482	Territory	4268	Country	679
+1025	Player_Team	1026	Acquisition	9
+1813	Student_University	1002	Degree	62
+1472	Person_Sibling	1213	Kinship	38
+380	Nominee_Award	2060	Work	382
+1001	__SELF__	1001
+1019	__SELF__	1019
+1062	__SELF__	1062
+1087	__SELF__	1087
+1098	__SELF__	1098
+1136	__SELF__	1136
+1141	__SELF__	1141
+1201	__SELF__	1201
+1253	__SELF__	1253
+1367	__SELF__	1367
+1399	__SELF__	1399
+1410	__SELF__	1410
+1505	__SELF__	1505
+1534	__SELF__	1534
+1569	__SELF__	1569
+1635	__SELF__	1635
+1770	__SELF__	1770
+1787	__SELF__	1787
+181	__SELF__	181
+184	__SELF__	184
+1844	__SELF__	1844
+1853	__SELF__	1853
+1863	__SELF__	1863
+1864	__SELF__	1864
+1867	__SELF__	1867
+1897	__SELF__	1897
+1907	__SELF__	1907
+2088	__SELF__	2088
+2089	__SELF__	2089
+2204	__SELF__	2204
+2211	__SELF__	2211
+2217	__SELF__	2217
+2272	__SELF__	2272
+2298	__SELF__	2298
+2299	__SELF__	2299
+2306	__SELF__	2306
+2339	__SELF__	2339
+2343	__SELF__	2343
+2353	__SELF__	2353
+237	__SELF__	237
+2372	__SELF__	2372
+2377	__SELF__	2377
+2378	__SELF__	2378
+2392	__SELF__	2392
+2509	__SELF__	2509
+2521	__SELF__	2521
+2544	__SELF__	2544
+2562	__SELF__	2562
+2588	__SELF__	2588
+2597	__SELF__	2597
+2662	__SELF__	2662
+2710	__SELF__	2710
+2717	__SELF__	2717
+2723	__SELF__	2723
+2730	__SELF__	2730
+2735	__SELF__	2735
+2736	__SELF__	2736
+2746	__SELF__	2746
+2783	__SELF__	2783
+2819	__SELF__	2819
+2830	__SELF__	2830
+2831	__SELF__	2831
+2850	__SELF__	2850
+2871	__SELF__	2871
+2915	__SELF__	2915
+294	__SELF__	294
+299	__SELF__	299
+3073	__SELF__	3073
+3098	__SELF__	3098
+3130	__SELF__	3130
+3241	__SELF__	3241
+3295	__SELF__	3295
+3297	__SELF__	3297
+3325	__SELF__	3325
+3337	__SELF__	3337
+3381	__SELF__	3381
+3410	__SELF__	3410
+3417	__SELF__	3417
+3421	__SELF__	3421
+3428	__SELF__	3428
+3436	__SELF__	3436
+3457	__SELF__	3457
+3483	__SELF__	3483
+3520	__SELF__	3520
+3521	__SELF__	3521
+3525	__SELF__	3525
+3556	__SELF__	3556
+3580	__SELF__	3580
+3590	__SELF__	3590
+3635	__SELF__	3635
+3651	__SELF__	3651
+3664	__SELF__	3664
+3675	__SELF__	3675
+3684	__SELF__	3684
+3712	__SELF__	3712
+3734	__SELF__	3734
+374	__SELF__	374
+3741	__SELF__	3741
+3758	__SELF__	3758
+3766	__SELF__	3766
+3773	__SELF__	3773
+3774	__SELF__	3774
+3777	__SELF__	3777
+3778	__SELF__	3778
+3781	__SELF__	3781
+3794	__SELF__	3794
+3803	__SELF__	3803
+3804	__SELF__	3804
+3871	__SELF__	3871
+3886	__SELF__	3886
+3887	__SELF__	3887
+3888	__SELF__	3888
+3940	__SELF__	3940
+3950	__SELF__	3950
+3967	__SELF__	3967
+3975	__SELF__	3975
+4005	__SELF__	4005
+4007	__SELF__	4007
+4015	__SELF__	4015
+4055	__SELF__	4055
+4074	__SELF__	4074
+4078	__SELF__	4078
+4095	__SELF__	4095
+4114	__SELF__	4114
+4115	__SELF__	4115
+4121	__SELF__	4121
+4136	__SELF__	4136
+4140	__SELF__	4140
+4173	__SELF__	4173
+4193	__SELF__	4193
+4219	__SELF__	4219
+4247	__SELF__	4247
+4253	__SELF__	4253
+4269	__SELF__	4269
+4271	__SELF__	4271
+4295	__SELF__	4295
+4296	__SELF__	4296
+4300	__SELF__	4300
+4301	__SELF__	4301
+4311	__SELF__	4311
+4313	__SELF__	4313
+4337	__SELF__	4337
+4384	__SELF__	4384
+4393	__SELF__	4393
+4395	__SELF__	4395
+4422	__SELF__	4422
+4423	__SELF__	4423
+4427	__SELF__	4427
+4457	__SELF__	4457
+4458	__SELF__	4458
+46	__SELF__	46
+538	__SELF__	538
+578	__SELF__	578
+624	__SELF__	624
+678	__SELF__	678
+916	__SELF__	916
+950	__SELF__	950
