@@ -32,7 +32,7 @@ To use the checkpoints:
 1. Download and unzip `ckpt_MAYPL.zip` file.
 2. Place the unzipped `ckpt` folder under the `./code` directory.
 
-You can download the checkpoints from [here]().
+You can download the checkpoints from [here](https://drive.google.com/file/d/1USr78S0jiw-uBo_SxknOx2axpoJ0oYeV/view?usp=sharing).
 
 To reproduce results using the checkpoints, run:
 
