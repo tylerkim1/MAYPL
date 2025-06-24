@@ -38,7 +38,7 @@ To reproduce results using the checkpoints, run:
 
 ```
 cd ./ckpt_bash
-bash ./[dataset_name].sh
+bash [dataset_name].sh
 ```
 
 Replace `[dataset_name]` with the appropriate dataset name (e.g., `WD50K`, `WikiPeople-`, `WD20K100v1`, `WK-50`, etc).
@@ -51,7 +51,7 @@ To train MAYPL from scratch and reproduce the results reported in the paper:
 
 ```
 cd ./train_bash
-bash ./[dataset_name].sh
+bash [dataset_name].sh
 ```
 
 ### Evaluation
@@ -62,7 +62,7 @@ To evaluate the trained model on the test set:
 
 ```
 cd ./test_bash
-bash ./[dataset_name].sh
+bash [dataset_name].sh
 ```
 
 ## Running on Your Own Dataset
