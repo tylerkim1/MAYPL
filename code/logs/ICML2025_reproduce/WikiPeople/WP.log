@@ -1,0 +1,282 @@
+2025-09-24 17:05:16,859 - INFO - 4264
+2025-09-24 17:05:16,859 - INFO - dataset_name:WikiPeople
+2025-09-24 17:05:16,861 - INFO - data_dir:../data/
+2025-09-24 17:05:16,861 - INFO - exp:ICML2025_reproduce
+2025-09-24 17:05:16,861 - INFO - setting:Transductive
+2025-09-24 17:05:16,861 - INFO - log_name:WP
+2025-09-24 17:05:16,861 - INFO - lr:0.0001
+2025-09-24 17:05:16,861 - INFO - dim:256
+2025-09-24 17:05:16,861 - INFO - start_epoch:0
+2025-09-24 17:05:16,861 - INFO - num_epoch:100
+2025-09-24 17:05:16,887 - INFO - val_dur:100
+2025-09-24 17:05:16,887 - INFO - val_size:100
+2025-09-24 17:05:16,887 - INFO - num_init_layer:3
+2025-09-24 17:05:16,887 - INFO - num_layer:4
+2025-09-24 17:05:16,887 - INFO - num_head:32
+2025-09-24 17:05:16,887 - INFO - early_stop:0
+2025-09-24 17:05:16,887 - INFO - batch_num:20
+2025-09-24 17:05:16,887 - INFO - train_graph_ratio:0.7
+2025-09-24 17:05:16,895 - INFO - model_dropout:0.1
+2025-09-24 17:05:16,895 - INFO - smoothing:0.0
+2025-09-24 17:05:16,895 - INFO - no_write:False
+2025-09-24 17:05:16,895 - INFO - msg_add_tr:False
+2025-09-24 17:05:16,895 - INFO - Args Listed!
+2025-09-24 17:05:16,895 - INFO - Loading Dataset...
+2025-09-24 17:05:17,506 - INFO - Dataset Loaded Successfully!
+2025-09-24 17:05:17,506 - INFO - Generating Dictionaries for Filtering...
+2025-09-24 17:05:19,189 - INFO - Successfully Generated Filtering Dictionary!
+2025-09-24 17:05:19,189 - INFO - Model Input Construction...
+2025-09-24 17:05:26,352 - INFO - Successfully Saved Model Inputs!
+2025-09-24 17:05:26,352 - INFO - Evaluation Query Generation...
+2025-09-24 17:05:50,526 - INFO - 8744
+2025-09-24 17:05:50,526 - INFO - dataset_name:WikiPeople
+2025-09-24 17:05:50,526 - INFO - data_dir:../data/
+2025-09-24 17:05:50,526 - INFO - exp:ICML2025_reproduce
+2025-09-24 17:05:50,526 - INFO - setting:Transductive
+2025-09-24 17:05:50,526 - INFO - log_name:WP
+2025-09-24 17:05:50,526 - INFO - lr:0.0001
+2025-09-24 17:05:50,526 - INFO - dim:256
+2025-09-24 17:05:50,526 - INFO - start_epoch:0
+2025-09-24 17:05:50,528 - INFO - num_epoch:100
+2025-09-24 17:05:50,528 - INFO - val_dur:100
+2025-09-24 17:05:50,528 - INFO - val_size:100
+2025-09-24 17:05:50,528 - INFO - num_init_layer:3
+2025-09-24 17:05:50,528 - INFO - num_layer:4
+2025-09-24 17:05:50,528 - INFO - num_head:32
+2025-09-24 17:05:50,528 - INFO - early_stop:0
+2025-09-24 17:05:50,528 - INFO - batch_num:20
+2025-09-24 17:05:50,530 - INFO - train_graph_ratio:0.7
+2025-09-24 17:05:50,530 - INFO - model_dropout:0.1
+2025-09-24 17:05:50,530 - INFO - smoothing:0.0
+2025-09-24 17:05:50,530 - INFO - no_write:False
+2025-09-24 17:05:50,530 - INFO - msg_add_tr:False
+2025-09-24 17:05:50,530 - INFO - Args Listed!
+2025-09-24 17:05:50,530 - INFO - Loading Dataset...
+2025-09-24 17:05:51,082 - INFO - Dataset Loaded Successfully!
+2025-09-24 17:05:51,082 - INFO - Generating Dictionaries for Filtering...
+2025-09-24 17:05:52,713 - INFO - Successfully Generated Filtering Dictionary!
+2025-09-24 17:05:52,713 - INFO - Model Input Construction...
+2025-09-24 17:05:59,557 - INFO - Successfully Saved Model Inputs!
+2025-09-24 17:05:59,557 - INFO - Evaluation Query Generation...
+2025-09-24 17:06:01,489 - INFO - Evaluation Query Generated Successfully!
+2025-09-24 17:06:11,290 - CRITICAL - CUDA out of memory. Tried to allocate 210.00 MiB. GPU 0 has a total capacity of 11.99 GiB of which 0 bytes is free. Of the allocated memory 26.12 GiB is allocated by PyTorch, and 235.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\train.py", line 290, in <module>
+    train(args, logger)
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\train.py", line 87, in train
+    emb_ents, emb_rels, init_embs_ent, init_embs_rel = model(base_pri.clone().detach(), base_qual.clone().detach(), base_qual2fact, \
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\model.py", line 744, in forward
+    emb_ent, emb_rel = layer(emb_ent, emb_rel, \
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\model.py", line 579, in forward
+    new_emb_ent = self.ent_attn(query = emb_ent, keys = [emb_fact_to_head, emb_fact_to_tail, emb_fact_to_qual], \
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\model.py", line 105, in forward
+    attn_query_per_key.append((self.a * self.act(torch.index_select(self.Q(query), 0, query_idx) + self.K(key)).reshape(-1, self.num_head, self.dim_per_head)).sum(dim = -1, keepdim = True))
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 210.00 MiB. GPU 0 has a total capacity of 11.99 GiB of which 0 bytes is free. Of the allocated memory 26.12 GiB is allocated by PyTorch, and 235.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-09-24 17:06:11,363 - INFO - END
+2025-09-24 17:07:10,705 - INFO - 11364
+2025-09-24 17:07:10,734 - INFO - dataset_name:WikiPeople
+2025-09-24 17:07:10,734 - INFO - data_dir:../data/
+2025-09-24 17:07:10,734 - INFO - exp:ICML2025_reproduce
+2025-09-24 17:07:10,734 - INFO - setting:Transductive
+2025-09-24 17:07:10,734 - INFO - log_name:WP
+2025-09-24 17:07:10,734 - INFO - lr:0.0001
+2025-09-24 17:07:10,734 - INFO - dim:256
+2025-09-24 17:07:10,734 - INFO - start_epoch:0
+2025-09-24 17:07:10,734 - INFO - num_epoch:100
+2025-09-24 17:07:10,734 - INFO - val_dur:100
+2025-09-24 17:07:10,734 - INFO - val_size:100
+2025-09-24 17:07:10,734 - INFO - num_init_layer:3
+2025-09-24 17:07:10,734 - INFO - num_layer:4
+2025-09-24 17:07:10,734 - INFO - num_head:8
+2025-09-24 17:07:10,734 - INFO - early_stop:0
+2025-09-24 17:07:10,734 - INFO - batch_num:20
+2025-09-24 17:07:10,734 - INFO - train_graph_ratio:0.7
+2025-09-24 17:07:10,734 - INFO - model_dropout:0.1
+2025-09-24 17:07:10,734 - INFO - smoothing:0.0
+2025-09-24 17:07:10,734 - INFO - no_write:False
+2025-09-24 17:07:10,734 - INFO - msg_add_tr:False
+2025-09-24 17:07:10,734 - INFO - Args Listed!
+2025-09-24 17:07:10,734 - INFO - Loading Dataset...
+2025-09-24 17:07:11,290 - INFO - Dataset Loaded Successfully!
+2025-09-24 17:07:11,290 - INFO - Generating Dictionaries for Filtering...
+2025-09-24 17:07:12,854 - INFO - Successfully Generated Filtering Dictionary!
+2025-09-24 17:07:12,854 - INFO - Model Input Construction...
+2025-09-24 17:07:20,299 - INFO - Successfully Saved Model Inputs!
+2025-09-24 17:07:20,299 - INFO - Evaluation Query Generation...
+2025-09-24 17:07:22,413 - INFO - Evaluation Query Generated Successfully!
+2025-09-24 17:07:30,864 - CRITICAL - CUDA out of memory. Tried to allocate 210.00 MiB. GPU 0 has a total capacity of 11.99 GiB of which 0 bytes is free. Of the allocated memory 26.25 GiB is allocated by PyTorch, and 126.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\train.py", line 290, in <module>
+    train(args, logger)
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\train.py", line 87, in train
+    emb_ents, emb_rels, init_embs_ent, init_embs_rel = model(base_pri.clone().detach(), base_qual.clone().detach(), base_qual2fact, \
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\model.py", line 744, in forward
+    emb_ent, emb_rel = layer(emb_ent, emb_rel, \
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\model.py", line 579, in forward
+    new_emb_ent = self.ent_attn(query = emb_ent, keys = [emb_fact_to_head, emb_fact_to_tail, emb_fact_to_qual], \
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\tyler\.conda\envs\maypl\lib\site-packages\torch\nn\modules\module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\tyler\OneDrive - KAIST\KAIST\연구실\랩인턴\2025 여름-가을\HKG\코드\MAYPL\code\model.py", line 105, in forward
+    attn_query_per_key.append((self.a * self.act(torch.index_select(self.Q(query), 0, query_idx) + self.K(key)).reshape(-1, self.num_head, self.dim_per_head)).sum(dim = -1, keepdim = True))
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 210.00 MiB. GPU 0 has a total capacity of 11.99 GiB of which 0 bytes is free. Of the allocated memory 26.25 GiB is allocated by PyTorch, and 126.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-09-24 17:07:30,975 - INFO - END
+2025-09-24 17:07:50,441 - INFO - 8252
+2025-09-24 17:07:50,472 - INFO - dataset_name:WikiPeople
+2025-09-24 17:07:50,473 - INFO - data_dir:../data/
+2025-09-24 17:07:50,473 - INFO - exp:ICML2025_reproduce
+2025-09-24 17:07:50,473 - INFO - setting:Transductive
+2025-09-24 17:07:50,473 - INFO - log_name:WP
+2025-09-24 17:07:50,473 - INFO - lr:0.0001
+2025-09-24 17:07:50,474 - INFO - dim:32
+2025-09-24 17:07:50,474 - INFO - start_epoch:0
+2025-09-24 17:07:50,474 - INFO - num_epoch:100
+2025-09-24 17:07:50,474 - INFO - val_dur:100
+2025-09-24 17:07:50,475 - INFO - val_size:100
+2025-09-24 17:07:50,475 - INFO - num_init_layer:3
+2025-09-24 17:07:50,475 - INFO - num_layer:4
+2025-09-24 17:07:50,475 - INFO - num_head:8
+2025-09-24 17:07:50,475 - INFO - early_stop:0
+2025-09-24 17:07:50,475 - INFO - batch_num:40
+2025-09-24 17:07:50,475 - INFO - train_graph_ratio:0.7
+2025-09-24 17:07:50,476 - INFO - model_dropout:0.1
+2025-09-24 17:07:50,476 - INFO - smoothing:0.0
+2025-09-24 17:07:50,476 - INFO - no_write:False
+2025-09-24 17:07:50,476 - INFO - msg_add_tr:False
+2025-09-24 17:07:50,476 - INFO - Args Listed!
+2025-09-24 17:07:50,476 - INFO - Loading Dataset...
+2025-09-24 17:07:51,031 - INFO - Dataset Loaded Successfully!
+2025-09-24 17:07:51,047 - INFO - Generating Dictionaries for Filtering...
+2025-09-24 17:07:52,685 - INFO - Successfully Generated Filtering Dictionary!
+2025-09-24 17:07:52,685 - INFO - Model Input Construction...
+2025-09-24 17:08:00,131 - INFO - Successfully Saved Model Inputs!
+2025-09-24 17:08:00,131 - INFO - Evaluation Query Generation...
+2025-09-24 17:08:02,316 - INFO - Evaluation Query Generated Successfully!
+2025-09-24 17:08:21,364 - INFO - Epoch 1 GPU:7181664768 Loss:12.837289
+2025-09-24 17:08:56,406 - INFO - 2220
+2025-09-24 17:08:56,406 - INFO - dataset_name:WikiPeople
+2025-09-24 17:08:56,407 - INFO - data_dir:../data/
+2025-09-24 17:08:56,407 - INFO - exp:ICML2025_reproduce
+2025-09-24 17:08:56,408 - INFO - setting:Transductive
+2025-09-24 17:08:56,408 - INFO - log_name:WP
+2025-09-24 17:08:56,408 - INFO - lr:0.0001
+2025-09-24 17:08:56,408 - INFO - dim:32
+2025-09-24 17:08:56,409 - INFO - start_epoch:0
+2025-09-24 17:08:56,409 - INFO - num_epoch:20
+2025-09-24 17:08:56,409 - INFO - val_dur:20
+2025-09-24 17:08:56,410 - INFO - val_size:100
+2025-09-24 17:08:56,410 - INFO - num_init_layer:3
+2025-09-24 17:08:56,410 - INFO - num_layer:4
+2025-09-24 17:08:56,411 - INFO - num_head:8
+2025-09-24 17:08:56,411 - INFO - early_stop:0
+2025-09-24 17:08:56,411 - INFO - batch_num:40
+2025-09-24 17:08:56,411 - INFO - train_graph_ratio:0.7
+2025-09-24 17:08:56,412 - INFO - model_dropout:0.1
+2025-09-24 17:08:56,412 - INFO - smoothing:0.0
+2025-09-24 17:08:56,413 - INFO - no_write:False
+2025-09-24 17:08:56,413 - INFO - msg_add_tr:False
+2025-09-24 17:08:56,413 - INFO - Args Listed!
+2025-09-24 17:08:56,414 - INFO - Loading Dataset...
+2025-09-24 17:08:56,991 - INFO - Dataset Loaded Successfully!
+2025-09-24 17:08:56,991 - INFO - Generating Dictionaries for Filtering...
+2025-09-24 17:08:58,677 - INFO - Successfully Generated Filtering Dictionary!
+2025-09-24 17:08:58,677 - INFO - Model Input Construction...
+2025-09-24 17:09:05,470 - INFO - Successfully Saved Model Inputs!
+2025-09-24 17:09:05,470 - INFO - Evaluation Query Generation...
+2025-09-24 17:09:07,464 - INFO - Evaluation Query Generated Successfully!
+2025-09-24 17:09:25,104 - INFO - Epoch 1 GPU:7181664768 Loss:12.837285
+2025-09-24 17:09:41,850 - INFO - Epoch 2 GPU:7185038848 Loss:10.791730
+2025-09-24 17:09:58,633 - INFO - Epoch 3 GPU:7198104064 Loss:10.219322
+2025-09-24 17:10:15,371 - INFO - Epoch 4 GPU:7198104064 Loss:9.866900
+2025-09-24 17:10:32,281 - INFO - Epoch 5 GPU:7198104064 Loss:9.719984
+2025-09-24 17:10:49,120 - INFO - Epoch 6 GPU:7202278912 Loss:9.561272
+2025-09-24 17:11:05,486 - INFO - Epoch 7 GPU:7202278912 Loss:9.434185
+2025-09-24 17:11:22,160 - INFO - Epoch 8 GPU:7202278912 Loss:9.238351
+2025-09-24 17:11:38,974 - INFO - Epoch 9 GPU:7202278912 Loss:9.165072
+2025-09-24 17:11:55,856 - INFO - Epoch 10 GPU:7202278912 Loss:9.071190
+2025-09-24 17:12:12,556 - INFO - Epoch 11 GPU:7202278912 Loss:9.008100
+2025-09-24 17:12:29,241 - INFO - Epoch 12 GPU:7202278912 Loss:8.896805
+2025-09-24 17:12:45,821 - INFO - Epoch 13 GPU:7202278912 Loss:8.877783
+2025-09-24 17:13:02,480 - INFO - Epoch 14 GPU:7202278912 Loss:8.845394
+2025-09-24 17:13:18,895 - INFO - Epoch 15 GPU:7202278912 Loss:8.764132
+2025-09-24 17:13:35,602 - INFO - Epoch 16 GPU:7202278912 Loss:8.736780
+2025-09-24 17:13:52,071 - INFO - Epoch 17 GPU:7202278912 Loss:8.694244
+2025-09-24 17:14:09,119 - INFO - Epoch 18 GPU:7202278912 Loss:8.699095
+2025-09-24 17:14:27,109 - INFO - Epoch 19 GPU:7202278912 Loss:8.647855
+2025-09-24 17:14:44,255 - INFO - Epoch 20 GPU:7202278912 Loss:8.611693
+2025-09-24 17:17:34,036 - INFO - Link Prediction (Head, 38223)
+MR:4323.657300578186
+MRR:0.0029754055895024195
+Hit1:0.000994165816393271
+Hit3:0.0012819506579807968
+Hit10:0.0032702822907673392
+2025-09-24 17:17:34,036 - INFO - Link Prediction (Tail, 38223)
+MR:1131.4349737069304
+MRR:0.0416872408749512
+Hit1:0.008267273631059833
+Hit3:0.06119352222483845
+Hit10:0.07848677497841614
+2025-09-24 17:17:34,037 - INFO - Link Prediction (Qual, 6432)
+MR:1440.3356654228855
+MRR:0.008691676763476984
+Hit1:0.002643034825870647
+Hit3:0.004975124378109453
+Hit10:0.012126865671641791
+2025-09-24 17:17:34,037 - INFO - Link Prediction (Pri, 76446)
+MR:2727.546137142558
+MRR:0.022331323232226814
+Hit1:0.004630719723726552
+Hit3:0.031237736441409623
+Hit10:0.04087852863459174
+2025-09-24 17:17:34,038 - INFO - Link Prediction (All, 82878)
+MR:2627.6482419942568
+MRR:0.021272776861814894
+Hit1:0.004476459374019644
+Hit3:0.02919954632109848
+Hit10:0.03864716812664398
+2025-09-24 17:17:34,038 - INFO - Link Prediction (Qual 0, 67690)
+MR:2852.8440685477913
+MRR:0.023458264651731568
+Hit1:0.00484561973703649
+Hit3:0.03375683261929384
+Hit10:0.04331511301521643
+2025-09-24 17:17:34,038 - INFO - Link Prediction (Qual 1, 5338)
+MR:1823.341326339453
+MRR:0.014369622569564986
+Hit1:0.0033720494567253652
+Hit3:0.014050206069689023
+Hit10:0.01985762457849382
+2025-09-24 17:17:34,038 - INFO - Link Prediction (Qual 2, 2844)
+MR:1601.5931786216597
+MRR:0.010616199546881153
+Hit1:0.0010548523206751054
+Hit3:0.006329113924050633
+Hit10:0.023206751054852322
+2025-09-24 17:17:34,038 - INFO - Link Prediction (Qual 3+, 574)
+MR:1939.1114982578397
+MRR:0.021520705134900567
+Hit1:0.008710801393728223
+Hit3:0.017421602787456445
+Hit10:0.036585365853658534
+2025-09-24 17:17:34,186 - INFO - END

@@ -205,6 +205,15 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
         self.proj_te2pr = nn.Linear(dim, dim, bias = True)
         self.proj_qe2qr = nn.Linear(dim, dim, bias = True)
 
+        # pri <-> qual 사이의 MP
+        self.proj_he2qr = nn.Linear(dim, dim, bias = True)
+        self.proj_te2qr = nn.Linear(dim, dim, bias = True)
+        self.proj_pr2qe = nn.Linear(dim, dim, bias = True)
+        self.proj_qe2pr = nn.Linear(dim, dim, bias = True)
+        self.proj_qr2he = nn.Linear(dim, dim, bias = True)
+        self.proj_qr2te = nn.Linear(dim, dim, bias = True)
+
+        
         self.proj_pr2he = nn.Linear(dim, dim, bias = True)
         self.proj_pr2te = nn.Linear(dim, dim, bias = True)
         self.proj_qr2qe = nn.Linear(dim, dim, bias = True)
@@ -233,6 +242,14 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
         nn.init.xavier_normal_(self.proj_te2pr.weight, gain = nn.init.calculate_gain('relu'))
         nn.init.xavier_normal_(self.proj_qe2qr.weight, gain = nn.init.calculate_gain('relu'))
 
+        # pri <-> qual 사이의 MP
+        nn.init.xavier_normal_(self.proj_he2qr.weight, gain = nn.init.calculate_gain('relu'))
+        nn.init.xavier_normal_(self.proj_te2qr.weight, gain = nn.init.calculate_gain('relu'))
+        nn.init.xavier_normal_(self.proj_pr2qe.weight, gain = nn.init.calculate_gain('relu'))
+        nn.init.xavier_normal_(self.proj_qe2pr.weight, gain = nn.init.calculate_gain('relu'))
+        nn.init.xavier_normal_(self.proj_qr2he.weight, gain = nn.init.calculate_gain('relu'))
+        nn.init.xavier_normal_(self.proj_qr2te.weight, gain = nn.init.calculate_gain('relu'))
+
         nn.init.xavier_normal_(self.proj_pr2he.weight, gain = nn.init.calculate_gain('relu'))
         nn.init.xavier_normal_(self.proj_pr2te.weight, gain = nn.init.calculate_gain('relu'))
         nn.init.xavier_normal_(self.proj_qr2qe.weight, gain = nn.init.calculate_gain('relu'))
@@ -255,6 +272,14 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
         nn.init.zeros_(self.proj_he2pr.bias)
         nn.init.zeros_(self.proj_te2pr.bias)
         nn.init.zeros_(self.proj_qe2qr.bias)
+
+        # pri <-> qual 사이의 MP
+        nn.init.zeros_(self.proj_he2qr.bias)
+        nn.init.zeros_(self.proj_te2qr.bias)
+        nn.init.zeros_(self.proj_pr2qe.bias)
+        nn.init.zeros_(self.proj_qe2pr.bias)
+        nn.init.zeros_(self.proj_qr2he.bias)
+        nn.init.zeros_(self.proj_qr2te.bias)
 
         nn.init.zeros_(self.proj_pr2he.bias)
         nn.init.zeros_(self.proj_pr2te.bias)
@@ -314,26 +339,16 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
         msg_pr2r = torch.index_select(self.proj_pr2r(emb_rel), 0, rels)        # primary relation이 relation로 보내는 메세지 / 크기: (num_fact, dim)
         msg_qr2r = torch.index_select(self.proj_qr2r(emb_rel), 0, qual_rels)   # qualifier relation이 relation로 보내는 메세지 / 크기: (num_qual, dim)
 
-        # ### 지울 것
+        if len(qual2fact) > 0: # qualifier가 있는 경우
+            msg_he2qr = torch.index_select(self.proj_he2qr(emb_ent), 0, heads[qual2fact]) # head entity가 qualifier relation로 보내는 메세지 (num_qual, dim)
+            msg_te2qr = torch.index_select(self.proj_te2qr(emb_ent), 0, tails[qual2fact]) # tail entity가 qualifier relation로 보내는 메세지 (num_qual, dim)
 
-        # msg_he2pr = torch.index_select(self.proj_he2pr(emb_ent), 0, heads)     # head entity가 primary relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_he2qr = torch.index_select(self.proj_he2qr(emb_ent), 0, heads)     # head entity가 qualifier relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_te2pr = torch.index_select(self.proj_te2pr(emb_ent), 0, tails)     # tail entity가 primary relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_te2qr = torch.index_select(self.proj_te2qr(emb_ent), 0, tails)     # tail entity가 qualifier relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_qe2pr = torch.index_select(self.proj_qe2pr(emb_ent), 0, qual_ents) # qualifier entity가 primary relation로 보내는 메세지 / 크기: (num_qual, dim)
-        # msg_qe2qr = torch.index_select(self.proj_qe2qr(emb_ent), 0, qual_ents) # qualifier entity가 qualifier relation로 보내는 메세지 / 크기: (num_qual, dim)
+            msg_qe2pr = torch.zeros_like(msg_he2pr).index_add(dim = 0, index = qual2fact, source = self.proj_qe2pr(emb_ent)[qual_ents]) # qualifier entity가 primary relation로 보내는 메세지 (num_fact, dim)
 
-        # msg_pr2he = torch.index_select(self.proj_pr2he(emb_rel), 0, rels)      # primary relation이 head entity로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_pr2te = torch.index_select(self.proj_pr2te(emb_rel), 0, rels)      # primary relation이 tail entity로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_pr2qe = torch.index_select(self.proj_pr2qe(emb_rel), 0, rels)      # primary relation이 qualifier entity로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_qr2he = torch.index_select(self.proj_qr2he(emb_rel), 0, qual_rels) # qualifier relation이 head entity로 보내는 메세지 / 크기: (num_qual, dim)
-        # msg_qr2te = torch.index_select(self.proj_qr2te(emb_rel), 0, qual_rels) # qualifier relation이 tail entity로 보내는 메세지 / 크기: (num_qual, dim)
-        # msg_qr2qe = torch.index_select(self.proj_qr2qe(emb_rel), 0, qual_rels) # qualifier relation이 qualifier entity로 보내는 메세지 / 크기: (num_qual, dim)
+            msg_pr2qe = torch.index_select(self.proj_pr2qe(emb_rel), 0, rels[qual2fact]) # primary relation이 qualifier entity로 보내는 메세지 (num_fact, dim)
 
-        # msg_pr2r = torch.index_select(self.proj_pr2r(emb_rel), 0, rels)        # primary relation이 relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_qr2r = torch.index_select(self.proj_qr2r(emb_rel), 0, qual_rels)   # qualifier relation이 relation로 보내는 메세지 / 크기: (num_qual, dim)
-
-        # ###
+            msg_qr2he = torch.zeros_like(msg_pr2he).index_add(dim = 0, index = qual2fact, source = self.proj_qr2he(emb_rel)[qual_rels]) # qualifier relation이 head entity로 보내는 메세지 (num_fact, dim)
+            msg_qr2te = torch.zeros_like(msg_pr2te).index_add(dim = 0, index = qual2fact, source = self.proj_qr2te(emb_rel)[qual_rels]) # qualifier relation이 tail entity로 보내는 메세지 (num_fact, dim)
 
         # msg_pr2r에다가 msg_qr2r를 qual2fact에 따라 더하는 방식
         msg_fr2r = msg_pr2r.index_add(dim = 0, index = qual2fact, source = msg_qr2r) # fact가 relation로 보내는 메세지 (num_fact, dim)
@@ -349,13 +364,18 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
         src4e2e = torch.cat([self.proj_fe2he(msg_fe2e-msg_he2e), self.proj_fe2te(msg_fe2e-msg_te2e)], dim = 0) # head와 tail entity가 각각 fact로 부터 받는 메세지 (2 * num_fact, dim)
         src4e2ecnt = torch.cat([fe_cnt-1, fe_cnt-1], dim = 0) # exclude self
         src4r2e = torch.cat([msg_pr2he, msg_pr2te], dim = 0) # head와 tail entity가 각각 primary relation로 부터 받는 메세지 (2 * num_fact, dim)
-
+        
+        inter_r2e = torch.zeros_like(emb_ent)
         if len(qual2fact) > 0: # qualifier가 있는 경우
             idx4e = torch.cat([idx4e, qual_ents], dim = 0) # idx4e에 qualifier entity 인덱스 추가 (2 * num_fact + num_qual, )
             # 마찬가지로 자신이 보낸 메세지는 제외
             src4e2e = torch.cat([src4e2e, self.proj_fe2qe(torch.index_select(msg_fe2e, 0, qual2fact)-msg_qe2e)], dim = 0) # src4e2e에 qualifier entity가 fact로 부터 받는 메세지 추가 (2 * num_fact + num_qual, dim)
             src4e2ecnt = torch.cat([src4e2ecnt, torch.index_select(fe_cnt-1, 0, qual2fact)], dim = 0) # fact안에서 자신을 제외한 entity 개수
             src4r2e = torch.cat([src4r2e, msg_qr2qe], dim = 0) # src4r2e에 qualifier entity가 qualifier relation로 부터 받는 메세지 추가 (2 * num_fact + num_qual, dim)
+
+            inter_r2e.index_add(0, heads, msg_qr2he)
+            inter_r2e.index_add(0, tails, msg_qr2te)
+            inter_r2e.index_add(0, qual_ents, msg_pr2qe)
 
         e2e = zero4ent.index_add(dim = 0, index = idx4e, source = src4e2e) # entity id 위치에 메세지를 다 더함 / 크기: (num_ent, dim)
         e2e_cnt = torch.zeros(len(emb_ent)).cuda().index_add(dim = 0, index = idx4e, source = src4e2ecnt).unsqueeze(dim = 1) # entity id 위치에 몇개의 메세지가 더해졌는지 셈 / 크기: (num_ent, 1)
@@ -366,11 +386,12 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
         
         # 기존 임베딩(emb_ent)에 dropout을 적용한 e2e와 r2e를 더한 후, layer normalization 적용
         # entity 에 대해서는 단순 합만 하였기 때문에 평균을 내어 더함
-        new_emb_ent = self.emb_ent_ln(emb_ent + self.drop(e2e/e2e_cnt) + self.drop(r2e)) 
+        new_emb_ent = self.emb_ent_ln(emb_ent + self.drop(e2e/e2e_cnt) + self.drop(r2e) + self.drop(inter_r2e)) 
 
         # relation에 대해서도 빈 캔버스를 생성
         zero4rel = torch.zeros_like(emb_rel)
 
+        inter_e2r = torch.zeros_like(emb_rel)
         if len(qual2fact) > 0: # qualifier가 있는 경우
             # relation이 relation들로부터 받을 메세지
             r2r = zero4rel.index_add(dim = 0, index = torch.cat([rels, qual_rels], dim = 0), \
@@ -383,8 +404,12 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
             e2r = zero4rel.index_reduce(dim = 0, index = torch.cat([rels, rels, qual_rels], dim = 0),
                                         source = torch.cat([msg_he2pr, msg_te2pr, msg_qe2qr], dim = 0), reduce = 'mean', include_self = False) # 해당 relation이 속한 fact의 entity가 보낸 메세지의 평균
             
-            new_emb_rel = self.emb_rel_ln(emb_rel + self.drop(r2r/r2r_cnt) + self.drop(e2r)) # 기존 임베딩에 dropout을 적용한 r2r와 e2r를 더한 후, layer normalization 적용
-        
+            inter_e2r.index_add(0, rels, msg_qe2pr)
+            inter_e2r.index_add(0, qual_rels, msg_he2qr)
+            inter_e2r.index_add(0, qual_rels, msg_te2qr)
+
+            new_emb_rel = self.emb_rel_ln(emb_rel + self.drop(r2r/r2r_cnt) + self.drop(e2r) + self.drop(inter_e2r)) # 기존 임베딩에 dropout을 적용한 r2r와 e2r를 더한 후, layer normalization 적용
+
         else:
             e2r = zero4rel.index_reduce(dim = 0, index = torch.cat([rels, rels], dim = 0),
                                         source = torch.cat([msg_he2pr, msg_te2pr], dim = 0), reduce = 'mean', include_self = False) # entity가 relation에 보낸 메세지의 평균
