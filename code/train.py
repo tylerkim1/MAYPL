@@ -117,6 +117,10 @@ def train(args, logger):
             lp_tail_list_rank = []
             lp_pri_list_rank = []
             lp_qual_list_rank = []
+            lp_qual_0_list_rank = []
+            lp_qual_1_list_rank = []
+            lp_qual_2_list_rank = []
+            lp_qual_3plus_list_rank = []
             lp_all_list_rank = []
 
             with torch.no_grad(): # 평가 시에는 기울기 계산을 하지 않음 -> 메모리 절약 및 계산 속도 향상
@@ -149,6 +153,10 @@ def train(args, logger):
                         pred_loc = pred_locs[i] # 빈칸이 어디에 있는지 정보를 저장
                         # answers[i]: 이번 배치의 i번째 문제의 진짜 정답 리스트
                         answer = answers[i] + default_answer # 이번 문제에서 정답으로 간주할 모든 entity의 목록
+
+                        # 현재 문제(idx)의 qualifier 개수를 계산
+                        # valid_query의 구조가 (primary_triplet, qual_1, qual_2, ...) 이므로, qualifier 개수는 전체 길이 - 1
+                        num_qualifiers = len(KG.valid_query[idx]) - 1
                         for valid_answer in KG.valid_answer[idx]: # valid_answer: 이번 배치의 i번째 문제의 진짜 정답 리스트 중 하나
                             # preds: (len(batch), num_ent) 크기의 텐서, 각 예측해야하는 entity 임베딩과 기존 entity 임베딩 간의 유사도(내적) 계산 결과
                             # tensor를 numpy 배열로 변환 후, i번째 문제에 대해 예측한 값과 valid_answer(진짜 정답) 간의 순위를 계산
@@ -156,6 +164,15 @@ def train(args, logger):
 
                             # 각각 에측하는 위치에 따라 별도의 리스트에 순위 기록
                             if pred_loc <= 2:
+                                # qualifier 개수에 따라 별도의 리스트에 순위 기록
+                                if num_qualifiers == 0:
+                                    lp_qual_0_list_rank.append(rank)
+                                elif num_qualifiers == 1:
+                                    lp_qual_1_list_rank.append(rank)
+                                elif num_qualifiers == 2:
+                                    lp_qual_2_list_rank.append(rank)
+                                else:
+                                    lp_qual_3plus_list_rank.append(rank)
                                 lp_pri_list_rank.append(rank)
                             if pred_loc == 0:
                                 lp_head_list_rank.append(rank)
@@ -165,6 +182,7 @@ def train(args, logger):
                                 lp_qual_list_rank.append(rank)
                             lp_all_list_rank.append(rank)
 
+
                 # head, tail, pri, qual, all에 대해 각각의 리스트에 기록된 순위를 바탕으로 MR, MRR, Hit@K 계산
                 head_mr, head_mrr, head_hit10, head_hit3, head_hit1 = metrics(np.array(lp_head_list_rank))
                 tail_mr, tail_mrr, tail_hit10, tail_hit3, tail_hit1 = metrics(np.array(lp_tail_list_rank))
@@ -173,6 +191,12 @@ def train(args, logger):
                 pri_ent_mr, pri_ent_mrr, pri_ent_hit10, pri_ent_hit3, pri_ent_hit1 = metrics(np.array(lp_pri_list_rank))
                 all_ent_mr, all_ent_mrr, all_ent_hit10, all_ent_hit3, all_ent_hit1 = metrics(np.array(lp_all_list_rank))
 
+                # qualifier 개수에 따른 평가 결과 기록
+                qual_0_ent_mr, qual_0_ent_mrr, qual_0_ent_hit10, qual_0_ent_hit3, qual_0_ent_hit1 = metrics(np.array(lp_qual_0_list_rank))
+                qual_1_ent_mr, qual_1_ent_mrr, qual_1_ent_hit10, qual_1_ent_hit3, qual_1_ent_hit1 = metrics(np.array(lp_qual_1_list_rank))
+                qual_2_ent_mr, qual_2_ent_mrr, qual_2_ent_hit10, qual_2_ent_hit3, qual_2_ent_hit1 = metrics(np.array(lp_qual_2_list_rank))
+                qual_3_ent_mr, qual_3_ent_mrr, qual_3_ent_hit10, qual_3_ent_hit3, qual_3_ent_hit1 = metrics(np.array(lp_qual_3plus_list_rank))
+
                 logger.info(f"Link Prediction (Head, {len(lp_head_list_rank)})\nMR:{head_mr}\nMRR:{head_mrr}\nHit1:{head_hit1}\nHit3:{head_hit3}\nHit10:{head_hit10}")
                 logger.info(f"Link Prediction (Tail, {len(lp_tail_list_rank)})\nMR:{tail_mr}\nMRR:{tail_mrr}\nHit1:{tail_hit1}\nHit3:{tail_hit3}\nHit10:{tail_hit10}")
                 if len(lp_qual_list_rank) > 0:
@@ -180,6 +204,16 @@ def train(args, logger):
                 logger.info(f"Link Prediction (Pri, {len(lp_pri_list_rank)})\nMR:{pri_ent_mr}\nMRR:{pri_ent_mrr}\nHit1:{pri_ent_hit1}\nHit3:{pri_ent_hit3}\nHit10:{pri_ent_hit10}")
                 if len(lp_qual_list_rank) > 0:
                     logger.info(f"Link Prediction (All, {len(lp_all_list_rank)})\nMR:{all_ent_mr}\nMRR:{all_ent_mrr}\nHit1:{all_ent_hit1}\nHit3:{all_ent_hit3}\nHit10:{all_ent_hit10}")
+
+                # qualifier 개수에 따른 평가 결과 기록
+                if len(lp_qual_0_list_rank) > 0:
+                    logger.info(f"Link Prediction (Qual 0, {len(lp_qual_0_list_rank)})\nMR:{qual_0_ent_mr}\nMRR:{qual_0_ent_mrr}\nHit1:{qual_0_ent_hit1}\nHit3:{qual_0_ent_hit3}\nHit10:{qual_0_ent_hit10}")
+                if len(lp_qual_1_list_rank) > 0:
+                    logger.info(f"Link Prediction (Qual 1, {len(lp_qual_1_list_rank)})\nMR:{qual_1_ent_mr}\nMRR:{qual_1_ent_mrr}\nHit1:{qual_1_ent_hit1}\nHit3:{qual_1_ent_hit3}\nHit10:{qual_1_ent_hit10}")
+                if len(lp_qual_2_list_rank) > 0:
+                    logger.info(f"Link Prediction (Qual 2, {len(lp_qual_2_list_rank)})\nMR:{qual_2_ent_mr}\nMRR:{qual_2_ent_mrr}\nHit1:{qual_2_ent_hit1}\nHit3:{qual_2_ent_hit3}\nHit10:{qual_2_ent_hit10}")
+                if len(lp_qual_3plus_list_rank) > 0:
+                    logger.info(f"Link Prediction (Qual 3+, {len(lp_qual_3plus_list_rank)})\nMR:{qual_3_ent_mr}\nMRR:{qual_3_ent_mrr}\nHit1:{qual_3_ent_hit1}\nHit3:{qual_3_ent_hit3}\nHit10:{qual_3_ent_hit10}")
 
                 if not args.no_write: # 파일을 저장하는 경우
                     # model.state_dict(): 모델의 모든 파라미터와 버퍼를 포함하는 딕셔너리 (두뇌라고 생각하면 됨)

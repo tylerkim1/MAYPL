@@ -91,6 +91,10 @@ with torch.no_grad():
     lp_tail_list_rank = []
     lp_pri_list_rank = []
     lp_qual_list_rank = []
+    lp_qual_0_list_rank = []
+    lp_qual_1_list_rank = []
+    lp_qual_2_list_rank = []
+    lp_qual_3plus_list_rank = []
     lp_all_list_rank = []
 
     emb_ent, emb_rel, init_embs_ent, init_embs_rel = model(KG.pri_inf.clone().detach(), KG.qual_inf.clone().detach(), KG.qual2fact_inf, \
@@ -112,9 +116,20 @@ with torch.no_grad():
         for i, idx in enumerate(idxs):
             pred_loc = pred_locs[i]
             answer = answers[i] + default_answer
+            # qualifier 개수를 계산
+            num_qualifiers = len(KG.test_query[idx]) - 1
             for test_answer in KG.test_answer[idx]:
                 rank = calculate_rank(preds.detach().cpu().numpy()[i], test_answer, answer)
                 if pred_loc <= 2:
+                    # primary entity를 예측할 때 qualifier 개수에 따른 평가 결과 기록
+                    if num_qualifiers == 0:
+                        lp_qual_0_list_rank.append(rank)
+                    elif num_qualifiers == 1:
+                        lp_qual_1_list_rank.append(rank)
+                    elif num_qualifiers == 2:
+                        lp_qual_2_list_rank.append(rank)
+                    else:
+                        lp_qual_3plus_list_rank.append(rank)
                     lp_pri_list_rank.append(rank)
                 if pred_loc == 0:
                     lp_head_list_rank.append(rank)
@@ -126,6 +141,18 @@ with torch.no_grad():
     head_mr, head_mrr, head_hit10, head_hit3, head_hit1 = metrics(np.array(lp_head_list_rank))
     tail_mr, tail_mrr, tail_hit10, tail_hit3, tail_hit1 = metrics(np.array(lp_tail_list_rank))
     pri_ent_mr, pri_ent_mrr, pri_ent_hit10, pri_ent_hit3, pri_ent_hit1 = metrics(np.array(lp_pri_list_rank))
+    if len(lp_qual_0_list_rank) > 0:
+        qual_0_ent_mr, qual_0_ent_mrr, qual_0_ent_hit10, qual_0_ent_hit3, qual_0_ent_hit1 = metrics(np.array(lp_qual_0_list_rank))
+        logger.info(f"Link Prediction (Qual 0, {len(lp_qual_0_list_rank)})\nMR:{qual_0_ent_mr}\nMRR:{qual_0_ent_mrr}\nHit1:{qual_0_ent_hit1}\nHit3:{qual_0_ent_hit3}\nHit10:{qual_0_ent_hit10}")
+    if len(lp_qual_1_list_rank) > 0:
+        qual_1_ent_mr, qual_1_ent_mrr, qual_1_ent_hit10, qual_1_ent_hit3, qual_1_ent_hit1 = metrics(np.array(lp_qual_1_list_rank))
+        logger.info(f"Link Prediction (Qual 1, {len(lp_qual_1_list_rank)})\nMR:{qual_1_ent_mr}\nMRR:{qual_1_ent_mrr}\nHit1:{qual_1_ent_hit1}\nHit3:{qual_1_ent_hit3}\nHit10:{qual_1_ent_hit10}")
+    if len(lp_qual_2_list_rank) > 0:
+        qual_2_ent_mr, qual_2_ent_mrr, qual_2_ent_hit10, qual_2_ent_hit3, qual_2_ent_hit1 = metrics(np.array(lp_qual_2_list_rank))
+        logger.info(f"Link Prediction (Qual 2, {len(lp_qual_2_list_rank)})\nMR:{qual_2_ent_mr}\nMRR:{qual_2_ent_mrr}\nHit1:{qual_2_ent_hit1}\nHit3:{qual_2_ent_hit3}\nHit10:{qual_2_ent_hit10}")
+    if len(lp_qual_3plus_list_rank) > 0:
+        qual_3plus_ent_mr, qual_3plus_ent_mrr, qual_3plus_ent_hit10, qual_3plus_ent_hit3, qual_3plus_ent_hit1 = metrics(np.array(lp_qual_3plus_list_rank))
+        logger.info(f"Link Prediction (Qual 3+, {len(lp_qual_3plus_list_rank)})\nMR:{qual_3plus_ent_mr}\nMRR:{qual_3plus_ent_mrr}\nHit1:{qual_3plus_ent_hit1}\nHit3:{qual_3plus_ent_hit3}\nHit10:{qual_3plus_ent_hit10}")
     if len(lp_qual_list_rank) > 0:
         qual_ent_mr, qual_ent_mrr, qual_ent_hit10, qual_ent_hit3, qual_ent_hit1 = metrics(np.array(lp_qual_list_rank))
     all_ent_mr, all_ent_mrr, all_ent_hit10, all_ent_hit3, all_ent_hit1 = metrics(np.array(lp_all_list_rank))
