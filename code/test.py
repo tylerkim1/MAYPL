@@ -82,7 +82,7 @@ model = MAYPL(
 ).cuda()
 
 
-model.load_state_dict(torch.load(f"./ckpt/{args.exp}/{args.dataset_name}/{file_format}_{args.test_epoch}.ckpt")["model_state_dict"])
+model.load_state_dict(torch.load(f"./ckpt/{args.exp}/{args.dataset_name}/{file_format}_{args.test_epoch}_200.ckpt")["model_state_dict"])
 
 model.eval()
 
