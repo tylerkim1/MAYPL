@@ -68,7 +68,29 @@ def train(args, logger):
     # for epoch in range(args.start_epoch, args.num_epoch):
     for epoch in tqdm(range(args.start_epoch, args.num_epoch)):
         epoch_loss = 0
-        train_graph_idxs = (torch.rand(KG.num_train) < args.train_graph_ratio).nonzero(as_tuple = True)[0] # num_train 개의 fact 중 train_graph_ratio 비율만큼 무작위로 선택
+        
+        train_graph_idxs = []
+        if args.curriculum:
+            sorted_keys = sorted(KG.train_sorted_by_qual_len.keys())
+
+            # 진행률 계산으로 이번 epoch에서 사용할 qualifier 개수 조정
+            progress = (epoch + 1) / args.num_epoch # 진행률 계산
+
+            # 이번 epoch에서 포함할 qualifier 개수 결정
+            # progress가 0일 때는 0개, 1일 때는 모든 개수 포함
+            num_quals_to_include = math.ceil(progress * len(sorted_keys))
+            current_curriculum_keys = sorted_keys[:num_quals_to_include]
+
+            # 이번 curriculum에 해당하는 fact들의 인덱스를 모두 모음
+            candidate_idxs = []
+            for key in current_curriculum_keys:
+                candidate_idxs.extend(KG.train_sorted_by_qual_len[key])
+            
+            num_samples = int(len(candidate_idxs) * args.train_graph_ratio)
+            train_graph_idxs = torch.tensor(random.sample(candidate_idxs, num_samples))
+        else:
+            train_graph_idxs = (torch.rand(KG.num_train) < args.train_graph_ratio).nonzero(as_tuple = True)[0] # num_train 개의 fact 중 train_graph_ratio 비율만큼 무작위로 선택
+            
         base_pri, base_qual, base_qual2fact, num_base_ents, num_base_rels, \
         base_hpair, base_hpair_freq, base_fact2hpair, \
         base_tpair, base_tpair_freq, base_fact2tpair, \
@@ -106,7 +128,6 @@ def train(args, logger):
         # epoch이 끝난 후 평균 loss 값을 로그에 기록
         # GPU 메모리를 가장 많이 썼을 때가 얼마인지도 보여주어 현재 메모리 사용량 확인 가능
         logger.info(f"Epoch {epoch+1} GPU:{torch.cuda.max_memory_allocated()} Loss:{epoch_loss/num_batch:.6f}")
-
 
         if (epoch+1) % args.val_dur == 0: # 주기적으로 validation 수행
             model.eval() # 모델에게 이제 평가 모드로 전환한다는 것을 알림 (스위치 기능)
@@ -228,6 +249,7 @@ if __name__ == '__main__':
     parser.add_argument('--smoothing', default=0.0, type=float)
     parser.add_argument('--no_write', action = 'store_true')
     parser.add_argument('--msg_add_tr', action = 'store_true')
+    parser.add_argument('--curriculum', action = 'store_true')
     args = parser.parse_args()
 
     # 파일 이름 지정

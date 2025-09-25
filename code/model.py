@@ -314,27 +314,6 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
         msg_pr2r = torch.index_select(self.proj_pr2r(emb_rel), 0, rels)        # primary relation이 relation로 보내는 메세지 / 크기: (num_fact, dim)
         msg_qr2r = torch.index_select(self.proj_qr2r(emb_rel), 0, qual_rels)   # qualifier relation이 relation로 보내는 메세지 / 크기: (num_qual, dim)
 
-        # ### 지울 것
-
-        # msg_he2pr = torch.index_select(self.proj_he2pr(emb_ent), 0, heads)     # head entity가 primary relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_he2qr = torch.index_select(self.proj_he2qr(emb_ent), 0, heads)     # head entity가 qualifier relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_te2pr = torch.index_select(self.proj_te2pr(emb_ent), 0, tails)     # tail entity가 primary relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_te2qr = torch.index_select(self.proj_te2qr(emb_ent), 0, tails)     # tail entity가 qualifier relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_qe2pr = torch.index_select(self.proj_qe2pr(emb_ent), 0, qual_ents) # qualifier entity가 primary relation로 보내는 메세지 / 크기: (num_qual, dim)
-        # msg_qe2qr = torch.index_select(self.proj_qe2qr(emb_ent), 0, qual_ents) # qualifier entity가 qualifier relation로 보내는 메세지 / 크기: (num_qual, dim)
-
-        # msg_pr2he = torch.index_select(self.proj_pr2he(emb_rel), 0, rels)      # primary relation이 head entity로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_pr2te = torch.index_select(self.proj_pr2te(emb_rel), 0, rels)      # primary relation이 tail entity로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_pr2qe = torch.index_select(self.proj_pr2qe(emb_rel), 0, rels)      # primary relation이 qualifier entity로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_qr2he = torch.index_select(self.proj_qr2he(emb_rel), 0, qual_rels) # qualifier relation이 head entity로 보내는 메세지 / 크기: (num_qual, dim)
-        # msg_qr2te = torch.index_select(self.proj_qr2te(emb_rel), 0, qual_rels) # qualifier relation이 tail entity로 보내는 메세지 / 크기: (num_qual, dim)
-        # msg_qr2qe = torch.index_select(self.proj_qr2qe(emb_rel), 0, qual_rels) # qualifier relation이 qualifier entity로 보내는 메세지 / 크기: (num_qual, dim)
-
-        # msg_pr2r = torch.index_select(self.proj_pr2r(emb_rel), 0, rels)        # primary relation이 relation로 보내는 메세지 / 크기: (num_fact, dim)
-        # msg_qr2r = torch.index_select(self.proj_qr2r(emb_rel), 0, qual_rels)   # qualifier relation이 relation로 보내는 메세지 / 크기: (num_qual, dim)
-
-        # ###
-
         # msg_pr2r에다가 msg_qr2r를 qual2fact에 따라 더하는 방식
         msg_fr2r = msg_pr2r.index_add(dim = 0, index = qual2fact, source = msg_qr2r) # fact가 relation로 보내는 메세지 (num_fact, dim)
         fr_cnt = fe_cnt - 1 # fact에 속한 relation의 개수 (primary relation 1개 + qualifier relation 개수) = (fact에 속한 entity 개수 - 1)

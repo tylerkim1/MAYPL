@@ -143,6 +143,20 @@ class HKG(Dataset):
         self.construct_query() # validation, test에 있는 fact를 바탕으로 평가 시 사용할 query와 정답을 생성
         logger.info("Evaluation Query Generated Successfully!")
 
+        self.train_sorted_by_qual_len = {}
+        if self.train: # self.train이 비어있지 않을 때만 실행
+            # 각 fact의 원본 인덱스와 qualifier 개수를 함께 저장
+            facts_with_len = [(idx, (len(fact) - 3) // 2) for idx, fact in enumerate(self.train)]
+
+            # qualifier 개수를 기준으로 오름차순 정렬
+            facts_with_len.sort(key=lambda x: x[1])
+
+            # qualifier 개수별로 fact의 원본 인덱스를 그룹화하여 사전에 저장
+            for idx, num_quals in facts_with_len:
+                if num_quals not in self.train_sorted_by_qual_len:
+                    self.train_sorted_by_qual_len[num_quals] = []
+                self.train_sorted_by_qual_len[num_quals].append(idx)
+
         
     def parse_facts(self): # transductive 세팅에서 train, valid, test 파일을 읽어서 entity, relation, fact를 등록하는 함수
         # index가 짝수면 entity, 홀수면 relation
