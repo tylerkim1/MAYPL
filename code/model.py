@@ -386,7 +386,11 @@ class Init_Layer(nn.Module): # Structure-driven Initialization
         
         # 기존 임베딩(emb_ent)에 dropout을 적용한 e2e와 r2e를 더한 후, layer normalization 적용
         # entity 에 대해서는 단순 합만 하였기 때문에 평균을 내어 더함
-        new_emb_ent = self.emb_ent_ln(emb_ent + self.drop(e2e/e2e_cnt) + self.drop(r2e) + self.drop(inter_r2e)) 
+        # qualifier가 있는 경우, qualifier relation이 entity에 보내는 메세지도 추가
+        if len(qual2fact) > 0:
+            new_emb_ent = self.emb_ent_ln(emb_ent + self.drop(e2e/e2e_cnt) + self.drop(r2e) + self.drop(inter_r2e)) 
+        else:
+            new_emb_ent = self.emb_ent_ln(emb_ent + self.drop(e2e/e2e_cnt) + self.drop(r2e))
 
         # relation에 대해서도 빈 캔버스를 생성
         zero4rel = torch.zeros_like(emb_rel)

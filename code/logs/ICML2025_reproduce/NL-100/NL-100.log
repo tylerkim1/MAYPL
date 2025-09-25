@@ -418,3 +418,34 @@ Hit1:0.16708701134930642
 Hit3:0.3297604035308953
 Hit10:0.47414880201765447
 2025-09-24 18:23:19,800 - INFO - END
+2025-09-24 19:26:26,766 - INFO - 7632
+2025-09-24 19:26:26,783 - INFO - dataset_name:NL-100
+2025-09-24 19:26:26,783 - INFO - data_dir:../data/
+2025-09-24 19:26:26,783 - INFO - exp:ICML2025_reproduce
+2025-09-24 19:26:26,783 - INFO - setting:Inductive
+2025-09-24 19:26:26,783 - INFO - log_name:NL-100
+2025-09-24 19:26:26,783 - INFO - lr:0.0002
+2025-09-24 19:26:26,783 - INFO - dim:32
+2025-09-24 19:26:26,783 - INFO - start_epoch:0
+2025-09-24 19:26:26,783 - INFO - num_epoch:160
+2025-09-24 19:26:26,783 - INFO - val_dur:160
+2025-09-24 19:26:26,783 - INFO - val_size:100
+2025-09-24 19:26:26,783 - INFO - num_init_layer:4
+2025-09-24 19:26:26,783 - INFO - num_layer:4
+2025-09-24 19:26:26,787 - INFO - num_head:4
+2025-09-24 19:26:26,787 - INFO - early_stop:0
+2025-09-24 19:26:26,787 - INFO - batch_num:30
+2025-09-24 19:26:26,787 - INFO - train_graph_ratio:0.35
+2025-09-24 19:26:26,787 - INFO - model_dropout:0.05
+2025-09-24 19:26:26,787 - INFO - smoothing:0.0
+2025-09-24 19:26:26,787 - INFO - no_write:False
+2025-09-24 19:26:26,787 - INFO - msg_add_tr:False
+2025-09-24 19:26:26,787 - INFO - Args Listed!
+2025-09-24 19:26:26,787 - INFO - Loading Dataset...
+2025-09-24 19:26:26,800 - INFO - Dataset Loaded Successfully!
+2025-09-24 19:26:26,800 - INFO - Generating Dictionaries for Filtering...
+2025-09-24 19:26:26,831 - INFO - Successfully Generated Filtering Dictionary!
+2025-09-24 19:26:26,831 - INFO - Model Input Construction...
+2025-09-24 19:26:27,155 - INFO - Successfully Saved Model Inputs!
+2025-09-24 19:26:27,155 - INFO - Evaluation Query Generation...
+2025-09-24 19:26:27,177 - INFO - Evaluation Query Generated Successfully!
