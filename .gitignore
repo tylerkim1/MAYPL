@@ -1,2 +1,5 @@
 # Model checkpoints
 /code/ckpt/
+
+# Claude Code settings
+.claude/
