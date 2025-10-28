@@ -35,13 +35,20 @@ class SimpleInitLayer(nn.Module):
         """
         # TODO: 다음을 구현하세요
         # 1. super().__init__() 호출 (nn.Module 초기화)
+        super().__init__()
         # 2. self.dim, self.num_ent, self.num_rel 저장
+        self.dim = dim
+        self.num_ent = num_ent
+        self.num_rel = num_rel
         # 3. self.proj_ent_to_rel: Entity → Relation 메시지용 선형 변환
         #    (dim → dim 크기의 Linear layer)
+        self.proj_ent_to_rel = nn.Linear(dim, dim)
         # 4. self.proj_rel_to_ent: Relation → Entity 메시지용 선형 변환
+        self.proj_rel_to_ent = nn.Linear(dim, dim)
         # 5. self.ent_ln: Entity 임베딩용 LayerNorm
+        self.ent_ln = nn.LayerNorm(dim)
         # 6. self.rel_ln: Relation 임베딩용 LayerNorm
-        pass
+        self.rel_ln = nn.LayerNorm(dim)
 
     def forward(self, emb_ent: torch.Tensor, emb_rel: torch.Tensor,
                 pri: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
@@ -59,33 +66,62 @@ class SimpleInitLayer(nn.Module):
 
         # Step 1: pri에서 heads, rels, tails 추출
         # heads = pri[:, 0]
+        heads = pri[:, 0]
         # rels = pri[:, 1]
+        rels = pri[:, 1]
         # tails = pri[:, 2]
+        tails = pri[:, 2]
 
         # Step 2: Entity → Relation 메시지
         # - proj_ent_to_rel(emb_ent)를 계산
+        heads_emb = torch.index_select(emb_ent, 0, heads)
+        tails_emb = torch.index_select(emb_ent, 0, tails)
+        heads_to_rel = self.proj_ent_to_rel(heads_emb)
+        tails_to_rel = self.proj_ent_to_rel(tails_emb)
         # - heads와 tails에 해당하는 메시지를 더하기
+        msg_ent_to_rel = heads_to_rel + tails_to_rel
         # - 결과: msg_ent_to_rel (shape: num_fact, dim)
 
         # Step 3: Relation 임베딩 업데이트
         # - msg_ent_to_rel를 rels별로 합산 (같은 relation끼리 모으기)
+        msg_rels = torch.zeros((self.num_rel, self.dim))
+        msg_rels.index_add_(0, rels, msg_ent_to_rel)
         # - 각 relation이 받은 메시지 개수로 나누기 (평균)
+        msg_count_rels = torch.bincount(rels, minlength=self.num_rel).unsqueeze(1)
+        msg_count_rels = torch.where(msg_count_rels == 0, 1, msg_count_rels)
+        msg_rels /= msg_count_rels
         # - LayerNorm 적용
+        normalized_msg_rels = self.rel_ln(msg_rels)
         # - 기존 emb_rel과 더하기: emb_rel + normalized_msg
+        new_emb_rel = emb_rel + normalized_msg_rels
 
         # Step 4: Relation → Entity 메시지
         # - proj_rel_to_ent(new_emb_rel)를 계산
         # - rels에 해당하는 메시지 선택
+        rels_emb = torch.index_select(new_emb_rel, 0, rels)
+        rels_to_ent = self.proj_rel_to_ent(rels_emb)
         # - 결과: msg_rel_to_ent (shape: num_fact, dim)
+        msg_rel_to_ent = rels_to_ent
 
         # Step 5: Entity 임베딩 업데이트
         # - msg_rel_to_ent를 heads와 tails별로 합산 (같은 entity끼리 모으기)
+        msg_ents = torch.zeros((self.num_ent, self.dim))
+        msg_ents.index_add_(0, heads, msg_rel_to_ent)
+        msg_ents.index_add_(0, tails, msg_rel_to_ent)
         # - 각 entity가 받은 메시지 개수로 나누기 (평균)
+        msg_count_heads = torch.bincount(heads, minlength=self.num_ent).unsqueeze(1)
+        msg_count_heads = torch.where(msg_count_heads == 0, 1, msg_count_heads)
+        msg_count_tails = torch.bincount(tails, minlength=self.num_ent).unsqueeze(1)
+        msg_count_tails = torch.where(msg_count_tails == 0, 1, msg_count_tails)
+        msg_count_ents = msg_count_heads + msg_count_tails
+        msg_ents /= msg_count_ents
         # - LayerNorm 적용
+        normalized_msg_ents = self.ent_ln(msg_ents)
         # - 기존 emb_ent와 더하기: emb_ent + normalized_msg
+        new_emb_ent = emb_ent + normalized_msg_ents
 
         # Step 6: new_emb_ent, new_emb_rel 반환
-        pass
+        return new_emb_ent, new_emb_rel
 
 
 # ============================================================
