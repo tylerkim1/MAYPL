@@ -52,11 +52,12 @@ class SimpleModel(nn.Module):
         self.num_layers = num_layers
 
         # 3. 초기 임베딩 생성 (학습 가능한 파라미터)
-        # 각 entity/relation에 고유한 초기 임베딩을 제공
-        self.init_emb_ent = nn.Parameter(torch.empty(num_ent, dim))
-        self.init_emb_rel = nn.Parameter(torch.empty(num_rel, dim))
-        nn.init.xavier_uniform_(self.init_emb_ent)
-        nn.init.xavier_uniform_(self.init_emb_rel)
+        # 원본 MAYPL처럼 모든 entity/relation이 같은 초기값에서 시작
+        # Init_Layer가 구조 정보를 통해 차별화시킴
+        self.init_emb_ent = nn.Parameter(torch.empty(1, dim))
+        self.init_emb_rel = nn.Parameter(torch.empty(1, dim))
+        nn.init.xavier_normal_(self.init_emb_ent, gain=nn.init.calculate_gain('relu'))
+        nn.init.xavier_normal_(self.init_emb_rel, gain=nn.init.calculate_gain('relu'))
         # 힌트: nn.Parameter는 학습 가능한 텐서를 만듭니다
 
         # 4. Init_Layer들을 리스트로 저장
@@ -83,11 +84,12 @@ class SimpleModel(nn.Module):
         """
         # TODO: 다음 단계를 구현하세요
 
-        # Step 1: 초기 임베딩 사용 (각 entity/relation마다 고유한 값)
-        emb_ents = self.init_emb_ent.clone()
-        emb_rels = self.init_emb_rel.clone()
-        # - 초기 임베딩은 이미 각 entity/relation마다 고유한 값을 가지고 있음
-        # 힌트: clone()으로 복사하여 gradient 계산 가능하게 함
+        # Step 1: 초기 임베딩 복제 (원본 MAYPL 방식)
+        # 모든 entity/relation이 같은 초기값으로 시작
+        emb_ents = self.init_emb_ent.repeat(self.num_ent, 1)
+        emb_rels = self.init_emb_rel.repeat(self.num_rel, 1)
+        # - init_emb_ent/rel을 num_ent/num_rel개만큼 복제
+        # 힌트: repeat(n, 1)으로 n번 복제하면서 gradient 계산 가능
 
         # Step 2: 모든 Init_Layer를 순차적으로 통과
         for layer in self.layers:

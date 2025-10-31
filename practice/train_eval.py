@@ -571,10 +571,3 @@ if __name__ == "__main__":
     for metric_name, value in metrics.items():
         print(f"{metric_name:10s}: {value:.4f}")
     print("=" * 60)
-
-    print("\n구현을 완료하고 실행해보세요!")
-    print("\n핵심 차이점 (CrossEntropyLoss 버전):")
-    print("  ✓ 복수 정답 문제 자동 해결")
-    print("  ✓ 모든 entity를 후보로 고려")
-    print("  ✓ Negative sampling 불필요")
-    print("  ✓ Filtered evaluation으로 공정한 평가")
