@@ -4,6 +4,7 @@ import torch.optim as optim
 import numpy as np
 from tqdm import tqdm
 import os
+from pathlib import Path
 
 from my_maypl import SimpleKG
 from simple_model import SimpleModel
@@ -481,7 +482,7 @@ class SimpleEvaluator:
         """
         # TODO: 구현해야 할 것들
         # 1. scores를 numpy로 변환하고 복사
-        cpy_scores = scores.cpu().numpy().copy()
+        cpy_scores = scores.detach().cpu().numpy().copy()
         #    힌트: .cpu().numpy()로 tensor를 numpy로 변환
         #    힌트: .copy()로 복사해야 원본이 수정되지 않음
         #
@@ -515,7 +516,9 @@ if __name__ == "__main__":
     # ========================================
 
     print("=== 1. 데이터 로드 ===")
-    data_dir = "../data"
+    # 절대 경로 사용 (practice 폴더 위치 기준)
+    current_dir = Path(__file__).parent
+    data_dir = str(current_dir.parent / "data")  # MAYPL/data
     dataset_name = "FB-25"  # 작은 데이터셋으로 빠른 학습 테스트
     setting = 'Transductive'  # 'Transductive' or 'Inductive'
 
@@ -564,7 +567,7 @@ if __name__ == "__main__":
         lr=1e-3,  # learning rate 증가 (1e-4 → 1e-3)
         label_smoothing=0.1  # label smoothing 유지
     )
-    num_epochs = 100  # 더 많은 epoch
+    num_epochs = 1  # 더 많은 epoch
     batch_num = 20  # 더 작은 batch size
     for i in tqdm(range(num_epochs), desc="Overall Progress"):
         loss = trainer.train_epoch(pri_tensor_train, batch_num=batch_num)

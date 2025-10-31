@@ -101,7 +101,7 @@ class SimpleInitLayer(nn.Module):
         msg_rels = msg_rels / msg_count_rels
         # - LayerNorm 적용 (활성화 함수 없음 - 원본 MAYPL 방식)
         normalized_msg_rels = self.rel_ln(msg_rels)
-        # - Dropout + Residual connection (원본 MAYPL 방식)
+        # - Residual connection with dropout (원본 MAYPL 방식)
         new_emb_rel = emb_rel + self.dropout(normalized_msg_rels)
 
         # Step 4: Relation → Entity 메시지
@@ -125,7 +125,7 @@ class SimpleInitLayer(nn.Module):
         msg_ents = msg_ents / msg_count_ents
         # - LayerNorm 적용 (활성화 함수 없음 - 원본 MAYPL 방식)
         normalized_msg_ents = self.ent_ln(msg_ents)
-        # - Dropout + Residual connection (원본 MAYPL 방식)
+        # - Residual connection with dropout (원본 MAYPL 방식)
         new_emb_ent = emb_ent + self.dropout(normalized_msg_ents)
 
         # Step 6: new_emb_ent, new_emb_rel 반환
