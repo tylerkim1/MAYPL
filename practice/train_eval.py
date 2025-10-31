@@ -215,7 +215,7 @@ class SimpleTrainer:
             reduction='mean'  # batch 평균
         )
 
-    def train_epoch(self, pri_tensor, batch_size=128):
+    def train_epoch(self, pri_tensor, batch_num=20):
         """
         한 에폭 학습
 
@@ -240,9 +240,11 @@ class SimpleTrainer:
         #    힌트: len(pri_tensor)로 전체 fact 개수를 얻을 수 있음
         #
         # 2. 섞인 인덱스를 batch_size씩 나눠서 반복
-        pbar = tqdm(range(0, len(pri_index), batch_size), desc="Training", leave=False)
-        for i in pbar:
-            batch_pri = pri_tensor[pri_index[i:i+batch_size]]  # 버그 수정!
+        pbar = tqdm(torch.tensor_split(pri_index, batch_num), desc="Training", leave=False)
+        for idxs in pbar:
+            if len(idxs) == 0: continue
+            batch_pri = pri_tensor[idxs]
+
         #    힌트: range(시작, 끝, 간격)을 사용
         #    힌트: 각 배치는 pri_tensor에서 해당 인덱스들로 선택
         #
@@ -259,8 +261,9 @@ class SimpleTrainer:
             num_batches += 1
 
             # 실시간 loss 표시
-            avg_loss = total_loss / num_batches
-            pbar.set_postfix({'loss': f'{avg_loss:.4f}'})
+            if num_batches > 0:
+                avg_loss = total_loss / num_batches
+                pbar.set_postfix({'loss': f'{avg_loss:.4f}'})
         #    - optimizer의 gradient를 0으로 초기화
         #    - compute_loss()로 loss 계산
         #    - backward()로 gradient 계산
@@ -269,6 +272,8 @@ class SimpleTrainer:
         #    - 배치 개수 증가
         #
         # 4. 평균 loss 반환
+        if num_batches == 0:
+            return 0.0
         avg_loss = total_loss / num_batches
         #    힌트: 전체 loss를 배치 개수로 나누기
         return avg_loss
@@ -351,18 +356,22 @@ class SimpleEvaluator:
     - Train/valid/test의 모든 정답을 filter로 제외
     """
 
-    def __init__(self, model, kg_train, kg_inf=None):
+    def __init__(self, model, kg_train, kg_inf=None, valid_facts=None):
         self.model = model
         self.kg_train = kg_train  # Train용 KG (answer_dict 생성용)
         self.kg_inf = kg_inf if kg_inf is not None else kg_train  # Inference용 KG (임베딩 생성용)
+        self.valid_facts = valid_facts if valid_facts is not None else []  # Valid facts
 
-        # 복수 정답 처리: 모든 (h, r)에 대한 정답 tail 수집
+        # 복수 정답 처리: Train + Valid의 (h, r)에 대한 정답 tail 수집 (Test는 제외)
         self.answer_dict = {}  # {(head_id, rel_id): {tail_id1, tail_id2, ...}}
         self._build_answer_dict()
 
     def _build_answer_dict(self):
         """
         각 (head, relation) 쌍에 대한 모든 정답 tail 저장
+        Train + Valid의 데이터만 포함 (Filtered Evaluation)
+
+        Test 데이터는 필터링하면 안 됨! (evaluation 대상이므로)
 
         예시:
         Facts: (Alice, knows, Bob), (Alice, knows, Charlie), (Bob, knows, Eve)
@@ -372,19 +381,22 @@ class SimpleEvaluator:
             (Bob_id, knows_id): {Eve_id}
         }
         """
-        # TODO: 구현해야 할 것들
-        # self.kg_train.facts를 순회하면서:
+        # Train 데이터 추가
         for head_id, rel_id, tail_id in self.kg_train.facts:
             if (head_id, rel_id) not in self.answer_dict:
                 self.answer_dict[(head_id, rel_id)] = {tail_id}
             else:
                 self.answer_dict[(head_id, rel_id)].add(tail_id)
-        #   - 각 fact는 (head_id, rel_id, tail_id) 튜플
-        #   - (head_id, rel_id)를 key로 사용
-        #   - 해당 key에 대한 set이 없으면 새로 만들기
-        #   - set에 tail_id 추가
-        # 힌트: self.answer_dict는 딕셔너리, 값은 set 타입
-        # 힌트: set은 중복을 자동으로 제거해줌
+
+        # Valid 데이터 추가 (이름 기반이므로 ID로 변환)
+        for head_name, rel_name, tail_name in self.valid_facts:
+            head_id = self.kg_inf.ent2id[head_name]
+            rel_id = self.kg_inf.rel2id[rel_name]
+            tail_id = self.kg_inf.ent2id[tail_name]
+            if (head_id, rel_id) not in self.answer_dict:
+                self.answer_dict[(head_id, rel_id)] = {tail_id}
+            else:
+                self.answer_dict[(head_id, rel_id)].add(tail_id)
 
     def evaluate(self, test_facts, pri_tensor):
         """
@@ -481,8 +493,10 @@ class SimpleEvaluator:
         #    힌트: 현재 테스트 중인 target은 제외해야 함 (if 조건 사용)
         #    힌트: 다른 정답들의 점수를 target 점수보다 낮게 설정
         #    힌트: 예를 들어 target_score - 1로 설정
-        cpy_scores[filter_ids] = answer_score - 1
-        #
+        for filter_id in filter_ids:
+            if filter_id != target_id:
+                cpy_scores[filter_id] = answer_score - 1
+
         # 4. Target보다 높은 점수를 가진 entity 개수 세기
         #    힌트: numpy 비교 연산 (scores_np > target_score)는 boolean 배열 반환
         #    힌트: np.sum()으로 True 개수 세기
@@ -502,7 +516,7 @@ if __name__ == "__main__":
 
     print("=== 1. 데이터 로드 ===")
     data_dir = "../data"
-    dataset_name = "WD20K100v1"
+    dataset_name = "FB-25"  # 작은 데이터셋으로 빠른 학습 테스트
     setting = 'Transductive'  # 'Transductive' or 'Inductive'
 
     # 데이터 로드
@@ -534,31 +548,36 @@ if __name__ == "__main__":
     print(f"Test facts: {len(dataloader.test_facts)}")
 
     print("\n=== 2. 모델 생성 ===")
-    # 모델은 train KG 기준으로 생성
+    # 모델은 train KG 기준으로 생성 (더 큰 모델)
     model = SimpleModel(
         num_ent=dataloader.kg_train.num_ent,
         num_rel=dataloader.kg_train.num_rel,
         dim=32,
-        num_layers=2
+        num_layers=3
     )
-    print(f"모델 생성 완료: dim=32, layers=2")
+    print(f"모델 생성 완료: dim={32}, layers={3}")
 
     print("\n=== 3. 학습 시작 ===")
     trainer = SimpleTrainer(
         model=model,
         kg_train=dataloader.kg_train,
-        lr=1e-3,
-        label_smoothing=0.1
+        lr=1e-3,  # learning rate 증가 (1e-4 → 1e-3)
+        label_smoothing=0.1  # label smoothing 유지
     )
-    num_epochs = 100
-    batch_size = 128
+    num_epochs = 100  # 더 많은 epoch
+    batch_num = 20  # 더 작은 batch size
     for i in tqdm(range(num_epochs), desc="Overall Progress"):
-        loss = trainer.train_epoch(pri_tensor_train, batch_size=batch_size)
-        if (i+1) % 10 == 0:
+        loss = trainer.train_epoch(pri_tensor_train, batch_num=batch_num)
+        if (i+1) % 50 == 0:
             tqdm.write(f"Epoch {i+1}/{num_epochs}, Loss: {loss:.4f}")
 
     print("\n=== 4. 평가 시작 ===")
-    evaluator = SimpleEvaluator(model, dataloader.kg_train, kg_for_eval)
+    evaluator = SimpleEvaluator(
+        model,
+        dataloader.kg_train,
+        kg_for_eval,
+        valid_facts=dataloader.valid_facts  # Valid facts만 필터링
+    )
     print("Evaluating on test set...")
     metrics = evaluator.evaluate(dataloader.test_facts, pri_tensor_inf)
     # 힌트: SimpleEvaluator 인스턴스 생성
