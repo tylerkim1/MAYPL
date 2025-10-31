@@ -84,12 +84,12 @@ class SimpleInitLayer(nn.Module):
 
         # Step 3: Relation 임베딩 업데이트
         # - msg_ent_to_rel를 rels별로 합산 (같은 relation끼리 모으기)
-        msg_rels = torch.zeros((self.num_rel, self.dim))
+        msg_rels = torch.zeros((self.num_rel, self.dim), device=emb_rel.device, dtype=emb_rel.dtype)
         msg_rels.index_add_(0, rels, msg_ent_to_rel)
         # - 각 relation이 받은 메시지 개수로 나누기 (평균)
-        msg_count_rels = torch.bincount(rels, minlength=self.num_rel).unsqueeze(1)
-        msg_count_rels = torch.where(msg_count_rels == 0, 1, msg_count_rels)
-        msg_rels /= msg_count_rels
+        msg_count_rels = torch.bincount(rels, minlength=self.num_rel).unsqueeze(1).to(emb_rel.device).float()
+        msg_count_rels = torch.where(msg_count_rels == 0, torch.ones_like(msg_count_rels), msg_count_rels)
+        msg_rels = msg_rels / msg_count_rels
         # - LayerNorm 적용
         normalized_msg_rels = self.rel_ln(msg_rels)
         # - 기존 emb_rel과 더하기: emb_rel + normalized_msg
@@ -105,16 +105,16 @@ class SimpleInitLayer(nn.Module):
 
         # Step 5: Entity 임베딩 업데이트
         # - msg_rel_to_ent를 heads와 tails별로 합산 (같은 entity끼리 모으기)
-        msg_ents = torch.zeros((self.num_ent, self.dim))
+        msg_ents = torch.zeros((self.num_ent, self.dim), device=emb_ent.device, dtype=emb_ent.dtype)
         msg_ents.index_add_(0, heads, msg_rel_to_ent)
         msg_ents.index_add_(0, tails, msg_rel_to_ent)
         # - 각 entity가 받은 메시지 개수로 나누기 (평균)
-        msg_count_heads = torch.bincount(heads, minlength=self.num_ent).unsqueeze(1)
-        msg_count_heads = torch.where(msg_count_heads == 0, 1, msg_count_heads)
-        msg_count_tails = torch.bincount(tails, minlength=self.num_ent).unsqueeze(1)
-        msg_count_tails = torch.where(msg_count_tails == 0, 1, msg_count_tails)
+        msg_count_heads = torch.bincount(heads, minlength=self.num_ent).unsqueeze(1).to(emb_ent.device).float()
+        msg_count_heads = torch.where(msg_count_heads == 0, torch.ones_like(msg_count_heads), msg_count_heads)
+        msg_count_tails = torch.bincount(tails, minlength=self.num_ent).unsqueeze(1).to(emb_ent.device).float()
+        msg_count_tails = torch.where(msg_count_tails == 0, torch.ones_like(msg_count_tails), msg_count_tails)
         msg_count_ents = msg_count_heads + msg_count_tails
-        msg_ents /= msg_count_ents
+        msg_ents = msg_ents / msg_count_ents
         # - LayerNorm 적용
         normalized_msg_ents = self.ent_ln(msg_ents)
         # - 기존 emb_ent와 더하기: emb_ent + normalized_msg
