@@ -768,8 +768,10 @@ class MAYPL(nn.Module):
         # num_ent - 1: 전체 entity 개수 - 1 (0부터 시작하는 인덱스이므로)
         # max(pri[:, 2]): primary triple의 tail entity 인덱스 중 최대값
         # max(qual[:, 1]): qualifier entity 인덱스 중 최대값
-        max_ent_cands = [max(pri[:,0]), num_ent - 1]
-        max_ent_cands.append(max(pri[:, 2]))
+        max_ent_cands = [num_ent - 1]
+        if len(pri) > 0:
+            max_ent_cands.append(max(pri[:,0]))
+            max_ent_cands.append(max(pri[:, 2]))
         if len(qual) > 0:
             max_ent_cands.append(max(qual[:, 1]))
 

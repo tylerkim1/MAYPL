@@ -73,21 +73,63 @@ def train(args, logger):
         if args.curriculum:
             sorted_keys = sorted(KG.train_sorted_by_qual_len.keys())
 
-            # 진행률 계산으로 이번 epoch에서 사용할 qualifier 개수 조정
-            progress = (epoch + 1) / args.num_epoch # 진행률 계산
+            # # 진행률 계산으로 이번 epoch에서 사용할 qualifier 개수 조정
+            # progress = (epoch + 1) / args.num_epoch # 진행률 계산
 
-            # 이번 epoch에서 포함할 qualifier 개수 결정
-            # progress가 0일 때는 0개, 1일 때는 모든 개수 포함
-            num_quals_to_include = math.ceil(progress * len(sorted_keys))
+            # # 이번 epoch에서 포함할 qualifier 개수 결정
+            # # progress가 0일 때는 0개, 1일 때는 모든 개수 포함
+            # num_quals_to_include = math.ceil(progress * len(sorted_keys))
+            # current_curriculum_keys = sorted_keys[:num_quals_to_include]
+
+            # # 이번 curriculum에 해당하는 fact들의 인덱스를 모두 모음
+            # candidate_idxs = []
+            # for key in current_curriculum_keys:
+            #     candidate_idxs.extend(KG.train_sorted_by_qual_len[key])
+            
+            # num_samples = int(len(candidate_idxs) * args.train_graph_ratio)
+            # train_graph_idxs = torch.tensor(random.sample(candidate_idxs, num_samples))
+            # [수정] 1. 기본 진행률 (Base Progress)
+            raw_progress = (epoch + 1) / args.num_epoch 
+
+            # [수정] 2. 난이도 증가 스케줄링 (Pacing Function)
+            # - linear: 정직하게 증가
+            # - geometric: 초반에 천천히 어렵게 (쉬운거 오래 학습) -> 안정적
+            # - root: 초반에 빠르게 어렵게 (어려운거 빨리 도입)
+            if args.pacing_type == 'linear':
+                pacing_progress = raw_progress
+            elif args.pacing_type == 'geometric':
+                pacing_progress = raw_progress ** 2  # Convex (느린 시작)
+            elif args.pacing_type == 'root':
+                pacing_progress = math.sqrt(raw_progress) # Concave (빠른 시작)
+            else:
+                pacing_progress = raw_progress
+
+            # pacing_progress를 기반으로 포함할 qualifier 그룹 개수 결정
+            num_quals_to_include = math.ceil(pacing_progress * len(sorted_keys))
+            # 최소 1개 그룹은 포함하도록 보장 (에러 방지)
+            num_quals_to_include = max(1, num_quals_to_include) 
+
             current_curriculum_keys = sorted_keys[:num_quals_to_include]
 
             # 이번 curriculum에 해당하는 fact들의 인덱스를 모두 모음
             candidate_idxs = []
             for key in current_curriculum_keys:
                 candidate_idxs.extend(KG.train_sorted_by_qual_len[key])
-            
-            num_samples = int(len(candidate_idxs) * args.train_graph_ratio)
-            train_graph_idxs = torch.tensor(random.sample(candidate_idxs, num_samples))
+
+            # [수정] 3. 초기 데이터 확보를 위한 Dynamic Ratio
+            # 학습 초기(raw_progress가 작을 때)에는 데이터를 100% 다 쓰고(ratio=1.0),
+            # 학습이 진행될수록 사용자가 설정한 train_graph_ratio(예: 0.7)로 수렴
+            current_ratio = 1.0 - raw_progress * (1.0 - args.train_graph_ratio)
+
+            num_samples = int(len(candidate_idxs) * current_ratio)
+            # num_samples가 candidate_idxs보다 크지 않도록 안전장치
+            num_samples = min(len(candidate_idxs), num_samples)
+
+            if num_samples > 0:
+                train_graph_idxs = torch.tensor(random.sample(candidate_idxs, num_samples))
+            else:
+                # 극초반에 데이터가 아예 안 잡힐 경우를 대비해 랜덤하게 소량 선택 (혹은 예외처리)
+                train_graph_idxs = (torch.rand(KG.num_train) < args.train_graph_ratio).nonzero(as_tuple = True)[0]
         else:
             train_graph_idxs = (torch.rand(KG.num_train) < args.train_graph_ratio).nonzero(as_tuple = True)[0] # num_train 개의 fact 중 train_graph_ratio 비율만큼 무작위로 선택
             
@@ -96,9 +138,20 @@ def train(args, logger):
         base_tpair, base_tpair_freq, base_fact2tpair, \
         base_qpair, base_qpair_freq, base_qual2qpair, \
         conv_ent, conv_rel, query_idxs = KG.train_split(train_graph_idxs) # train_graph_idxs에 해당하는 fact는 base fact로, 나머지는 query fact로 사용
+
+        # query_idxs가 비어있으면 이번 epoch는 스킵
+        if len(query_idxs) == 0:
+            logger.warning(f"Epoch {epoch+1}: No query samples available. Skipping this epoch.")
+            continue
+
         num_batch = args.batch_num
         for rand_idxs in tqdm(torch.tensor_split(torch.randperm(len(query_idxs)), args.batch_num)):
             batch = query_idxs[rand_idxs]
+
+            # 빈 batch는 스킵
+            if len(batch) == 0:
+                continue
+
             query_pri, query_qual, query_qual2fact, \
             query_hpair, query_hpair_freq, query_fact2hpair, \
             query_tpair, query_tpair_freq, query_fact2tpair, \
@@ -217,6 +270,72 @@ def train(args, logger):
 
             model.train() # 다시 훈련 모드로 전환 (dropout이 다시 활성화됨)
 
+    # 마지막 epoch 평가 및 저장 (val_dur 주기가 아니어도 수행)
+    if (epoch + 1) == args.num_epoch and (epoch + 1) % args.val_dur != 0:
+        logger.info(f"Final epoch {epoch+1} evaluation...")
+        model.eval()
+
+        lp_head_list_rank = []
+        lp_tail_list_rank = []
+        lp_pri_list_rank = []
+        lp_qual_list_rank = []
+        lp_all_list_rank = []
+
+        with torch.no_grad():
+            emb_ents, emb_rels, init_embs_ent, init_embs_rel = model(KG.pri_inf.clone().detach(), KG.qual_inf.clone().detach(), KG.qual2fact_inf, \
+                                                                     KG.num_ent_inf, KG.num_rel_inf, \
+                                                                     KG.hpair_inf.clone().detach(), KG.hpair_freq_inf, KG.fact2hpair_inf, \
+                                                                     KG.tpair_inf.clone().detach(), KG.tpair_freq_inf, KG.fact2tpair_inf, \
+                                                                     KG.qpair_inf.clone().detach(), KG.qpair_freq_inf, KG.qual2qpair_inf)
+
+            for idxs in tqdm(torch.split(torch.arange(len(KG.valid_query)), args.val_size)):
+                query_pri, query_qual, query_qual2fact, \
+                query_hpair, query_hpair_freq, query_fact2hpair, \
+                query_tpair, query_tpair_freq, query_fact2tpair, \
+                query_qpair, query_qpair_freq, query_qual2qpair, \
+                answers, pred_locs = KG.valid_inputs(idxs)
+
+                preds = model.pred(query_pri, query_qual, query_qual2fact, \
+                                   query_hpair, query_hpair_freq, query_fact2hpair, \
+                                   query_tpair, query_tpair_freq, query_fact2tpair, \
+                                   query_qpair, query_qpair_freq, query_qual2qpair, \
+                                   emb_ents, emb_rels, init_embs_ent, init_embs_rel)
+                for i, idx in enumerate(idxs):
+                    pred_loc = pred_locs[i]
+                    answer = answers[i] + default_answer
+                    for valid_answer in KG.valid_answer[idx]:
+                        rank = calculate_rank(preds.detach().cpu().numpy()[i], valid_answer, answer)
+
+                        if pred_loc <= 2:
+                            lp_pri_list_rank.append(rank)
+                        if pred_loc == 0:
+                            lp_head_list_rank.append(rank)
+                        elif pred_loc == 2:
+                            lp_tail_list_rank.append(rank)
+                        else:
+                            lp_qual_list_rank.append(rank)
+                        lp_all_list_rank.append(rank)
+
+            head_mr, head_mrr, head_hit10, head_hit3, head_hit1 = metrics(np.array(lp_head_list_rank))
+            tail_mr, tail_mrr, tail_hit10, tail_hit3, tail_hit1 = metrics(np.array(lp_tail_list_rank))
+            if len(lp_qual_list_rank) > 0:
+                qual_ent_mr, qual_ent_mrr, qual_ent_hit10, qual_ent_hit3, qual_ent_hit1 = metrics(np.array(lp_qual_list_rank))
+            pri_ent_mr, pri_ent_mrr, pri_ent_hit10, pri_ent_hit3, pri_ent_hit1 = metrics(np.array(lp_pri_list_rank))
+            all_ent_mr, all_ent_mrr, all_ent_hit10, all_ent_hit3, all_ent_hit1 = metrics(np.array(lp_all_list_rank))
+
+            logger.info(f"Link Prediction (Head, {len(lp_head_list_rank)})\nMR:{head_mr}\nMRR:{head_mrr}\nHit1:{head_hit1}\nHit3:{head_hit3}\nHit10:{head_hit10}")
+            logger.info(f"Link Prediction (Tail, {len(lp_tail_list_rank)})\nMR:{tail_mr}\nMRR:{tail_mrr}\nHit1:{tail_hit1}\nHit3:{tail_hit3}\nHit10:{tail_hit10}")
+            if len(lp_qual_list_rank) > 0:
+                logger.info(f"Link Prediction (Qual, {len(lp_qual_list_rank)})\nMR:{qual_ent_mr}\nMRR:{qual_ent_mrr}\nHit1:{qual_ent_hit1}\nHit3:{qual_ent_hit3}\nHit10:{qual_ent_hit10}")
+            logger.info(f"Link Prediction (Pri, {len(lp_pri_list_rank)})\nMR:{pri_ent_mr}\nMRR:{pri_ent_mrr}\nHit1:{pri_ent_hit1}\nHit3:{pri_ent_hit3}\nHit10:{pri_ent_hit10}")
+            if len(lp_qual_list_rank) > 0:
+                logger.info(f"Link Prediction (All, {len(lp_all_list_rank)})\nMR:{all_ent_mr}\nMRR:{all_ent_mrr}\nHit1:{all_ent_hit1}\nHit3:{all_ent_hit3}\nHit10:{all_ent_hit10}")
+
+            if not args.no_write:
+                logger.info(f"Saving final epoch {epoch+1} checkpoint...")
+                torch.save({'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict()}, \
+                            f"./ckpt/{args.exp}/{args.dataset_name}/{file_format}_{epoch+1}.ckpt")
+
 if __name__ == '__main__':
     
     logger = logging.getLogger() # 최상위 로거 객체 가져오기 (방송국 같은 역할)
@@ -250,6 +369,8 @@ if __name__ == '__main__':
     parser.add_argument('--no_write', action = 'store_true')
     parser.add_argument('--msg_add_tr', action = 'store_true')
     parser.add_argument('--curriculum', action = 'store_true')
+    # [추가] Pacing function 타입 선택 (linear, geometric, root)
+    parser.add_argument('--pacing_type', default='linear', type=str, choices=['linear', 'geometric', 'root'])
     args = parser.parse_args()
 
     # 파일 이름 지정
